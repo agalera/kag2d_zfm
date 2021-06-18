@@ -1,0 +1,73 @@
+Terms of Use - King Arthur's Gold
+
+This is a contract between you and Transhuman Design. We will refer to ourselves in this contract as "THD", "we", "us", or "our". A printable form of the most recent revision of this contract can be found at Kag2D.com/terms
+
+Creating or holding an account at Kag2D.com, or installing the game King Athur's Gold on any computer constitutes agreement with these terms. If you do not agree with the terms laid out in this document, or you are otherwise unable to engage in this contract, you are not entitled to create or hold an account at Kag2D.com nor to have King Arthur's Gold installed on any computer you access.
+
+Please note that we do not provide warranties for any accounts held 
+
+You can cancel this contract at any time for any reason by removing your account at kag2D.com/delete, by providing your login credentials and following the prompts.
+
+Whenever the terms are updated, you will be required to re-read and re-accept the changes - this is to ensure that you fully understand the terms that you are bound by.
+
+	Game Accounts
+		
+		By registering a game account you create credentials needed to authenticate with our master server, and thus play the King Arthur's Gold online.
+		
+		To do so you must agree to the terms laid out below.
+	
+	Server Hosting
+
+		By hosting a game server you accept full responsibility for hosting costs incurred and for the maintenance of your server.
+		
+		NOTE: By default, "sv_allow_globals_mods" is on! This means that our volunteer moderators, the "KAG Guards", can administer your server without your prior . We make all possible efforts to ensure that these guards are bound to server the greater good of the community, but you are free to turn off this feature at your discretion. Be aware that doing so prevents KAG guards from defending your server and leaves you the task of hiring server administration staff.
+
+	Privacy Policy
+		
+		You won't be getting any spam as a result of signing up.
+		
+		We store emails and usernames in plaintext, and passwords in a cipher.
+		We won't share them with anyone willingly but can't guarantee we won't be hacked at some point, however we'll go to all reasonable measures to prevent that happening.
+		
+		We reserve the right to email you with account related information when necessary.
+		
+	Acceptable Use
+	
+		Deliberate harrassment, griefing, hacking, or other malicious behaviour or abuse of our game will lead to deactivation of your account followed by deletion within 5 days pending correspondence via your registered email.
+		
+	
+	Distribution
+	
+		You are not entitled to distribute King Arthur's Gold in any form without express permission from Transhuman Design. This includes but is not limited to the client and server binaries, art assets and game scripts. We do this to ensure the integrity of the presentation of our game.
+		
+		Mirroring agreements can be made by contacting support@thd.vg
+
+	Paid Accounts
+		
+		By buying a paid account you get immediate, revokable access to the full version of our game. Whenever new paid features are introduced, all old paid accounts will recieve access to these new features, and the price of upgrading to a paid account will go up.
+		
+		When you purchase the game you do so as-is. We can't guarantee that we will finish King Arthur's Gold, but it's certainly our intention.
+		
+		Paying for the game does not make you excempt from the Acceptable Use rules.
+	
+	Appeal
+
+		In the event that you account is banned under normal circumstances, we will contact you via	your registered email to give you the option to appeal your ban.
+
+	Mods
+
+		Joining a modded server is done at your own risk.
+
+		There is no safety guarantee for what third party files may do to your game.
+
+	Disclaimer
+	
+		We reserve the right to deactivate or delete your account at any time without prior warning. We won't do this except in extreme cirumstances, but note that any behaviour deemed antisocial	or otherwise disruptive by Transhuman Design staff that is not explicitly breaking the rules	will be dealt with in such a way as the staff involved deem necessary.
+
+	NO WARRANTY
+		
+		KAG is provided "as is" without warranty of any kind, either expressed or implied,
+		including, but not limited to, the implied warranties of merchantability and fitness
+		for a particular purpose.  The entire risk as to the quality and performance of the
+		program is with you.  Should the program prove defective, you assume the cost of all
+		necessary servicing, repair or correction. 

@@ -1,0 +1,9 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CRespawn' --
+
+CRespawnQueueActor@ QueueOnBlob(CPlayer@ player, int team, int classnum, float seconds, CBlob@ respawnBlob)
+CRespawnQueueActor@ QueueOnBlob(CPlayer@ player, int team, const string&in actorClassName, const string&in actorConfigfile, float seconds, CBlob@ respawnBlob)
+CRespawnQueueActor@ QueueOnRandom(CPlayer@ player, int team, int classnum, float seconds)
+CRespawnQueueActor@ QueueOnRandom(CPlayer@ player, int team, const string&in actorClassName, const string&in actorConfigfile, float seconds)
+CRespawnPoint@ findClosestPoint(Vec2f position, int team)
+CRespawnPoint@ getPoint(const string&in name, int team)

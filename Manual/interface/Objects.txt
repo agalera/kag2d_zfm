@@ -1,0 +1,2096 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- OBJECT TYPES --
+
+string
+	<constructor>()
+	<constructor>(const string&in)
+	string& opAssign(const string&in)
+	string& opAddAssign(const string&in)
+	bool opEquals(const string&in) const
+	int opCmp(const string&in) const
+	string opAdd(const string&in) const
+	uint length() const
+	void resize(uint)
+	uint get_length() const
+	void set_length(uint)
+	bool isEmpty() const
+	uint8& opIndex(uint)
+	const uint8& opIndex(uint) const
+	string& opAssign(double)
+	string& opAddAssign(double)
+	string opAdd(double) const
+	string opAdd_r(double) const
+	string& opAssign(int)
+	string& opAddAssign(int)
+	string opAdd(int) const
+	string opAdd_r(int) const
+	string& opAssign(uint)
+	string& opAddAssign(uint)
+	string opAdd(uint) const
+	string opAdd_r(uint) const
+	string& opAssign(bool)
+	string& opAddAssign(bool)
+	string opAdd(bool) const
+	string opAdd_r(bool) const
+	string substr(uint start = 0, int count = - 1) const
+	int findFirst(const string&in, uint start = 0) const
+	int findLast(const string&in, int start = - 1) const
+	string replace(const string&in, const string&in) const
+	uint size() const
+	bool empty() const
+	int find(const string&in, uint start = 0) const
+	int rfind(const string&in, int start = - 1) const
+	int getHash() const
+	string[]@ split(const string&in) const
+	string toLower() const
+	string toUpper() const
+
+array
+	<constructor>(int&in)
+	<constructor>(int&in, uint)
+	<constructor>(int&in, uint, const T&in)
+	T& opIndex(uint)
+	const T& opIndex(uint) const
+	T[]& opAssign(const T[]&in)
+	void insertAt(uint, const T&in)
+	void removeAt(uint)
+	void insertLast(const T&in)
+	void removeLast()
+	uint length() const
+	void reserve(uint)
+	void resize(uint)
+	void sortAsc()
+	void sortAsc(uint, uint)
+	void sortDesc()
+	void sortDesc(uint, uint)
+	void reverse()
+	int find(const T&in) const
+	int find(uint, const T&in) const
+	bool opEquals(const T[]&in) const
+	bool isEmpty() const
+	uint get_length() const
+	void set_length(uint)
+	uint size() const
+	bool empty() const
+	void push_back(const T&in)
+	void pop_back()
+	void insert(uint, const T&in)
+	void erase(uint)
+	void clear()
+
+any
+	<constructor>()
+	<constructor>(?&in)
+	any& opAssign(any&in)
+	void store(?&in)
+	void store(int64&in)
+	void store(double&in)
+	bool retrieve(?&out)
+	bool retrieve(int64&out)
+	bool retrieve(double&out)
+
+dictionary
+	<constructor>()
+	dictionary& opAssign(const dictionary&in)
+	void set(const string&in, ?&in)
+	bool get(const string&in, ?&out) const
+	void set(const string&in, int64&in)
+	bool get(const string&in, int64&out) const
+	void set(const string&in, double&in)
+	bool get(const string&in, double&out) const
+	bool exists(const string&in) const
+	bool isEmpty() const
+	uint getSize() const
+	void delete(const string&in)
+	void deleteAll()
+	string[]@ getKeys() const
+	void saveFile(const string&in)
+
+Vec2f
+	float x
+	float y
+	<constructor>()
+	<constructor>(float, float)
+	Vec2f& opAssign(const Vec2f&in)
+	Vec2f opMul(float)
+	float opMul(const Vec2f&in)
+	Vec2f& opMulAssign(const Vec2f&in)
+	Vec2f& opMulAssign(const float)
+	Vec2f opAdd(const Vec2f&in)
+	Vec2f& opAddAssign(const Vec2f&in)
+	Vec2f opSub(const Vec2f&in)
+	Vec2f& opSubAssign(const Vec2f&in)
+	Vec2f opDiv(float)
+	Vec2f& opDivAssign(const Vec2f&in)
+	Vec2f& opDivAssign(const float)
+	Vec2f opNeg()
+	string opAdd(const string&in)
+	string opAdd_r(const string&in)
+	string toString()
+	bool opEquals(const Vec2f&in)
+	bool opCmp(const Vec2f&in)
+	float Angle()
+	float AngleDegrees()
+	float AngleRadians()
+	float Length()
+	float LengthSquared()
+	float Normalize()
+	void SetZero()
+	void Set(float, float)
+	float AngleWith(const Vec2f&in)
+	float AngleWithDegrees(const Vec2f&in)
+	float AngleWithRadians(const Vec2f&in)
+	Vec2f& RotateBy(float)
+	Vec2f& RotateBy(float, const Vec2f&in)
+	Vec2f& RotateByDegrees(float)
+	Vec2f& RotateByDegrees(float, const Vec2f&in)
+	Vec2f& RotateByRadians(float)
+	Vec2f& RotateByRadians(float, const Vec2f&in)
+	bool isValid()
+	float getAngle()
+	float getAngleDegrees()
+	float getAngleRadians()
+	float getLength()
+	float getLengthSquared()
+
+SColor
+	uint color
+	<constructor>()
+	<constructor>(SColor)
+	<constructor>(uint)
+	<constructor>(uint, uint, uint, uint)
+	SColor& opAssign(const SColor&in)
+	SColor opAdd(const SColor&in)
+	bool opEquals(const SColor&in)
+	bool opCmp(const SColor&in)
+	uint getAlpha() const
+	uint getAverage() const
+	uint getBlue() const
+	uint getGreen() const
+	uint getRed() const
+	SColor getInterpolated(const SColor&in, float) const
+	SColor getInterpolated_quadratic(const SColor&in, const SColor&in, float) const
+	float getLuminance() const
+	void set(uint)
+	void set(uint, uint, uint, uint)
+	void setAlpha(uint)
+	void setBlue(uint)
+	void setGreen(uint)
+	void setRed(uint)
+
+Vertex
+	float x
+	float y
+	float z
+	float u
+	float v
+	float nx
+	float ny
+	float nz
+	SColor col
+	<constructor>()
+	<constructor>(Vec2f, float, Vec2f, SColor)
+	<constructor>(float, float, float, float, float, SColor)
+	<constructor>(float, float, float, float, float)
+	<constructor>(float, float, float, float, float, float, float, float, SColor)
+	<constructor>(Vertex)
+
+CPlayer
+	string lastBlobFactory
+	string lastBlobConfig
+	bool freeze
+	string lastBlobName
+	string getUsername()
+	string getClantag()
+	string getCharacterName()
+	void server_setCharacterName(const string&in name)
+	int getTeamNum()
+	int getClassNum()
+	int getSex()
+	uint server_getHWID()
+	string server_getIP()
+	int getHead()
+	int getSkin()
+	int getArmourSet()
+	int getSpawnPoint()
+	uint getRegistrationTime()
+	CBlob@ getBlob()
+	void client_RequestSpawn()
+	void client_RequestSpawn(int spawnPointIndex)
+	bool isMyPlayer()
+	bool isLocal()
+	void client_ChangeTeam(uint8 team)
+	void client_ChangeHead(uint16 head)
+	void server_setTeamNum(uint8 team)
+	void server_setHeadNum(uint16 head)
+	void server_setClassNum(uint8 classnum)
+	void server_setSexNum(uint8 classnum)
+	void server_setHatNum(uint8 classnum)
+	void server_setSkinNum(uint8 classnum)
+	int getScore()
+	int getKills()
+	int getDeaths()
+	int getAssists()
+	int getPing()
+	int getCoins()
+	void setScore(int)
+	void setKills(int)
+	void setDeaths(int)
+	void setAssists(int)
+	void setPing(int)
+	void server_setCoins(int)
+	bool isBot()
+	bool isMod()
+	uint8 getSupportTier()
+	bool getOldGold()
+	CControls@ getControls()
+	void SetScoreboardVars(const string&in texture, const uint16 frame, const Vec2f framesize)
+	string getScoreboardTexture()
+	uint16 getScoreboardFrame()
+	Vec2f getScoreboardFrameSize()
+	void UnsetScoreboardVars()
+	uint16 getNetworkID()
+	void set(const string&in, ?&in)
+	bool get(const string&in, ?&out) const
+	void set(const string&in, int64&in)
+	bool get(const string&in, int64&out) const
+	void set(const string&in, double&in)
+	bool get(const string&in, double&out) const
+	bool getAt(const string&in, int index, ?&out) const
+	bool getLast(const string&in, ?&out) const
+	void setAt(const string&in, int index, ?&in)
+	void push(const string&in, ?&in)
+	void removeAt(const string&in, int index)
+	void removeElement(const string&in, ?&in)
+	void clear(const string&in)
+	void debug()
+	bool exists(const string&in)
+	void set_s8(const string&in, int8 v)
+	int8 get_s8(const string&in)
+	void set_u8(const string&in, uint8 v)
+	uint8 get_u8(const string&in)
+	void set_s16(const string&in, int16 v)
+	int16 get_s16(const string&in)
+	void set_u16(const string&in, uint16 v)
+	uint16 get_u16(const string&in)
+	void set_netid(const string&in, uint16 v)
+	uint16 get_netid(const string&in)
+	void set_s32(const string&in, int v)
+	int get_s32(const string&in)
+	void set_u32(const string&in, uint v)
+	uint get_u32(const string&in)
+	void set_f32(const string&in, float v)
+	float get_f32(const string&in)
+	void set_bool(const string&in, bool v)
+	bool get_bool(const string&in)
+	void set_string(const string&in, string v)
+	string get_string(const string&in)
+	void set_Vec2f(const string&in, Vec2f v)
+	Vec2f get_Vec2f(const string&in)
+	void set_TileType(const string&in, uint16 v)
+	uint16 get_TileType(const string&in)
+	void set_CBitStream(const string&in, CBitStream&inout bs)
+	void get_CBitStream(const string&in, CBitStream&inout bs)
+	void Sync(const string&in name, bool relayToClients)
+	void SyncToPlayer(const string&in name, CPlayer@ player)
+	void Tag(const string&in name)
+	void Untag(const string&in name)
+	bool hasTag(const string&in name)
+	int8 add_s8(const string&in, int8 value)
+	int8 sub_s8(const string&in, int8 value)
+	int16 add_s16(const string&in, int16 value)
+	int16 sub_s16(const string&in, int16 value)
+	int add_s32(const string&in, int value)
+	int sub_s32(const string&in, int value)
+	uint8 add_u8(const string&in, uint8 value)
+	uint8 sub_u8(const string&in, uint8 value)
+	uint16 add_u16(const string&in, uint16 value)
+	uint16 sub_u16(const string&in, uint16 value)
+	uint add_u32(const string&in, uint value)
+	uint sub_u32(const string&in, uint value)
+	float add_f32(const string&in, float value)
+	float sub_f32(const string&in, float value)
+	bool isGuard()
+	bool isRCON()
+	bool isDev()
+	void drawAvatar(Vec2f pos, float scale)
+
+CBlob
+	bool doTickScripts
+	bool sendonlyvisible
+	int inventoryIconFrame
+	int inventoryMaxStacks
+	Vec2f inventoryButtonPos
+	string inventoryIconName
+	Vec2f inventoryFrameDimension
+	bool checkInventoryAccessibleCarefully
+	uint16 maxQuantity
+	CShape@ shape
+	Vec2f chatBubbleOffset
+	int maxChatBubbleLines
+	ScriptData@ getCurrentScript()
+	void Init()
+	float getHealth()
+	float getInitialHealth()
+	Vec2f getPosition()
+	Vec2f getOldPosition()
+	Vec2f getInterpolatedPosition()
+	void setPosition(Vec2f pos)
+	Vec2f getVelocity()
+	Vec2f getOldVelocity()
+	void setVelocity(Vec2f vel)
+	void AddForce(Vec2f force)
+	void AddForceAtPosition(Vec2f force, Vec2f pos)
+	void AddTorque(float torque)
+	float getRadius()
+	float getWidth()
+	float getHeight()
+	void setAngleDegrees(float angle)
+	float getAngleDegrees()
+	void setAngleRadians(float angle)
+	float getAngleRadians()
+	void setAngularVelocity(float vel)
+	float getAngularVelocity()
+	float getMass()
+	void SetMass(float mass)
+	void SetVisible(bool visible)
+	void server_Die()
+	bool isActive()
+	void server_SetActive(bool active)
+	bool isCollidable()
+	bool isLadder()
+	bool isPlatform()
+	Vec2f getPositionWithOffset(Vec2f offset)
+	Vec2f getScreenPos()
+	Vec2f getInterpolatedScreenPos()
+	bool isFacingLeft()
+	void SetFacingLeft(bool left)
+	bool isOnGround()
+	bool wasOnGround()
+	bool isOnWall()
+	bool isOnCeiling()
+	bool isOnLadder()
+	bool wasOnLadder()
+	Vec2f getGroundNormal()
+	int getAirTime()
+	bool isOnMap()
+	bool isInWater()
+	bool isSnapToGrid()
+	bool isPointInside(Vec2f point)
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	void SetInventoryIcon(const string&in textureFilename, int frame, Vec2f frameDim)
+	CBlob@ getIgnoreCollisionBlob()
+	bool server_PutInInventory(CBlob@ blob)
+	bool server_PutOutInventory(CBlob@ blob)
+	CBlob@ server_PutOutInventory(const string&in name)
+	void server_RemoveFromInventories()
+	bool canBePutInInventory(CBlob@ inventoryBlob)
+	bool isInventoryAccessible(CBlob@ forBlob)
+	void server_SetQuantity(int quantity)
+	uint16 getQuantity()
+	uint16 getMaxQuantity()
+	string getInventoryName()
+	void setInventoryName(const string&in name)
+	bool isInInventory()
+	CBlob@ getInventoryBlob()
+	bool canBePickedUp(CBlob@ byBlob)
+	void RenderForHUD(Vec2f offset, float angle, SColor color, Style style)
+	void RenderForHUD(Vec2f offset, Style style)
+	void RenderForHUD(Style style)
+	int getTouchingCount()
+	CBlob@ getTouchingByIndex(int index)
+	Vec2f getTouchingOffsetByIndex(int index)
+	Vec2f getTouchingOffsetByBlob(CBlob@ blob)
+	void setTouchingOffsetByBlob(CBlob@ blob, Vec2f newoffset)
+	void setTouchingOffsetByIndex(int index, Vec2f newoffset)
+	bool isOverlapping(CBlob@ blob)
+	bool isOverlapping(const string&in name)
+	bool getOverlapping(CBlob@[]@ list)
+	bool doesCollideWithBlob(CBlob@ blob)
+	bool getAttachmentPoints(AttachmentPoint@[]@ list)
+	int getAttachmentPointCount()
+	AttachmentPoint@ getAttachmentPoint(int index)
+	bool server_DetachFrom(CBlob@ blob)
+	void server_DetachAll()
+	void server_DetachFromAll()
+	bool isAttachedTo(CBlob@ blob)
+	bool isAttachedToPoint(const string&in name)
+	bool isAttached()
+	bool hasAttached()
+	Vec2f getAbsoluteAttachmentPoint(AttachmentPoint@ ap)
+	CBlob@ getCarriedBlob()
+	void PutCarriedInInventory()
+	void DropCarried()
+	bool server_AttachTo(CBlob@ blob, const string&in name)
+	bool server_AttachTo(CBlob@ blob, int attachment_index)
+	bool server_AttachTo(CBlob@ blob, AttachmentPoint@ ap)
+	CButton@ CreateGenericButton(int _frameNum, Vec2f _offset, CBlob@ attached, uint8 cmdID, const string&in, CBitStream&in parameters)
+	CButton@ CreateGenericButton(int _frameNum, Vec2f _offset, CBlob@ attached, uint8 cmdID, const string&in)
+	CButton@ CreateGenericButton(const string&in iconName, Vec2f _offset, CBlob@ attached, uint8 cmdID, const string&in, CBitStream&in parameters)
+	CButton@ CreateGenericButton(const string&in iconName, Vec2f _offset, CBlob@ attached, uint8 cmdID, const string&in)
+	CButton@ CreateGenericButton(int _frameNum, Vec2f _offset, CBlob@ attached, CallbackButtonFunc@ cb, const string&in)
+	CButton@ CreateGenericButton(const string&in iconName, Vec2f _offset, CBlob@ attached, CallbackButtonFunc@ cb, const string&in)
+	void ClearMenus()
+	void ClearGridMenusExceptInventory()
+	void ClearGridMenus()
+	void ClearButtons()
+	void ShowInteractButtons()
+	bool ClickInteractButton()
+	bool ClickClosestInteractButton(Vec2f pos, float maxRadius)
+	void CreateInventoryMenu(Vec2f screenpos)
+	void ShowPickupButtons()
+	void CreateBubbleMenu()
+	void ClearBubbleMenu()
+	void AddBubble(const string&in description, int index)
+	void ClearBubbles()
+	void LoadBubbles(const string&in filename)
+	bool ClickGridMenu(int button)
+	bool ClickGridMenu(int button, CGridMenu@&out pMenu, CGridButton@&out CGridButton)
+	void SetMinimapVars(const string&in texture, const uint16 frame, const Vec2f framesize)
+	void SetMinimapOutsideBehaviour(uint8 flag)
+	void SetMinimapRenderAlways(bool always)
+	void UnsetMinimapVars()
+	void SetMapEdgeFlags(uint8 flags)
+	uint8 getMapEdgeFlags()
+	CSprite@ getSprite()
+	CShape@ getShape()
+	CMovement@ getMovement()
+	CBrain@ getBrain()
+	CAttachment@ getAttachments()
+	CInventory@ getInventory()
+	bool server_Pickup(CBlob@ blob)
+	uint16 getNetworkID()
+	int getTeamNum()
+	void server_setTeamNum(int team)
+	int getSkinNum()
+	void setSkinNum(int team)
+	int getHeadNum()
+	void setHeadNum(int team)
+	int getSexNum()
+	void setSexNum(int num)
+	string getName()
+	bool isMyPlayer()
+	int getMyPlayerIndex()
+	bool isBot()
+	CControls@ getControls()
+	string getConfig()
+	bool isKeyPressed(keys key)
+	bool wasKeyPressed(keys key)
+	bool isKeyJustPressed(keys key)
+	bool isKeyJustReleased(keys key)
+	void setKeyPressed(keys key, bool pressed)
+	Vec2f getAimPos()
+	void setAimPos(Vec2f aimpos)
+	int getAimDirection(Vec2f&out aimvec)
+	void DisableKeys(uint16 keyBits)
+	void DisableMouse(bool disable)
+	bool isMapBlock()
+	bool isOverlappedAtPosition(Vec2f pos, float angle)
+	float getDistanceTo(CBlob@ other)
+	void server_Hit(CBlob@ blob, Vec2f worldPoint, Vec2f velocity, float damage, uint8 customData, bool hurtTeamMate)
+	void server_Hit(CBlob@ blob, Vec2f worldPoint, Vec2f velocity, float damage, uint8 customData)
+	void server_HitMap(Vec2f worldPoint, Vec2f velocity, float damage, uint8 customData)
+	void Damage(float amount, CBlob@ damager)
+	void server_Heal(float amount)
+	void server_SetHealth(float amount)
+	void SetDamageOwnerPlayer(CPlayer@ player)
+	CPlayer@ getDamageOwnerPlayer()
+	void SetPlayerOfRecentDamage(CPlayer@ player, float damage)
+	CPlayer@ getPlayerOfRecentDamage()
+	bool getPlayersOfDamage(CPlayer@[]@ list)
+	bool getTimesOfDamage(int[]&out list)
+	bool getAmountsOfDamage(float[]&out list)
+	void IgnoreCollisionWhileOverlapped(CBlob@ blob)
+	void IgnoreCollisionWhileOverlapped(CBlob@ blob, int ticks)
+	Vec2f getRespawnPosition()
+	bool CreateRespawnPoint(const string&in categoryName, Vec2f respawnOffset)
+	bool ModifyRespawnPoint(const string&in categoryName, Vec2f respawnOffset)
+	bool server_SetPlayer(CPlayer@ player)
+	void MoveInventoryTo(CBlob@ blob)
+	CPlayer@ getPlayer()
+	void server_SetTimeToDie(float seconds)
+	int getTicksToDie()
+	float getTimeToDie()
+	void SendCommand(uint8 cmd)
+	void SendCommand(uint8 cmd, CBitStream&in params)
+	void SendCommandOnlyServer(uint8 cmd, CBitStream&in params)
+	void server_SendCommandToPlayer(uint8 cmd, CBitStream&in params, CPlayer@ player)
+	void server_SendCommandToPlayer(uint8 cmd, CPlayer@ player)
+	uint8 getCommandID(const string&in name)
+	uint8 addCommandID(const string&in name)
+	bool hasCommandID(const string&in name)
+	string getNameFromCommandID(uint8 id)
+	void SetLightRadius(float radius)
+	void SetLightColor(SColor color)
+	void SetLight(bool on)
+	bool isLight()
+	float getLightRadius()
+	SColor getLightColor()
+	bool isOnScreen()
+	bool isInFlames()
+	bool isFlammable()
+	int getTickSinceCreated()
+	void Chat(const string&in text)
+	void SetChatBubbleFont(const string&in fontname)
+	bool isChatBubbleVisible()
+	CMap@ getMap()
+	bool hasBlob(string blobName, uint16 quantity)
+	uint16 TakeBlob(string blobName, uint16 quantity)
+	uint16 getBlobCount(string blobName)
+	CPlayer@ getControllerPlayer()
+	bool isMyPlayerInControl()
+	void set(const string&in, ?&in)
+	bool get(const string&in, ?&out) const
+	void set(const string&in, int64&in)
+	bool get(const string&in, int64&out) const
+	void set(const string&in, double&in)
+	bool get(const string&in, double&out) const
+	bool getAt(const string&in, int index, ?&out) const
+	bool getLast(const string&in, ?&out) const
+	void setAt(const string&in, int index, ?&in)
+	void push(const string&in, ?&in)
+	void removeAt(const string&in, int index)
+	void removeElement(const string&in, ?&in)
+	void clear(const string&in)
+	void debug()
+	bool exists(const string&in)
+	void set_s8(const string&in, int8 v)
+	int8 get_s8(const string&in)
+	void set_u8(const string&in, uint8 v)
+	uint8 get_u8(const string&in)
+	void set_s16(const string&in, int16 v)
+	int16 get_s16(const string&in)
+	void set_u16(const string&in, uint16 v)
+	uint16 get_u16(const string&in)
+	void set_netid(const string&in, uint16 v)
+	uint16 get_netid(const string&in)
+	void set_s32(const string&in, int v)
+	int get_s32(const string&in)
+	void set_u32(const string&in, uint v)
+	uint get_u32(const string&in)
+	void set_f32(const string&in, float v)
+	float get_f32(const string&in)
+	void set_bool(const string&in, bool v)
+	bool get_bool(const string&in)
+	void set_string(const string&in, string v)
+	string get_string(const string&in)
+	void set_Vec2f(const string&in, Vec2f v)
+	Vec2f get_Vec2f(const string&in)
+	void set_TileType(const string&in, uint16 v)
+	uint16 get_TileType(const string&in)
+	void set_CBitStream(const string&in, CBitStream&inout bs)
+	void get_CBitStream(const string&in, CBitStream&inout bs)
+	void Sync(const string&in name, bool relayToClients)
+	void SyncToPlayer(const string&in name, CPlayer@ player)
+	void Tag(const string&in name)
+	void Untag(const string&in name)
+	bool hasTag(const string&in name)
+	int8 add_s8(const string&in, int8 value)
+	int8 sub_s8(const string&in, int8 value)
+	int16 add_s16(const string&in, int16 value)
+	int16 sub_s16(const string&in, int16 value)
+	int add_s32(const string&in, int value)
+	int sub_s32(const string&in, int value)
+	uint8 add_u8(const string&in, uint8 value)
+	uint8 sub_u8(const string&in, uint8 value)
+	uint16 add_u16(const string&in, uint16 value)
+	uint16 sub_u16(const string&in, uint16 value)
+	uint add_u32(const string&in, uint value)
+	uint sub_u32(const string&in, uint value)
+	float add_f32(const string&in, float value)
+	float sub_f32(const string&in, float value)
+
+CMap
+	uint tilemapwidth
+	uint tilemapheight
+	float tilesize
+	bool topBorder
+	bool bottomBorder
+	bool leftBorder
+	bool rightBorder
+	bool legacyTileVariations
+	bool legacyTileEffects
+	bool legacyTileDestroy
+	bool legacyTileMinimap
+	bool debugRaycasts
+	int debugRaycastsMax
+	void server_SetTile(Vec2f posWorldspace, const Tile&in tile)
+	void server_SetTile(Vec2f posWorldspace, const uint16 type)
+	void SetTile(uint offset, uint t)
+	void SetTileDamage(uint offset, uint t)
+	void SetTileDirt(uint offset, uint t)
+	void SetTileSupport(uint offset, uint t)
+	uint8 getTileDirt(uint offset)
+	uint8 getTileSupport(uint offset)
+	bool hasTileFlag(uint offset, uint flags)
+	void AddTileFlag(uint offset, uint flags)
+	void RemoveTileFlag(uint offset, uint flags)
+	uint getTileFlags(uint offset)
+	void SetTileFlags_Legacy(uint offset)
+	Tile getTile(Vec2f posWorldspace)
+	Tile getTileFromTileSpace(Vec2f posTilespace)
+	Tile getTile(uint offset)
+	Vec2f getTileWorldPosition(Vec2f posWorldspace)
+	Vec2f getTileWorldPosition(uint offset)
+	uint getTileOffset(Vec2f posWorldspace)
+	uint getTileOffsetFromTileSpace(Vec2f posTilespace)
+	Vec2f getTileSpacePosition(Vec2f posWorldspace)
+	Vec2f getTileSpacePosition(uint offset)
+	Vec2f getAlignedWorldPos(Vec2f posWorldspace)
+	bool hasSupportAtPos(Vec2f posWorldspace)
+	void server_DestroyTile(Vec2f posWorldspace, float damage)
+	void server_DestroyTile(Vec2f posWorldspace, float damage, CBlob@ damager)
+	void server_setFloodWaterWorldspace(Vec2f posWorldspace, bool water)
+	void server_setFloodWaterTilespace(int xTilespace, int yTilespace, bool water)
+	void server_setFloodWaterOffset(uint offset, bool water)
+	void server_setFireWorldspace(Vec2f posWorldspace, bool fire)
+	void server_setFireTilespace(int xWorldspace, int yWorldspace, bool fire)
+	bool isTileInFire(int xTilespace, int yTilespace)
+	bool isInFire(Vec2f posWorldspace)
+	bool isTileSolid(uint16 tile)
+	bool isTileSolid(const Tile&in tile)
+	bool isTileSolid(Vec2f posWorldspace)
+	bool isTileCollapsing(uint offset)
+	bool isTileCollapsing(Vec2f posWorldspace)
+	bool isTileLadder(const Tile&in tile)
+	bool isTileGround(uint16 tile)
+	bool hasTileSolidBlobs(const Tile&in tile)
+	bool hasTileSolidBlobsNoPlatform(const Tile&in tile)
+	bool getBlobsFromTile(const Tile&in tile, CBlob@[]&inout blobs)
+	bool getBlobsFromOffset(const int offset, CBlob@[]&inout blobs)
+	bool isTileBackground(const Tile&in tile)
+	bool isTileBackgroundNonEmpty(const Tile&in tile)
+	bool isTileGroundBack(uint16 tile)
+	bool rayCastSolid(Vec2f startPosWorldspace, Vec2f endPosWorldspace, Vec2f&out pointPosWorldspace)
+	bool rayCastSolid(Vec2f startPosWorldspace, Vec2f endPosWorldspace)
+	bool rayCastSolidNoBlobs(Vec2f startPosWorldspace, Vec2f endPosWorldspace)
+	bool rayCastSolidNoBlobs(Vec2f startPosWorldspace, Vec2f endPosWorldspace, Vec2f&out pointPosWorldspace)
+	bool isInWater(Vec2f posWorldspace)
+	void SplashEffect(Vec2f posWorldspace, Vec2f vel, float radius)
+	void setWaterLevel(int tile_height)
+	int getLandHeightAtX(int x)
+	int getLandYAtX(int x)
+	bool isBelowLand(Vec2f pos)
+	void SetDayTime(float time)
+	float getDayTime()
+	SColor getColorLight(Vec2f pos)
+	bool isTileStone(uint16 tile)
+	bool isTileThickStone(uint16 tile)
+	bool isTileGold(uint16 tile)
+	bool isTileGrass(uint16 tile)
+	bool isTileWood(uint16 tile)
+	bool isTileCastle(uint16 tile)
+	bool isTileBedrock(uint16 tile)
+	bool isTileSand(uint16 tile)
+	bool isTileGroundStuff(uint16 tile)
+	bool isTilePlatform(const Tile&in tile)
+	int getTimeSinceStart()
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	bool getBlobs(CBlob@[]@ list)
+	bool getBlobsInRadius(Vec2f posWorldspace, float radius, CBlob@[]@ list)
+	bool getBlobsInBox(Vec2f upperleftWorldspace, Vec2f lowerrightWorldspace, CBlob@[]@ list)
+	bool isBlobInRadius(const string&in name, Vec2f pos, float radius)
+	bool getBlobsAtPosition(Vec2f posWorldspace, CBlob@[]@ list)
+	bool isBlobWithTagInRadius(const string&in name, Vec2f pos, float radius)
+	bool getHitInfosFromArc(Vec2f originPosWorldspace, float angleDegrees, float arcDegrees, float distance, CBlob@ hitter, HitInfo@[]@ list)
+	bool getHitInfosFromArc(Vec2f originPosWorldspace, float angleDegrees, float arcDegrees, float distance, CBlob@ hitter, bool raycast_blobs, HitInfo@[]@ list)
+	bool getHitInfosFromRay(Vec2f originPosWorldspace, float angleDegrees, float distance, CBlob@ hitter, HitInfo@[]@ list)
+	bool getHitInfosFromCircle(Vec2f originPosWorldspace, float radius, CBlob@ hitter, HitInfo@[]@ list)
+	CBlob@ getBlobAtPosition(Vec2f posWorldspace)
+	void DrawTile(Vec2f posWorldspace, uint16 tile, SColor color, float scale, bool resolutionScale)
+	void UpdateLightingAtPosition(Vec2f posWorldspace, float radius)
+	void CreateTileMap(int width, int height, int tileSize, const string&in tilesSheet)
+	void AddMarker(Vec2f posWorldspace, const string&in name)
+	bool getMarker(const string&in name, Vec2f&out posWorldspace)
+	bool hasMarker(const string&in name)
+	bool getMarkers(const string&in name, Vec2f[]@ posListTilespace)
+	bool getClosestMarker(Vec2f posWorldspace, const string&in name, Vec2f&out markerPosition)
+	void RemoveMarkers(const string&in name)
+	void RemoveMarker(const string&in name, int index)
+	void RemoveAllMarkers()
+	Sector@ server_AddSector(Vec2f upperleftPosWorldspace, Vec2f lowerrightPosWorldspace, const string&in name, const string&in scriptFilename, uint16 ownerID)
+	Sector@ server_AddSector(Vec2f upperleftPosWorldspace, Vec2f lowerrightPosWorldspace, const string&in name, const string&in scriptFilename)
+	Sector@ server_AddSector(Vec2f upperleftPosWorldspace, Vec2f lowerrightPosWorldspace, const string&in name)
+	Sector@ server_AddSector(Vec2f posWorldspace, float radius, const string&in name, const string&in scriptFilename, uint16 ownerID)
+	Sector@ server_AddSector(Vec2f posWorldspace, float radius, const string&in name, const string&in scriptFilename)
+	Sector@ server_AddSector(Vec2f posWorldspace, float radius, const string&in name)
+	Sector@ server_AddMovingSector(Vec2f offsetUpperleftWorldspace, Vec2f offsetLowerrightWorldspace, const string&in name, uint16 ownerID)
+	Sector@ getSector(const string&in name)
+	Sector@ getSectorAtPosition(Vec2f posWorldspace)
+	Sector@ getSectorAtPosition(Vec2f posWorldspace, const string&in name)
+	bool getSectors(const string&in name, Sector@[]@ sectors)
+	bool getSectorsAtPosition(Vec2f posWorldspace, Sector@[]@ sectors)
+	void RemoveSectors(const string&in name)
+	void RemoveSectorsAtPosition(Vec2f posWorldspace)
+	void RemoveSectorsAtPosition(Vec2f posWorldspace, const string&in name)
+	void RemoveSectorsAtPosition(Vec2f posWorldspace, const string&in name, const uint16 id)
+	void RemoveAllSectors()
+	bool getBlobsInSector(Sector@ sector, CBlob@[]@ list)
+	void CreateSky(SColor backColor)
+	void CreateSky(SColor backColor, Vec2f scrollSpeed, const int starmapSeed, const string&in cloudsFilename, const int clouds)
+	void CreateSkyGradient(const string&in skygradientFile)
+	void AddBackground(const string&in textureFilename, Vec2f offset, Vec2f scrollSpeed, SColor baseColor)
+	bool getHighLevelNodes(Vec2f posWorldspace, int distance, CHighMapNode@[]@ nodes)
+	void ResetHighLevelNodes()
+	CHighMapNode@ getHighLevelNode(Vec2f posWorldspace)
+	string getMapName()
+	uint getMapSeed()
+	Vec2f getMapDimensions()
+	void set(const string&in, ?&in)
+	bool get(const string&in, ?&out) const
+	void set(const string&in, int64&in)
+	bool get(const string&in, int64&out) const
+	void set(const string&in, double&in)
+	bool get(const string&in, double&out) const
+	bool getAt(const string&in, int index, ?&out) const
+	bool getLast(const string&in, ?&out) const
+	void setAt(const string&in, int index, ?&in)
+	void push(const string&in, ?&in)
+	void removeAt(const string&in, int index)
+	void removeElement(const string&in, ?&in)
+	void clear(const string&in)
+	void debug()
+	void MakeMiniMap()
+	void EditMiniMap(int x, int y)
+	bool exists(const string&in)
+	void set_s8(const string&in, int8 v)
+	int8 get_s8(const string&in)
+	void set_u8(const string&in, uint8 v)
+	uint8 get_u8(const string&in)
+	void set_s16(const string&in, int16 v)
+	int16 get_s16(const string&in)
+	void set_u16(const string&in, uint16 v)
+	uint16 get_u16(const string&in)
+	void set_netid(const string&in, uint16 v)
+	uint16 get_netid(const string&in)
+	void set_s32(const string&in, int v)
+	int get_s32(const string&in)
+	void set_u32(const string&in, uint v)
+	uint get_u32(const string&in)
+	void set_f32(const string&in, float v)
+	float get_f32(const string&in)
+	void set_bool(const string&in, bool v)
+	bool get_bool(const string&in)
+	void set_string(const string&in, string v)
+	string get_string(const string&in)
+	void set_Vec2f(const string&in, Vec2f v)
+	Vec2f get_Vec2f(const string&in)
+	void set_TileType(const string&in, uint16 v)
+	uint16 get_TileType(const string&in)
+	void set_CBitStream(const string&in, CBitStream&inout bs)
+	void get_CBitStream(const string&in, CBitStream&inout bs)
+	void Sync(const string&in name, bool relayToClients)
+	void SyncToPlayer(const string&in name, CPlayer@ player)
+	void Tag(const string&in name)
+	void Untag(const string&in name)
+	bool hasTag(const string&in name)
+	int8 add_s8(const string&in, int8 value)
+	int8 sub_s8(const string&in, int8 value)
+	int16 add_s16(const string&in, int16 value)
+	int16 sub_s16(const string&in, int16 value)
+	int add_s32(const string&in, int value)
+	int sub_s32(const string&in, int value)
+	uint8 add_u8(const string&in, uint8 value)
+	uint8 sub_u8(const string&in, uint8 value)
+	uint16 add_u16(const string&in, uint16 value)
+	uint16 sub_u16(const string&in, uint16 value)
+	uint add_u32(const string&in, uint value)
+	uint sub_u32(const string&in, uint value)
+	float add_f32(const string&in, float value)
+	float sub_f32(const string&in, float value)
+	void SetBorderColourLeft(const SColor&in col)
+	void SetBorderColourRight(const SColor&in col)
+	void SetBorderColourTop(const SColor&in col)
+	void SetBorderColourBottom(const SColor&in col)
+	void SetBorderFadeWidth(const float col)
+
+CBitStream
+	<constructor>()
+	void write_s8(int8 v)
+	int8 read_s8()
+	bool saferead_s8(int8&out)
+	void write_u8(uint8 v)
+	uint8 read_u8()
+	bool saferead_u8(uint8&out)
+	void write_s16(int16 v)
+	int16 read_s16()
+	bool saferead_s16(int16&out)
+	void write_u16(uint16 v)
+	uint16 read_u16()
+	bool saferead_u16(uint16&out)
+	void write_netid(uint16 v)
+	uint16 read_netid()
+	bool saferead_netid(uint16&out)
+	void write_s32(int v)
+	int read_s32()
+	bool saferead_s32(int&out)
+	void write_u32(uint v)
+	uint read_u32()
+	bool saferead_u32(uint&out)
+	void write_f32(float v)
+	float read_f32()
+	bool saferead_f32(float&out)
+	void write_bool(bool v)
+	bool read_bool()
+	bool saferead_bool(bool&out)
+	void write_string(string str)
+	string read_string()
+	bool saferead_string(string&out)
+	void write_Vec2f(Vec2f v)
+	Vec2f read_Vec2f()
+	bool saferead_Vec2f(Vec2f&out)
+	void write_TileType(uint16 v)
+	uint16 read_TileType()
+	bool saferead_TileType(uint16&out)
+	void overwrite_at_bit_s8(uint bit, int8 v)
+	int8 read_at_bit_s8(uint byte)
+	void overwrite_at_bit_u8(uint bit, uint8 v)
+	uint8 read_at_bit_u8(uint byte)
+	void overwrite_at_bit_s16(uint bit, int16 v)
+	int16 read_at_bit_s16(uint byte)
+	void overwrite_at_bit_u16(uint bit, uint16 v)
+	uint16 read_at_bit_u16(uint byte)
+	void overwrite_at_bit_s32(uint bit, int v)
+	int read_at_bit_s32(uint byte)
+	void overwrite_at_bit_u32(uint bit, uint v)
+	uint read_at_bit_u32(uint byte)
+	void overwrite_at_bit_f32(uint bit, float v)
+	float read_at_bit_f32(uint byte)
+	void ResetBitIndex()
+	void Reset()
+	void SetBitIndex(uint Index)
+	uint getBitIndex()
+	void ResetBuffer()
+	void Clear()
+	uint getBitsUsed()
+	uint getBytesUsed()
+	uint Length()
+	bool isBufferEnd()
+	void writeBitStream(CBitStream@ bitstream)
+	void write_CBitStream(CBitStream@ bitstream)
+	bool saferead_CBitStream(CBitStream@ bitstream)
+	void writeBitStream(CBitStream@ bitstream, int index, int bits)
+	CBitStream& opAssign(const CBitStream&in)
+	void Compress(int level)
+	void Decompress()
+
+ConfigFile
+	<constructor>()
+	<constructor>(const string&in)
+	ConfigFile& opAssign(const ConfigFile&in)
+	bool loadFile(string file)
+	bool saveFile(string file)
+	void remove(const string&in key)
+	bool exists(const string&in key)
+	void add_f32(string key, const float&in value)
+	void addArray_f32(string key, const float[]&in arr)
+	float read_f32(const string&in key)
+	float read_f32(const string&in key, const float&in value)
+	bool readIntoArray_f32(float[]&inout arr, const string&in key)
+	void add_u16(string key, const uint16&in value)
+	void addArray_u16(string key, const uint16[]&in arr)
+	uint16 read_u16(const string&in key)
+	uint16 read_u16(const string&in key, const uint16&in value)
+	bool readIntoArray_u16(uint16[]&inout arr, const string&in key)
+	void add_s16(string key, const int16&in value)
+	void addArray_s16(string key, const int16[]&in arr)
+	int16 read_s16(const string&in key)
+	int16 read_s16(const string&in key, const int16&in value)
+	bool readIntoArray_s16(int16[]&inout arr, const string&in key)
+	void add_u32(string key, const uint&in value)
+	void addArray_u32(string key, const uint[]&in arr)
+	uint read_u32(const string&in key)
+	uint read_u32(const string&in key, const uint&in value)
+	bool readIntoArray_u32(uint[]&inout arr, const string&in key)
+	void add_s32(string key, const int&in value)
+	void addArray_s32(string key, const int[]&in arr)
+	int read_s32(const string&in key)
+	int read_s32(const string&in key, const int&in value)
+	bool readIntoArray_s32(int[]&inout arr, const string&in key)
+	void add_u8(string key, const uint8&in value)
+	void addArray_u8(string key, const uint8[]&in arr)
+	uint8 read_u8(const string&in key)
+	uint8 read_u8(const string&in key, const uint8&in value)
+	bool readIntoArray_u8(uint8[]&inout arr, const string&in key)
+	void add_s8(string key, const int8&in value)
+	void addArray_s8(string key, const int8[]&in arr)
+	int8 read_s8(const string&in key)
+	int8 read_s8(const string&in key, const int8&in value)
+	bool readIntoArray_s8(int8[]&inout arr, const string&in key)
+	void add_bool(string key, const bool&in value)
+	void addArray_bool(string key, const bool[]&in arr)
+	bool read_bool(const string&in key)
+	bool read_bool(const string&in key, const bool&in value)
+	bool readIntoArray_bool(bool[]&inout arr, const string&in key)
+	void add_string(string key, const string&in value)
+	void addArray_string(string key, const string[]&in arr)
+	string read_string(const string&in key)
+	string read_string(const string&in key, const string&in value)
+	bool readIntoArray_string(string[]&inout arr, const string&in key)
+	void ExtractToBitStream(CBitStream&inout bt)
+
+CFileMatcher
+	<constructor>(const string&in)
+	string search(const string&in)
+	string getFirst()
+	string getCurrent()
+	string getRandom()
+	bool iterating()
+	bool reset()
+	void printMatches()
+	bool hasMatch()
+
+CFileImage
+	<constructor>(const string&in)
+	<constructor>(int, int, bool)
+	bool isLoaded()
+	void ResetPixel()
+	bool canRead()
+	bool nextPixel()
+	SColor readPixel()
+	bool readPixel(uint8&out a, uint8&out r, uint8&out g, uint8&out b)
+	Vec2f getPixelPosition()
+	void setPixelPosition(Vec2f pos)
+	int getPixelOffset()
+	void setPixelOffset(int pos)
+	int getWidth()
+	int getHeight()
+	int getSizeInPixels()
+	void setFilename(const string&in filename, ImageFileBase base)
+	void Save()
+	void setPixel(uint8 a, uint8 r, uint8 g, uint8 b)
+	void setPixelAndAdvance(uint8 a, uint8 r, uint8 g, uint8 b)
+	void setPixel(SColor col)
+	void setPixelAndAdvance(SColor col)
+	void setPixelAtPosition(uint x, uint y, SColor col, bool blend_alpha)
+
+Random
+	<constructor>()
+	<constructor>(uint)
+	<constructor>(const Random&in)
+	uint Next()
+	uint NextRanged(uint range)
+	float NextFloat()
+	uint getSeed()
+	void Reset(uint seed)
+
+Noise
+	<constructor>()
+	<constructor>(uint)
+	float Sample(float x, float y)
+	float Sample(const Vec2f&in pos)
+	float Fractal(float x, float y)
+	float Fractal(const Vec2f&in pos)
+
+CRules
+	uint16 daycycle_speed
+	float daycycle_start
+	uint8 mapresource_thickstone
+	uint8 mapresource_stone
+	uint8 mapresource_tree
+	uint8 mapresource_arrow
+	uint8 mapresource_gold
+	float playerrespawn_seconds
+	float nearspawn_multiplier
+	bool autoassign_teams
+	bool party_mode
+	string room_config
+	float attackdamage_modifier
+	float friendlydamage_modifier
+	string gamemode_name
+	string gamemode_info
+	bool minimap
+	bool chat
+	uint8 map_water_layer_alpha
+	uint8 map_water_render_style
+	bool engine_floodlayer_updates
+	const bool allow_suicide
+	void server_setShowHoverNames(bool canshow)
+	bool canShowHoverNames()
+	void RestartRules()
+	void SetCurrentState(uint8 state)
+	uint8 getCurrentState()
+	void SetTeamWon(int8 team)
+	int8 getTeamWon()
+	void SetGlobalMessage(string message)
+	void AddGlobalMessageReplacement(string match, string replacement)
+	void RemoveGlobalMessageReplacements()
+	int getTeamsNum()
+	bool isIntermission()
+	bool isWarmup()
+	bool isBarrier()
+	bool isMatchRunning()
+	bool isGameOver()
+	void server_PlayerDie(CPlayer@ player)
+	void server_PlayerDie(CPlayer@ player, CPlayer@ killer, uint8 customdata)
+	void server_BlobDie(CBlob@ blob)
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	int getTeamsCount()
+	int getSpectatorTeamNum()
+	uint8 getCommandID(const string&in name)
+	uint8 addCommandID(const string&in name)
+	bool hasCommandID(const string&in name)
+	string getNameFromCommandID(uint8 id)
+	void SendCommand(uint8 cmd, CBitStream&in params)
+	void SendCommand(uint8 cmd, CBitStream&in params, bool sendToClients)
+	void SendCommand(uint8 cmd, CBitStream&in params, CPlayer@ player)
+	void set(const string&in, ?&in)
+	bool get(const string&in, ?&out) const
+	void set(const string&in, int64&in)
+	bool get(const string&in, int64&out) const
+	void set(const string&in, double&in)
+	bool get(const string&in, double&out) const
+	bool getAt(const string&in, int index, ?&out) const
+	bool getLast(const string&in, ?&out) const
+	void setAt(const string&in, int index, ?&in)
+	void push(const string&in, ?&in)
+	void removeAt(const string&in, int index)
+	void removeElement(const string&in, ?&in)
+	void clear(const string&in)
+	void debug()
+	bool exists(const string&in)
+	void set_s8(const string&in, int8 v)
+	int8 get_s8(const string&in)
+	void set_u8(const string&in, uint8 v)
+	uint8 get_u8(const string&in)
+	void set_s16(const string&in, int16 v)
+	int16 get_s16(const string&in)
+	void set_u16(const string&in, uint16 v)
+	uint16 get_u16(const string&in)
+	void set_netid(const string&in, uint16 v)
+	uint16 get_netid(const string&in)
+	void set_s32(const string&in, int v)
+	int get_s32(const string&in)
+	void set_u32(const string&in, uint v)
+	uint get_u32(const string&in)
+	void set_f32(const string&in, float v)
+	float get_f32(const string&in)
+	void set_bool(const string&in, bool v)
+	bool get_bool(const string&in)
+	void set_string(const string&in, string v)
+	string get_string(const string&in)
+	void set_Vec2f(const string&in, Vec2f v)
+	Vec2f get_Vec2f(const string&in)
+	void set_TileType(const string&in, uint16 v)
+	uint16 get_TileType(const string&in)
+	void set_CBitStream(const string&in, CBitStream&inout bs)
+	void get_CBitStream(const string&in, CBitStream&inout bs)
+	void Sync(const string&in name, bool relayToClients)
+	void SyncToPlayer(const string&in name, CPlayer@ player)
+	void Tag(const string&in name)
+	void Untag(const string&in name)
+	bool hasTag(const string&in name)
+	int8 add_s8(const string&in, int8 value)
+	int8 sub_s8(const string&in, int8 value)
+	int16 add_s16(const string&in, int16 value)
+	int16 sub_s16(const string&in, int16 value)
+	int add_s32(const string&in, int value)
+	int sub_s32(const string&in, int value)
+	uint8 add_u8(const string&in, uint8 value)
+	uint8 sub_u8(const string&in, uint8 value)
+	uint16 add_u16(const string&in, uint16 value)
+	uint16 sub_u16(const string&in, uint16 value)
+	uint add_u32(const string&in, uint value)
+	uint sub_u32(const string&in, uint value)
+	float add_f32(const string&in, float value)
+	float sub_f32(const string&in, float value)
+	CTeam@ getTeam(int teamnum)
+
+CTeam
+	SColor color
+	string getName()
+
+CControls
+	bool mousePressed1
+	bool mousePressed2
+	bool mouseScrollUp
+	bool mouseScrollDown
+	int lastKeyPressed
+	bool externalControl
+	uint lastKeyPressTime
+	float hat1intensity
+	float hat2intensity
+	bool isMenuOpened()
+	bool NoKeysPressed()
+	void ClearKeys()
+	Vec2f getMouseScreenPos()
+	Vec2f getMouseWorldPos()
+	Vec2f getInterpMouseScreenPos()
+	bool isKeyPressed(int keycode)
+	bool isKeyJustPressed(int keycode)
+	bool isKeyJustReleased(int keycode)
+	void setMousePosition(Vec2f pos)
+	void setCameraLock(bool locked)
+	void setButtonsLock(bool locked)
+	void unlockCameraAndButtons()
+	bool isButtonsLocked()
+	bool isCameraLocked()
+	bool ActionKeyPressed(E_ACTIONKEYS action_key)
+	bool ActionKeyReleased(E_ACTIONKEYS action_key)
+	bool MapActionKey(E_ACTIONKEYS action_key, int keycode)
+	string getActionKeyKeyName(E_ACTIONKEYS action_key)
+	int getActionKeyKey(E_ACTIONKEYS action_key)
+	int getIndex()
+	uint getLastKeyPressTime()
+
+CMapZoneTile
+	uint8 edge
+	uint8 cost
+	bool solid
+
+CHighMapNode
+	Vec2f getWorldPosition()
+	int getCost()
+	int getDistanceFromGround()
+
+Tile
+	uint16 type
+	uint8 support
+	uint8 dirt
+	uint8 light
+	uint16 flags
+	uint8 damage
+	uint16 blobid1
+	uint16 blobid2
+	uint16 backblobid1
+	uint16 backblobid2
+	<constructor>()
+	Tile& opAssign(const Tile&in)
+
+HitInfo
+	CBlob@ blob
+	uint16 tile
+	uint tileOffset
+	Vec2f hitpos
+	float distance
+
+Sector
+	Vec2f center
+	Vec2f upperleft
+	Vec2f lowerright
+	float radius
+	string name
+	string scriptFile
+	uint16 ownerID
+
+ScriptData
+	uint tickFrequency
+	uint runFlags
+	string runProximityTag
+	float runProximityRadius
+	string removeIfTag
+	string tickIfTag
+
+CMovement
+	bool doTickScripts
+	CBlob@ getBlob()
+	void server_SetActive(bool active)
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	MovementVars@ getVars()
+	ScriptData@ getCurrentScript()
+
+MovementVars
+	uint16 keys
+	uint16 old_keys
+	int aircount
+	bool facing_left
+	Vec2f aimpos
+
+CAttachment
+	bool doTickScripts
+	CBlob@ getBlob()
+	void server_SetActive(bool active)
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	AttachmentPoint@ getAttachmentPointByName(const string&in)
+	AttachmentPoint@ getAttachmentPoint(const string&in)
+	AttachmentPoint@ getAttachmentPoint(const string&in, bool socket)
+	AttachmentPoint@ getAttachmentPoint(const string&in, bool socket, bool occupied)
+	AttachmentPoint@ getAttachmentPointByID(const int id)
+	AttachmentPoint@ getAttachmentWithBlob(CBlob@ blob)
+	CBlob@ getAttachedBlob(const string&in, int index)
+	CBlob@ getAttachedBlob(const string&in)
+	int getOccupiedCount()
+	AttachmentPoint@ AddAttachmentPoint(const string&in name, bool socket)
+	ScriptData@ getCurrentScript()
+
+AttachmentPoint
+	string name
+	Vec2f offset
+	float offsetZ
+	float radius
+	Vec2f occupied_offset
+	bool socket
+	bool controller
+	int customData
+	CBlob@ getOccupied()
+	Vec2f getPosition()
+	void SetKeysToTake(uint16 keys)
+	uint16 getKeysToTake()
+	void SetMouseTaken(bool taken)
+	bool getMouseTaken()
+	int getID()
+	bool isKeyPressed(keys key)
+	bool wasKeyPressed(keys key)
+	bool isKeyJustPressed(keys key)
+	bool isKeyJustReleased(keys key)
+	Vec2f getAimPos()
+	CBlob@ getBlob()
+
+CButton
+	Vec2f offset
+	SColor color
+	bool kill
+	bool hovered
+	bool deleteAfterClick
+	float radius
+	float enableRadius
+	CBlob@ getOwner()
+	void SetEnabled(bool enabled)
+	bool getEnabled()
+
+CGridButton
+	bool deleteAfterClick
+	string hoverText
+	bool selectOnClick
+	bool selectOneOnClick
+	bool clickable
+	SColor captionColor
+	void SetHoverText(const string&in)
+	void SetSelected(int selType)
+	void SetNumber(int)
+	int getNumber()
+	void SetEnabled(bool)
+	bool isEnabled()
+
+CGridMenu
+	bool deleteAfterClick
+	bool modal
+	bool kill
+	CBlob@ getOwner()
+	string getName()
+	int getButtonsCount()
+	CGridButton@ getButtonOfIndex(int index)
+	CGridButton@ AddButton(CGridButton@ button)
+	CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID)
+	CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID, CBitStream&in parameters)
+	CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID, Vec2f slotsDim)
+	CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+	CGridButton@ AddButton(const string&in iconTexture, int frame, Vec2f frameDimension, const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+	CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID)
+	CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID, CBitStream&in parameters)
+	CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID, Vec2f slotsDim)
+	CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+	CGridButton@ AddButton(const string&in iconName, const string&in caption, Vec2f slotsDim)
+	CGridButton@ AddTextButton(const string&in caption, Vec2f slotsDim)
+	CGridButton@ AddTextButton(const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+	CGridButton@ AddItemButton(CBlob@ blob, uint8 cmdID)
+	CGridButton@ AddItemButton(CBlob@ blob, uint8 cmdID, CBitStream&in parameters)
+	CGridButton@ AddEmptyButton()
+	void FillUpRow()
+	bool RemoveButton(CGridButton@ button)
+	bool DeleteButton(CGridButton@ button)
+	Vec2f getUpperLeftPosition()
+	Vec2f getLowerRightPosition()
+	void SetDefaultCommand(uint8 cmd, CBitStream&in parameters)
+	void SetCaptionEnabled(bool enabled)
+	void AddKeyCommand(EKEY_CODE key, uint8 cmdID, CBitStream&in parameters)
+
+CBanner
+
+CInventory
+	bool doTickScripts
+	CBlob@ getBlob()
+	void server_SetActive(bool active)
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	string getMenuName()
+	CGridMenu@ getGridMenu()
+	int getItemsCount()
+	CBlob@ getItem(int index)
+	CBlob@ getItem(const string&in)
+	bool canPutItem(CBlob@ blob)
+	bool isFull()
+	int server_RemoveItems(const string&in blobName, int quantity)
+	int getCount(const string&in name)
+	bool isInInventory(CBlob@ blob)
+	bool isInInventory(const string&in, int)
+	bool server_MoveInventoryTo(CInventory@ inventory)
+	void RemoveAll()
+	Vec2f getInventorySlots()
+	ScriptData@ getCurrentScript()
+
+CBrain
+	int failtime_end
+	int plannerMaxSteps
+	int plannerSearchSteps
+	int lowLevelSteps
+	int lowLevelMaxSteps
+	CBlob@ getBlob()
+	void server_SetActive(bool active)
+	bool isActive()
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	BrainVars@ getVars()
+	CBlob@ getTarget()
+	void SetTarget(CBlob@ blob)
+	void SetPathTo(Vec2f endpoint, bool ignoreGravity)
+	void SetPathTo(Vec2f endpoint, int search_style)
+	Vec2f getPathPosition()
+	Vec2f getNextPathPosition()
+	int getPathSize()
+	Vec2f getPathPositionAtIndex(int index)
+	void SetSuggestedKeys()
+	BrainState getState()
+	string getStateString()
+	bool SetHighLevelPath(Vec2f start, Vec2f end)
+	int getHighPathSize()
+	Vec2f getHighPathPositionAtIndex(int index)
+	Vec2f getClosestNodeAtPosition(Vec2f pos)
+	void SetLowLevelPath(Vec2f start, Vec2f end)
+	void ResetLowLevelPath()
+	void EndPath()
+	Vec2f getShootAimPosition(Vec2f targetPos, bool hardShot, bool&out worthShooting, const float heightModifier)
+	ScriptData@ getCurrentScript()
+	bool PlanStatePath(PlannerState@ start, PlannerState@ end)
+	bool StatePathStep()
+	PlannerState@ AddPlannerState(const string&in name)
+	bool getPlannerStates(PlannerState@[]@ states)
+	bool getPlannerSolution(PlannerState@[]@ states)
+	PlannerState@ getPlannerState(const string&in name)
+
+PlannerState
+	Vec2f pos
+	string name
+	CBlob@ blob
+	CBrain@ brain
+	uint8 team
+	CHighMapNode@ highlevelnode
+	bool solution
+	void Print()
+	bool hasSameProperties(PlannerState@ state)
+	PlannerState& opAssign(const PlannerState&in)
+	uint getHashCode() const
+	void set(const string&in, ?&in)
+	bool get(const string&in, ?&out) const
+	void set(const string&in, int64&in)
+	bool get(const string&in, int64&out) const
+	void set(const string&in, double&in)
+	bool get(const string&in, double&out) const
+	bool getAt(const string&in, int index, ?&out) const
+	bool getLast(const string&in, ?&out) const
+	void setAt(const string&in, int index, ?&in)
+	void push(const string&in, ?&in)
+	void removeAt(const string&in, int index)
+	void removeElement(const string&in, ?&in)
+	void clear(const string&in)
+	void debug()
+	bool exists(const string&in)
+	void set_s8(const string&in, int8 v)
+	int8 get_s8(const string&in)
+	void set_u8(const string&in, uint8 v)
+	uint8 get_u8(const string&in)
+	void set_s16(const string&in, int16 v)
+	int16 get_s16(const string&in)
+	void set_u16(const string&in, uint16 v)
+	uint16 get_u16(const string&in)
+	void set_netid(const string&in, uint16 v)
+	uint16 get_netid(const string&in)
+	void set_s32(const string&in, int v)
+	int get_s32(const string&in)
+	void set_u32(const string&in, uint v)
+	uint get_u32(const string&in)
+	void set_f32(const string&in, float v)
+	float get_f32(const string&in)
+	void set_bool(const string&in, bool v)
+	bool get_bool(const string&in)
+	void set_string(const string&in, string v)
+	string get_string(const string&in)
+	void set_Vec2f(const string&in, Vec2f v)
+	Vec2f get_Vec2f(const string&in)
+	void set_TileType(const string&in, uint16 v)
+	uint16 get_TileType(const string&in)
+	void set_CBitStream(const string&in, CBitStream&inout bs)
+	void get_CBitStream(const string&in, CBitStream&inout bs)
+	void Sync(const string&in name, bool relayToClients)
+	void SyncToPlayer(const string&in name, CPlayer@ player)
+	void Tag(const string&in name)
+	void Untag(const string&in name)
+	bool hasTag(const string&in name)
+	int8 add_s8(const string&in, int8 value)
+	int8 sub_s8(const string&in, int8 value)
+	int16 add_s16(const string&in, int16 value)
+	int16 sub_s16(const string&in, int16 value)
+	int add_s32(const string&in, int value)
+	int sub_s32(const string&in, int value)
+	uint8 add_u8(const string&in, uint8 value)
+	uint8 sub_u8(const string&in, uint8 value)
+	uint16 add_u16(const string&in, uint16 value)
+	uint16 sub_u16(const string&in, uint16 value)
+	uint add_u32(const string&in, uint value)
+	uint sub_u32(const string&in, uint value)
+	float add_f32(const string&in, float value)
+	float sub_f32(const string&in, float value)
+
+BrainVars
+	Vec2f lastPathPos
+	Vec2f lastPathPos2
+
+ShapeConsts
+	float mass
+	float radius
+	float buoyancy
+	bool collidable
+	bool lightPasses
+	bool mapCollisions
+	bool background
+	bool snapToGrid
+	bool rotates
+	bool platform
+	bool transports
+	bool bullet
+	bool collideWhenAttached
+	bool waterPasses
+	bool isFlammable
+	bool tileLightSource
+	uint8 support
+	float net_threshold_multiplier
+
+ShapeVars
+	Vec2f pos
+	Vec2f oldpos
+	Vec2f vel
+	Vec2f oldvel
+	float angvel
+	float oldangvel
+	bool onground
+	bool onladder
+	bool onwall
+	bool onceiling
+	bool onmap
+	float waterDragScale
+	Vec2f groundNormal
+	bool inwater
+	bool old_inwater
+	bool infire
+	bool old_infire
+	float totalImpulse
+	float frictionImpulse
+	int customData
+	bool isladder
+
+ShapePlatformDirection
+	Vec2f direction
+	float angleLimit
+	bool ignore_rotations
+
+CShape
+	bool doTickScripts
+	bool checkCollisionsAgain
+	int aircount
+	float vellen
+	CBlob@ getBlob()
+	void server_SetActive(bool active)
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	void SetPosition(Vec2f pos)
+	void SetVelocity(Vec2f pos)
+	Vec2f getPosition()
+	Vec2f getOffsettedPosition()
+	Vec2f getVelocity()
+	void SetAngleDegrees(float angle)
+	float getAngleDegrees()
+	void SetAngleRadians(float angle)
+	float getAngleRadians()
+	void SetAngularVelocity(float vel)
+	float getAngularVelocity()
+	ShapeVars@ getVars()
+	ShapeConsts@ getConsts()
+	void SetRotationsAllowed(bool allowed)
+	bool isRotationsAllowed()
+	void SetGravityScale(float scale)
+	float getGravityScale()
+	void SetOffset(Vec2f offset)
+	Vec2f getOffset()
+	void SetCenterOfMassOffset(Vec2f COM)
+	void SetMass(float mass)
+	void SetStatic(bool static)
+	bool isStatic()
+	float getCurrentSupport()
+	void PutOnGround()
+	void ResolveInsideMapCollision()
+	void AddPlatformDirection(Vec2f direction, float angleLimit, bool ignore_rotations)
+	ShapePlatformDirection@ getPlatformDirection(int index)
+	void RemovePlatformDirection(int index)
+	bool isOverlappingTileSolid(bool edgesTouching)
+	bool isOverlappingTileBackground(bool edgesTouching)
+	void AddShape(Vec2f[]&in points)
+	void SetShape(Vec2f[]&in points)
+	void RemoveShape(int index)
+	float getFriction()
+	float getElasticity()
+	float getDrag()
+	void setFriction(float friction)
+	void setElasticity(float elasticity)
+	void setDrag(float drag)
+	ScriptData@ getCurrentScript()
+	void SetTileValue_Legacy()
+	void getBoundingRect(Vec2f&out topLeft, Vec2f&out bottomRight)
+	float getWidth()
+	float getHeight()
+	void UpdateStaticBody()
+	void UpdateBody()
+
+CSprite
+	bool doTickScripts
+	bool force_onrender
+	Animation@ animation
+	CBlob@ getBlob()
+	void server_SetActive(bool active)
+	bool RemoveScript(const string&in fileName)
+	bool AddScript(const string&in fileName)
+	bool hasScript(const string&in fileName)
+	SpriteConsts@ getConsts()
+	SpriteVars@ getVars()
+	void ForceUpdate()
+	Animation@ getAnimation(const string&in)
+	void SetAnimation(Animation@ anim)
+	void SetAnimation(const string&in)
+	Animation@ addAnimation(const string&in name, uint16 time, bool loop)
+	bool isAnimation(const string&in)
+	bool isAnimationEnded()
+	bool isFrame(uint16 frame)
+	uint16 getFrame()
+	uint16 getNextFrameIndex()
+	void SetFrameIndex(uint16 frame)
+	void SetFrame(uint16 sheetindex)
+	bool isFrameIndex(uint16 frame)
+	uint16 getFrameIndex()
+	void ResetWorldTransform()
+	void TranslateAllBy(Vec2f p)
+	void RotateAllBy(float degrees, Vec2f around)
+	void RotateAllByDegrees(float degrees, Vec2f around)
+	void RotateAllByRadians(float radians, Vec2f around)
+	float getWorldRotation()
+	Vec2f getWorldTranslation()
+	void RotateBy(float degrees, Vec2f around)
+	void RotateByDegrees(float degrees, Vec2f around)
+	void RotateByRadians(float radians, Vec2f around)
+	void TranslateBy(Vec2f by)
+	void ScaleBy(Vec2f scale)
+	void ScaleBy(float x, float y)
+	void ResetTransform()
+	void SetOffset(Vec2f o)
+	void SetRelativeZ(float z)
+	void SetInterpolated(bool value)
+	bool isInterpolated() const
+	void SetHUD(bool onhud)
+	void SetZ(float z)
+	float getZ()
+	void SetFacingLeft(bool left)
+	void SetVisible(bool visible)
+	bool isVisible()
+	bool SetLighting(bool lighting)
+	float getRelativeZ()
+	bool isFacingLeft()
+	Vec2f getOffset()
+	void LookAtPoint(Vec2f point)
+	string getFilename()
+	int getFrameWidth()
+	int getFrameHeight()
+	CSpriteLayer@ addSpriteLayer(const string&in name, const string&in filename, int frameWidth, int frameHeight, int teamColor, int skinColor)
+	CSpriteLayer@ addSpriteLayer(const string&in name, const string&in filename, int frameWidth, int frameHeight)
+	CSpriteLayer@ addSpriteLayer(const string&in name, int frameWidth, int frameHeight)
+	CSpriteLayer@ addSpriteLayer(const string&in name)
+	CSpriteLayer@ addTexturedSpriteLayer(const string&in name, const string&in texname, int frameWidth, int frameHeight)
+	int getSpriteLayerCount()
+	CSpriteLayer@ getSpriteLayer(int index)
+	CSpriteLayer@ getSpriteLayer(const string&in name)
+	bool RemoveSpriteLayer(const string&in name)
+	bool ReloadSprite(const string&in filename, int frameWidth, int frameHeight, int teamColor, int skinColor)
+	bool ReloadSprite(const string&in filename, int frameWidth, int frameHeight)
+	void ReloadSprites(int teamColor, int skinColor)
+	bool ReloadSprite(const string&in filename)
+	bool SetTexture(const string&in texture)
+	bool SetTexture(const string&in texture, int frameWidth, int frameHeight)
+	string getTextureName()
+	void DrawSpline(Vec2f a, Vec2f b, Vec2f h1, Vec2f h2, int steps, float relativeZ, SColor color)
+	void Gib()
+	void PlaySound(const string&in filename)
+	void PlaySound(const string&in filename, float volume)
+	void PlaySound(const string&in filename, float volume, float pitch)
+	void PlayRandomSound(const string&in filename)
+	void PlayRandomSound(const string&in filename, float volume)
+	void PlayRandomSound(const string&in filename, float volume, float pitch)
+	void SetEmitSound(const string&in filename)
+	void SetEmitSoundPaused(bool paused)
+	void SetEmitSoundVolume(float volume)
+	void SetEmitSoundSpeed(float speed)
+	void RewindEmitSound()
+	bool getEmitSoundPaused()
+	void SetEmitSoundPlayPosition(int pos)
+	float getEmitSoundVolume()
+	float getEmitSoundSpeed()
+	CSpriteLayer@ asLayer()
+	void setRenderStyle(Style style)
+	bool isOnScreen()
+	ScriptData@ getCurrentScript()
+
+Animation
+	uint16 time
+	bool loop
+	uint16 frame
+	uint16 timer
+	bool backward
+	string name
+	bool ended()
+	int getFramesCount()
+	void AddFrame(uint16 frame)
+	void RemoveFrame(int index)
+	void SetFrameIndex(int index)
+	uint16 getFrame(int index)
+	void setFrameFromRatio(float ratio)
+	void AddFrames(int[]&in frames)
+
+CSpriteLayer
+	string name
+	Animation@ animation
+	Animation@ getAnimation(const string&in)
+	void SetAnimation(Animation@ anim)
+	void SetAnimation(const string&in)
+	bool isAnimation(const string&in)
+	bool isAnimationEnded()
+	Animation@ addAnimation(const string&in name, uint16 time, bool loop)
+	bool isFrame(uint16 frame)
+	uint16 getFrame()
+	uint16 getNextFrameIndex()
+	void SetFrameIndex(uint16 frame)
+	void SetFrame(uint16 sheetindex)
+	bool isFrameIndex(uint16 frame)
+	uint16 getFrameIndex()
+	void ResetTransform()
+	void TranslateBy(Vec2f p)
+	void RotateBy(float degrees, Vec2f around)
+	void RotateByDegrees(float degrees, Vec2f around)
+	void RotateByRadians(float radians, Vec2f around)
+	void ScaleBy(Vec2f p)
+	void ScaleBy(float x, float y)
+	void SetOffset(Vec2f o)
+	Vec2f getOffset()
+	void SetFacingLeft(bool left)
+	bool isFacingLeft()
+	void SetIgnoreParentFacing(bool ignore)
+	bool getIgnoreParentFacing()
+	void SetVisible(bool visible)
+	bool isVisible()
+	bool SetLighting(bool lighting)
+	void SetRelativeZ(float z)
+	void SetInterpolated(bool value)
+	bool isInterpolated() const
+	float getRelativeZ()
+	void SetHUD(bool onhud)
+	string getFilename()
+	int getFrameWidth()
+	int getFrameHeight()
+	int getTextureWidth()
+	int getTextureHeight()
+	void SetColor(SColor color)
+	SColor getColor()
+	bool ReloadSprite(const string&in filename)
+	bool ReloadSprite(const string&in filename, int frameWidth, int frameHeight)
+	bool ReloadSprite(const string&in filename, int frameWidth, int frameHeight, int teamColor, int skinColor)
+	bool SetTexture(const string&in texture)
+	bool SetTexture(const string&in texture, int frameWidth, int frameHeight)
+	string getTextureName()
+	void MakeParticle(Vec2f vel, float gravity)
+	Vec2f getWorldTranslation()
+	bool isOnScreen()
+	void setRenderStyle(Style style)
+
+SpriteConsts
+	string filename
+	int frameWidth
+	int frameHeight
+	string sound_emit
+	bool accurateLighting
+
+SpriteVars
+	bool gibbed
+	bool spawned
+	bool died
+	float sound_emit_volume
+	float sound_emit_pitch
+
+CParticle
+	uint8 frame
+	uint8 framesize
+	uint8 animated
+	uint8 style
+	float framestep
+	float stylestep
+	Vec2f position
+	Vec2f oldposition
+	Vec2f velocity
+	Vec2f oldvelocity
+	Vec2f initpos
+	Vec2f tilepos
+	Vec2f oldtilepos
+	float Z
+	float slide
+	float damping
+	float bounce
+	float mass
+	float waterdamping
+	Vec2f gravity
+	bool collides
+	bool diesoncollide
+	bool resting
+	bool diesonanimate
+	bool fastcollision
+	bool rotates
+	bool stretches
+	bool freerotation
+	Vec2f rotation
+	uint16 freerotationscale
+	int16 timeout
+	int16 alivetime
+	bool outofbounds
+	bool pickable
+	uint8 deadeffect
+	uint8 emiteffect
+	float windaffect
+	float damage
+	bool standardcollision
+	float scale
+	float growth
+	SColor colour
+	bool fadeout
+	float width
+	float height
+	bool lighting
+	uint8 lighting_delay
+	bool lighting_force_original_color
+	SColor forcecolor
+	<constructor>(string, Vec2f, Vec2f, float, float, uint8, float, bool)
+	void AddDieFunction(string scriptname, string scriptfunction)
+	void setRenderStyle(Style new_style)
+
+PixelOffset
+	int x
+	int y
+	int level
+
+TeamTexture
+	PixelOffset@ getPixelOffset(int index)
+
+Driver
+	TeamTexture@ getTeamTexture(const string&in filename)
+	PixelOffset@ getPixelOffset(const string&in filename, int frame)
+	TeamTexture@ AddTeamTexture(const string&in filename, Vec2f frameDimension)
+	Vec2f getScreenCenterPos()
+	float getScreenWidthRatio()
+	float getScreenHeightRatio()
+	int getScreenWidth()
+	int getScreenHeight()
+	Vec2f getResolutionFactor()
+	Vec2f getScreenPosFromWorldPos(Vec2f pos)
+	Vec2f getWorldPosFromScreenPos(Vec2f pos2d)
+	float getResolutionScaleFactor()
+	Vec2f getScreenDimensions()
+	bool CanUseShaders()
+	void AddShader(const string&in name)
+	void AddShader(const string&in name, const float order)
+	void RemoveShader(const string&in name)
+	void ForceStartShaders()
+	void ForceStopShaders()
+	bool ShaderState()
+	void SetShader(const string&in name, const bool on)
+	void SetShaderExtraTexture(const string&in name, const string&in tex)
+	void SetShaderTextureFilter(const string&in name, const bool filter)
+	void SetShaderFloat(const string&in name, const string&in valuename, const float value)
+	void SetShaderInt(const string&in name, const string&in valuename, const int value)
+
+CRespawnPoint
+	string actorName
+	string parentActorName
+	string parentActorScriptName
+	int index
+	Vec2f position
+	int team
+	float radius
+
+CRespawnQueueActor
+	string actorName
+	string actorConfigFile
+	string characterName
+	int team
+	int classnum
+	int sex
+	int skin
+	CBlob@ getRespawnBlob()
+	CRespawnPoint@ getRespawnPoint()
+	CPlayer@ getPlayer()
+
+CRespawn
+	CRespawnQueueActor@ QueueOnBlob(CPlayer@ player, int team, int classnum, float seconds, CBlob@ respawnBlob)
+	CRespawnQueueActor@ QueueOnBlob(CPlayer@ player, int team, const string&in actorClassName, const string&in actorConfigfile, float seconds, CBlob@ respawnBlob)
+	CRespawnQueueActor@ QueueOnRandom(CPlayer@ player, int team, int classnum, float seconds)
+	CRespawnQueueActor@ QueueOnRandom(CPlayer@ player, int team, const string&in actorClassName, const string&in actorConfigfile, float seconds)
+	CRespawnPoint@ findClosestPoint(Vec2f position, int team)
+	CRespawnPoint@ getPoint(const string&in name, int team)
+
+CMixer
+	void ResetMixer()
+	bool AddTrack(const string&in filename, uint tag)
+	void StopAll()
+	void FadeOutAll(float toVolume, float seconds)
+	bool PlayRandom(uint tag)
+	bool FadeInRandom(uint tag, float fadeInSeconds)
+	bool FadeOut(uint tag, float seconds)
+	bool isPlaying(uint tag)
+	bool Stop(uint tag)
+	int getPlayingCount()
+	uint getPlayingTag(int index)
+	uint getLastAddedTag()
+	void SetBeatTicks(int bps)
+
+CContextMenu
+
+CHUD
+	bool scrollOut
+	bool disableButtonsForATick
+	int menuState
+	void SetDefaultCursor()
+	void SetCursorImage(const string&in textureFilename, Vec2f frameDimension)
+	void SetCursorImage(const string&in textureFilename)
+	void SetCursorFrame(int frame)
+	int getCursorFrame()
+	void SetCursorColor(SColor color)
+	void HideCursor()
+	void ShowCursor()
+	bool hasCursor()
+	void SetCursorOffset(Vec2f offset)
+	bool hasMenus()
+	bool hasButtons()
+	void ClearMenus()
+	void ClearMenus(bool killmodal)
+	CButton@ getButtonWithCommandID(uint8 cmd)
+
+CNet
+	string joined_servername
+	string joined_ip
+	string lastErrorMsg
+	bool CreateServer()
+	void DisconnectClient()
+	void DisconnectServer()
+	void Connect(const string&in address, uint16 port)
+	void Connect(const string&in address)
+	bool isServer()
+	bool isClient()
+	void server_KeepConnectionsAlive()
+	void server_SendMsg(const string&in text)
+	void DisconnectPlayer(CPlayer@ player)
+	bool SafeConnect(const string&in address, const string&in rules)
+	bool SafeConnect(const string&in address)
+
+CSecurity
+	void reloadSecurity()
+	void saveSecurity()
+	void saveWhitelist()
+	void saveBlacklist()
+	void saveIgnorelist()
+	void saveHideNamelist()
+	void saveSeclevs()
+	void printSeclevs()
+	void printPlayerSeclevs()
+	void printBans()
+	void printIgnores()
+	int getSeclevsSize()
+	void emptySeclevs()
+	void sendSeclevs()
+	void sendSeclevs(CPlayer@ player)
+	CSeclev@ getSeclev(const int seclevID)
+	CSeclev@ getSeclev(const string seclevName)
+	void setPlayerSeclev(CPlayer@ player, CSeclev@ seclev)
+	CSeclev@ getPlayerSeclev(CPlayer@ player)
+	CSeclev@ updatePlayerSeclev(CPlayer@ player)
+	bool assignSeclev(CPlayer@ assignerPlayer, CPlayer@ assigneePlayer, CSeclev@ seclev)
+	bool assignSeclev(CPlayer@ player, CSeclev@ seclev)
+	bool checkAccess_Command(CPlayer@ player, const string command)
+	bool checkAccess_Feature(CPlayer@ player, const string feature)
+	bool checkAccess_Assign(CPlayer@ assignerPlayer, CPlayer@ assigneePlayer, CSeclev@ seclev)
+	bool getWhitelistActive()
+	void ban(CPlayer@ player, const int minutes)
+	void ban(CPlayer@ player, const int minutes, const string reason)
+	void ban(const string username, const int minutes)
+	void ban(const string username, const int minutes, const string reason)
+	bool unBan(const int index)
+	bool unBan(const string username)
+	void ignore(CPlayer@ player, const int minutes)
+	void ignore(const string username, const int minutes)
+	bool unIgnore(const int index)
+	bool unIgnore(const string username)
+	void hidename(CPlayer@ player, const int minutes)
+	void hidename(const string username, const int minutes)
+	bool showname(const int index)
+	bool showname(const string username)
+	bool isPlayerBanned(CPlayer@ player)
+	bool isPlayerBanned(const string username)
+	bool isPlayerIgnored(CPlayer@ player)
+	bool isPlayerIgnored(const string username)
+	bool isPlayerNameHidden(CPlayer@ player)
+	bool isPlayerNameHidden(const string username)
+	void listCheckAllPlayers()
+	void expireBans()
+	void expireIgnores()
+	void expireHideNames()
+	bool bansExist()
+	bool ignoresExist()
+
+CSeclev
+	void saveSeclev()
+	int print()
+	string getName()
+	int getSeclevID()
+	void addUser(const string username)
+	void removeUser(const string username)
+
+CCamera
+	float targetDistance
+	float targetFactor
+	float mouseFactor
+	float posLag
+	int mousecamstyle
+	void setTarget(CBlob@ blob)
+	CBlob@ getTarget()
+	void setLocked(bool locked)
+	bool isLocked()
+	Vec2f getInterpolationOffset()
+	void setRotation(float z)
+	void setRotation(float x, float y, float z)
+	float getRotation()
+	void setPosition(Vec2f pos)
+	Vec2f getPosition()
+
+APIServer
+	bool gold
+	bool password
+	bool DNCycle
+	bool connectable
+	bool usingMods
+	bool modsVerified
+	string serverName
+	string description
+	string lastUpdate
+	string firstSeen
+	uint16 maxPlayers
+	uint16 currentPlayers
+	int16 ping
+	string gameMode
+	uint16 build
+	uint16 serverPort
+	string serverAddress
+	string serverIPv4Address
+	int reservedPlayers
+	int spectatorPlayers
+	int maxSpectatorPlayers
+	uint16 mapW
+	uint16 mapH
+	uint16 gameState
+	uint16 DNState
+	void loadMinimap()
+	void drawMinimap(Vec2f pos, Vec2f framePos, Vec2f dim, float scale)
+	Vec2f getMinimapDim()
+
+APIPlayer
+	string username
+	bool banned
+	bool active
+	bool gold_kag
+	bool gold_storm
+	bool gold_trenchrun
+	bool termsAccepted
+	uint registrationTime
+	string banReason
+	string banExpiration
+	int16 role
+	int16 supportTier
+
+CScriptedBrowser
+	bool ping
+	string filter
+	void RequestList()
+	bool getServersList(APIServer@[]@ servers)
+	void Close()
+	bool getServerPlayers(APIServer@ server, APIPlayer@[]@ players)
+
+ImageData
+	<constructor>(int, int)
+	int width() const
+	int height() const
+	int size() const
+	SColor get(int x, int y)
+	void put(int x, int y, const SColor&in v)
+	void remap(const SColor[]&in in_col, const SColor[]&in out_col, uint8 remap_alpha_threshold = 255, bool ignore_source_alpha = false, bool preserve_source_alpha = false)
+	SColor& opIndex(int)
+	const SColor& opIndex(int) const
+
+SMaterial
+	<constructor>()
+	void AddTexture(const string&in texture)
+	void AddTexture(const string&in texture, uint8 layer)
+	void RegenMipMap(uint8 layer)
+	void SetVideoMaterial()
+	void SetAmbientColour(SColor col)
+	void SetDiffuseColor(SColor col)
+	void SetEmissiveColor(SColor col)
+	void SetThickness(uint thick)
+	void SetShininess(uint shiny)
+	uint8 CurrentTextureCount()
+	void DisableAllFlags()
+	void SetLayerAnisotropicFilter(uint8 layer, uint8 value)
+	void SetLayerBilinearFilter(uint8 layer, bool value)
+	void SetLayerLODBias(uint8 layer, int8 value)
+	void SetLayerTrilinearFilter(uint8 layer, bool value)
+	void SetFlag(MFlag flag, bool newValue)
+	void SetColorMask(CMask mask)
+	void SetColorMaterial(CMaterial mat)
+	void SetMaterialType(MType type)
+	void SetBlendOperation(BlendType operation)
+
+SMesh
+	<constructor>()
+	void SetVertex(const Vertex[]&in vertexs)
+	void SetIndices(const uint16[]&in indices)
+	void SetMaterial(SMaterial@ material)
+	SMaterial@ GetMaterial()
+	void LoadObjIntoMesh(const string&in location)
+	void RenderMeshWithMaterial()
+	void RenderMesh()
+	void BuildMesh()
+	void Clear()
+	void DropMesh()
+	void DropMeshBuffer()
+	void SetDirty(Buffer buffer)
+	void SetHardwareMapping(Map type)
+
+HeadsPack
+	const string name
+	const string display_name
+	const string filename
+	const int count
+	const int required_tier
+	const int steam_dlcnumber
+

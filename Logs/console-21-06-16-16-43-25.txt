@@ -1,0 +1,319 @@
+[16:43:25] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[16:43:25] Loading ignorelist from Base/Security/ignorelist.cfg
+[16:43:25] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[16:43:25] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[16:43:25] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[16:43:25] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[16:43:25] Loading mod: ZFM+1.6.7f
+[16:43:25] Creating video device...
+[16:43:25] Checking driver support...
+[16:43:25] Initializing new video device...
+[16:43:25] Irrlicht Engine version 1.8.0-alpha
+[16:43:25] Precaching files...
+[16:43:25] Precaching files end.
+[16:43:25] Warning: control keys overlap!
+[16:43:25] Controls loaded from ../Cache/player1.dat
+[16:43:25] Warning: control keys overlap!
+[16:43:25] Controls loaded from ../Cache/player2.dat
+[16:43:25] Warning: control keys overlap!
+[16:43:25] Controls loaded from ../Cache/player3.dat
+[16:43:25] Warning: control keys overlap!
+[16:43:25] Controls loaded from ../Cache/player4.dat
+[16:43:25] Preloading all...
+[16:43:34] Loading rules ./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg
+[16:43:34] warning: attempted to match illegal relative path "./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg" - just searching for filename matches for "/gamemode.cfg" - out of date mod?
+[16:43:34] Loading game rules from ./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg...
+[16:43:34] Loaded team 0 'Survivors'
+[16:43:34] Loaded team 1 'Undead'
+[16:43:35] Blob already loaded 'mat_bolts'. Ignoring this one - Entities/Materials/Ammunition/MaterialBallistaBolt.cfg
+[16:43:35] Script: Compiling void GetButtonsFor(CBlob@ this, CBlob@ caller)
+[16:43:35] Script: 'buildSpawnMenu' is not declared
+[16:43:35]         [line 55 char 67] 		caller.CreateGenericButton("$change_class$", Vec2f(0, 0), this, buildSpawnMenu, getTranslatedString("Swap Class"));
+[16:43:35]         in file 'Entities/Special/Tent/TentLogic.as'
+[16:43:35] Blob already loaded 'knight'. Ignoring this one - Entities/Characters/Knight/Knight.cfg
+[16:43:35] Blob already loaded 'builder'. Ignoring this one - Entities/Characters/Builder/Builder.cfg
+[16:43:35] Blob already loaded 'archer'. Ignoring this one - Entities/Characters/Archer/Archer.cfg
+[16:43:35] Blob already loaded 'greg'. Ignoring this one - Entities/Zombies/Greg/Greg.cfg
+[16:43:35] Files have the same name! (rename for safety) Maps/Official/CTF/JTG_NewGetisburgMines.png - Maps/CTF/Dormant/JTG_NewGetisburgMines.png
+[16:43:35] Files have the same name! (rename for safety) Maps/CTF/Dormant/JTG_NewGetisburgMines.png - Maps/Official/CTF/JTG_NewGetisburgMines.png
+[16:43:36] Blob already loaded 'ballista_bolt'. Ignoring this one - Entities/Items/Projectiles/BallistaBolt.cfg
+[16:43:36] Blob already loaded 'arrow'. Ignoring this one - Entities/Items/Projectiles/Arrow.cfg
+[16:43:36] Files have the same name! (rename for safety) Maps/Official/CTF/HearthPlains.png - Maps/CTF/HearthPlains.png
+[16:43:36] Files have the same name! (rename for safety) Maps/CTF/HearthPlains.png - Maps/Official/CTF/HearthPlains.png
+[16:43:36] Blob already loaded 'chest'. Ignoring this one - Entities/Items/Containers/Chest/Chest.cfg
+[16:43:36] Blob already loaded 'log'. Ignoring this one - Entities/Items/Log/Log.cfg
+[16:43:36] Blob already loaded 'catapult'. Ignoring this one - Entities/Vehicles/Catapult/Catapult.cfg
+[16:43:36] Blob already loaded 'ballista'. Ignoring this one - Entities/Vehicles/Ballista/Ballista.cfg
+[16:43:36] Blob already loaded 'longboat'. Ignoring this one - Entities/Vehicles/Boats/LongBoat.cfg
+[16:43:36] Blob already loaded 'dinghy'. Ignoring this one - Entities/Vehicles/Boats/Dinghy.cfg
+[16:43:36] Blob already loaded 'warboat'. Ignoring this one - Entities/Vehicles/Boats/WarBoat/WarBoat.cfg
+[16:43:36] Blob already loaded 'stone_door'. Ignoring this one - Entities/Structures/Door/StoneDoor.cfg
+[16:43:36] Blob already loaded 'trap_block'. Ignoring this one - Entities/Structures/Trap/TrapBlock.cfg
+[16:43:36] Blob already loaded 'spikes'. Ignoring this one - Entities/Structures/Spikes/Spikes.cfg
+[16:43:36] Blob already loaded 'mounted_bow'. Ignoring this one - Entities/Structures/MountedBow/MountedBow.cfg
+[16:43:36] Blob already loaded 'trampoline'. Ignoring this one - Entities/Structures/Trampoline/Trampoline.cfg
+[16:43:36] Blob already loaded 'obstructor'. Ignoring this one - Entities/Structures/Components/Load/Obstructor/Obstructor.cfg
+[16:43:36] Blob already loaded 'sensor'. Ignoring this one - Entities/Structures/Components/Source/Sensor/Sensor.cfg
+[16:43:36] Blob already loaded 'wire'. Ignoring this one - Entities/Structures/Components/Passive/Wire/Wire.cfg
+[16:43:36] Blob already loaded 'magazine'. Ignoring this one - Entities/Structures/Components/Passive/Magazine/Magazine.cfg
+[16:43:36] Blob already loaded 'egg'. Ignoring this one - Entities/Natural/Animals/Chicken/Egg.cfg
+[16:43:36] Blob already loaded 'chicken'. Ignoring this one - Entities/Natural/Animals/Chicken/Chicken.cfg
+[16:43:36] Blob already loaded 'bison'. Ignoring this one - Entities/Natural/Animals/Bison/Bison.cfg
+[16:43:36] Blob already loaded 'shark'. Ignoring this one - Entities/Natural/Animals/Shark/Shark.cfg
+[16:43:37] Blob already loaded 'vehicleshop'. Ignoring this one - Entities/Industry/CTFShops/VehicleShop/VehicleShop.cfg
+[16:43:37] Blob already loaded 'storage'. Ignoring this one - Entities/Industry/CTFShops/Storage/Storage.cfg
+[16:43:37] Blob already loaded 'knightshop'. Ignoring this one - Entities/Industry/CTFShops/KnightShop/KnightShop.cfg
+[16:43:37] Blob already loaded 'archershop'. Ignoring this one - Entities/Industry/CTFShops/ArcherShop/ArcherShop.cfg
+[16:43:37] Blob already loaded 'buildershop'. Ignoring this one - Entities/Industry/CTFShops/BuilderShop/BuilderShop.cfg
+[16:43:37] Blob already loaded 'tunnel'. Ignoring this one - Entities/Industry/Tunnel/Tunnel.cfg
+[16:43:37] Blob already loaded 'building'. Ignoring this one - Entities/Industry/Building/Building.cfg
+[16:43:37] Script: Compiling void GetButtonsFor(CBlob@ this, CBlob@ caller)
+[16:43:37] Script: 'buildSpawnMenu' is not declared
+[16:43:37]         [line 385 char 68] 		caller.CreateGenericButton("$change_class$", Vec2f(12, 7), this, buildSpawnMenu, getTranslatedString("Change class"));
+[16:43:37]         in file 'Entities/Industry/Hall/Hall.as'
+[16:43:37] Blob already loaded 'dorm'. Ignoring this one - Entities/Industry/OldBuildings/Dorm/Dorm.cfg
+[16:43:37] Blob already loaded 'drill'. Ignoring this one - Entities/Industry/Drill/Drill.cfg
+[16:43:37] Blob already loaded 'saw'. Ignoring this one - Entities/Industry/Saw/Saw.cfg
+[16:43:38] Loading rules Rules/Sandbox/gamemode.cfg
+[16:43:38] Loading game rules from Rules/Sandbox/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Loading rules Rules/Challenge/gamemode.cfg
+[16:43:38] Loading game rules from Rules/Challenge/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Loading rules Rules/Simple/gamemode.cfg
+[16:43:38] Loading game rules from Rules/Simple/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Loading rules Rules/CTF/gamemode.cfg
+[16:43:38] Loading game rules from Rules/CTF/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Loading rules Rules/SmallCTF/gamemode.cfg
+[16:43:38] Loading game rules from Rules/SmallCTF/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Loading rules Rules/WAR/gamemode.cfg
+[16:43:38] Loading game rules from Rules/WAR/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Loading rules Rules/TDM/gamemode.cfg
+[16:43:38] Loading game rules from Rules/TDM/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Initializing Game Script
+[16:43:38] ############ GAMEMODE ZFM+1.6.7f
+[16:43:38] Server created on 50301 (BUILD 3570)
+[16:43:38] Checking is server modded...
+[16:43:38] Using custom files
+[16:43:38] **** This is a modded server ****
+[16:43:38] Attempting mod verification
+[16:43:38] CModVerify::readModRegFile error: file ./../Mods/ZFM+1.6.7f//registration.json missing
+[16:43:38] Mod ./../Mods/ZFM+1.6.7f/ cannot be verified because it has no registration.json file
+[16:43:38] At least one active mod has failed verification
+[16:43:38] This is safe to ignore. If you are a modder, consider registering these mods through the API
+[16:43:38] Whitelist inactive.
+[16:43:38] Config file not found '/opt/kag-server/Security/blacklist.cfg'
+[16:43:38] Loading blacklist from Base/Security/blacklist.cfg
+[16:43:38] Loading blacklist failed - file missing or corrupt. A blank blacklist file will be generated for you.
+[16:43:38] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[16:43:38] Loading ignorelist from Base/Security/ignorelist.cfg
+[16:43:38] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[16:43:38] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[16:43:38] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[16:43:38] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[16:43:38] Config file not found '/opt/kag-server/Security/seclevs.cfg'
+[16:43:38] Loading security levels from Base/Security/seclevs.cfg
+[16:43:38] Loading default security levels
+[16:43:38] Loading game rules from ../Mods/ZFM+1.6.7f/Rules/gamemode.cfg...
+[16:43:38] Loaded team 0 'Survivors'
+[16:43:38] Loaded team 1 'Undead'
+[16:43:38] Adding map to cycle 'Maps/zf_00.png'
+[16:43:38] Adding map to cycle 'Maps/zf_01.png'
+[16:43:38] Adding map to cycle 'Maps/zf_02.png'
+[16:43:38] Adding map to cycle 'Maps/zf_03.png'
+[16:43:38] Adding map to cycle 'Maps/zf_04.png'
+[16:43:38] Adding map to cycle 'Maps/zf_05.png'
+[16:43:38] Adding map to cycle 'Maps/zf_06.png'
+[16:43:38] Adding map to cycle 'Maps/zf_07.png'
+[16:43:38] Adding map to cycle 'Maps/zf_08.png'
+[16:43:38] Adding map to cycle 'Maps/zf_09.png'
+[16:43:38] Adding map to cycle 'Maps/zf_10.png'
+[16:43:38] Adding map to cycle 'Maps/zf_11.png'
+[16:43:38] Adding map to cycle 'Maps/zf_12.png'
+[16:43:38] Adding map to cycle 'Maps/zf_13.png'
+[16:43:38] Adding map to cycle 'Maps/zf_14.png'
+[16:43:38] Adding map to cycle 'Maps/zf_15.png'
+[16:43:38] Adding map to cycle 'Maps/zf_16.png'
+[16:43:38] Adding map to cycle 'Maps/zf_17.png'
+[16:43:38] Adding map to cycle 'Maps/zf_18.png'
+[16:43:38] Adding map to cycle 'Maps/zf_19.png'
+[16:43:38] Adding map to cycle 'Maps/zf_20.png'
+[16:43:38] Adding map to cycle 'Maps/zf_21.png'
+[16:43:38] Adding map to cycle 'Maps/zf_22.png'
+[16:43:38] Adding map to cycle 'Maps/zf_23.png'
+[16:43:38] Adding map to cycle 'Maps/zf_24.png'
+[16:43:38] Adding map to cycle 'Maps/zf_25.png'
+[16:43:38] Adding map to cycle 'Maps/zf_26.png'
+[16:43:38] Adding map to cycle 'Maps/zf_27.png'
+[16:43:38] Adding map to cycle 'Maps/zf_28.png'
+[16:43:38] Adding map to cycle 'Maps/zf_29.png'
+[16:43:38] Adding map to cycle 'Maps/zf_30.png'
+[16:43:38] Adding map to cycle 'Maps/zf_31.png'
+[16:43:38] Adding map to cycle 'Maps/zf_32.png'
+[16:43:38] Adding map to cycle 'Maps/zf_33.png'
+[16:43:38] Adding map to cycle 'Maps/zf_34.png'
+[16:43:38] Adding map to cycle 'Maps/zf_35.png'
+[16:43:38] Adding map to cycle 'Maps/zf_36.png'
+[16:43:38] Adding map to cycle 'Maps/zf_37.png'
+[16:43:38] Adding map to cycle 'Maps/zf_38.png'
+[16:43:38] Adding map to cycle 'Maps/zf_39.png'
+[16:43:38] Adding map to cycle 'Maps/zf_40.png'
+[16:43:38] Adding map to cycle 'Maps/zf_41.png'
+[16:43:38] ############ GAMEMODE ZFM+1.6.7f
+[16:43:38] Adding map to cycle 'Maps/zf_00.png'
+[16:43:38] Adding map to cycle 'Maps/zf_01.png'
+[16:43:38] Adding map to cycle 'Maps/zf_02.png'
+[16:43:38] Adding map to cycle 'Maps/zf_03.png'
+[16:43:38] Adding map to cycle 'Maps/zf_04.png'
+[16:43:38] Adding map to cycle 'Maps/zf_05.png'
+[16:43:38] Adding map to cycle 'Maps/zf_06.png'
+[16:43:38] Adding map to cycle 'Maps/zf_07.png'
+[16:43:38] Adding map to cycle 'Maps/zf_08.png'
+[16:43:38] Adding map to cycle 'Maps/zf_09.png'
+[16:43:38] Adding map to cycle 'Maps/zf_10.png'
+[16:43:38] Adding map to cycle 'Maps/zf_11.png'
+[16:43:38] Adding map to cycle 'Maps/zf_12.png'
+[16:43:38] Adding map to cycle 'Maps/zf_13.png'
+[16:43:38] Adding map to cycle 'Maps/zf_14.png'
+[16:43:38] Adding map to cycle 'Maps/zf_15.png'
+[16:43:38] Adding map to cycle 'Maps/zf_16.png'
+[16:43:38] Adding map to cycle 'Maps/zf_17.png'
+[16:43:38] Adding map to cycle 'Maps/zf_18.png'
+[16:43:38] Adding map to cycle 'Maps/zf_19.png'
+[16:43:38] Adding map to cycle 'Maps/zf_20.png'
+[16:43:38] Adding map to cycle 'Maps/zf_21.png'
+[16:43:38] Adding map to cycle 'Maps/zf_22.png'
+[16:43:38] Adding map to cycle 'Maps/zf_23.png'
+[16:43:38] Adding map to cycle 'Maps/zf_24.png'
+[16:43:38] Adding map to cycle 'Maps/zf_25.png'
+[16:43:38] Adding map to cycle 'Maps/zf_26.png'
+[16:43:38] Adding map to cycle 'Maps/zf_27.png'
+[16:43:38] Adding map to cycle 'Maps/zf_28.png'
+[16:43:38] Adding map to cycle 'Maps/zf_29.png'
+[16:43:38] Adding map to cycle 'Maps/zf_30.png'
+[16:43:38] Adding map to cycle 'Maps/zf_31.png'
+[16:43:38] Adding map to cycle 'Maps/zf_32.png'
+[16:43:38] Adding map to cycle 'Maps/zf_33.png'
+[16:43:38] Adding map to cycle 'Maps/zf_34.png'
+[16:43:38] Adding map to cycle 'Maps/zf_35.png'
+[16:43:38] Adding map to cycle 'Maps/zf_36.png'
+[16:43:38] Adding map to cycle 'Maps/zf_37.png'
+[16:43:38] Adding map to cycle 'Maps/zf_38.png'
+[16:43:38] Adding map to cycle 'Maps/zf_39.png'
+[16:43:38] Adding map to cycle 'Maps/zf_40.png'
+[16:43:38] Adding map to cycle 'Maps/zf_41.png'
+[16:43:38] File not found Maps/zf_02.png, searching matches...
+[16:43:38] Best match ../Mods/ZFM+1.6.7f/Maps/zf_02.png
+[16:43:38] LOADING PNG MAP ../Mods/ZFM+1.6.7f/Maps/zf_02.png
+[16:43:38] Match not found for file /GUI/InteractionIcons.png
+[16:43:38] ############ GAMEMODE ZFM+1.6.7f
+[16:43:38] Match not found for file ArcherMale.png
+[16:43:38] Match not found for file ArcherFemale.png
+[16:43:38] Match not found for file TeamPalette.png
+[16:43:38] Match not found for file KnightMale.png
+[16:43:38] Match not found for file KnightFemale.png
+[16:43:38] Match not found for file BuilderMale.png
+[16:43:38] Match not found for file BuilderFemale.png
+[16:43:38] Match not found for file ArcherCapeMale.png
+[16:43:38] Match not found for file ArcherCapeFemale.png
+[16:43:38] Match not found for file KnightCapeMale.png
+[16:43:38] Match not found for file KnightCapeFemale.png
+[16:43:38] Match not found for file BuilderCapeMale.png
+[16:43:38] Match not found for file BuilderCapeFemale.png
+[16:43:38] Match not found for file ArcherGoldMale.png
+[16:43:38] Match not found for file ArcherGoldFemale.png
+[16:43:38] Match not found for file KnightGoldMale.png
+[16:43:38] Match not found for file KnightGoldFemale.png
+[16:43:38] Match not found for file BuilderGoldMale.png
+[16:43:38] Match not found for file BuilderGoldFemale.png
+[16:43:38] Not using shaders. Not adding hq2x
+[16:43:38] Restarting rules script: ../Mods/ZFM+1.6.7f/Rules/zombies_Rules.as
+[16:43:38] Checking any holidays...
+[16:43:38] Match not found for file pixel.png
+[16:43:42] NO PLAYERS - SERVER PAUSED (to change this behaviour set /sv_canpause 0
+[16:49:12] Checking if update available
+[16:52:37] * muriloreboucr connected (admin: 0 guard 0 gold 1 tester 0)
+[16:52:37] player tier: 0
+[16:52:49] SENDING 1102 FILES
+[16:54:42] Checking if update available
+[16:55:09] player tier: 0
+[16:55:09] * muriloreboucr connected (admin: 0 guard 0 gold 1 tester 0)
+[16:55:27] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0486111, spawnRate: 179, num_undead: 0, max_undead: 0
+[16:55:32] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0972222, spawnRate: 178, num_undead: 0, max_undead: 0
+[16:55:33] sync
+[16:55:37] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.145833, spawnRate: 177, num_undead: 0, max_undead: 0
+[16:55:41] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.194444, spawnRate: 177, num_undead: 0, max_undead: 0
+[16:55:46] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.243056, spawnRate: 176, num_undead: 0, max_undead: 0
+[16:55:51] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.291667, spawnRate: 175, num_undead: 0, max_undead: 0
+[16:55:56] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.340278, spawnRate: 174, num_undead: 0, max_undead: 0
+[16:56:01] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.388889, spawnRate: 174, num_undead: 0, max_undead: 0
+[16:56:06] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.4375, spawnRate: 173, num_undead: 0, max_undead: 0
+[16:56:11] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.486111, spawnRate: 172, num_undead: 0, max_undead: 0
+[16:56:16] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.534722, spawnRate: 171, num_undead: 0, max_undead: 0
+[16:56:21] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.583333, spawnRate: 171, num_undead: 0, max_undead: 0
+[16:56:26] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.631944, spawnRate: 170, num_undead: 0, max_undead: 0
+[16:56:31] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.680556, spawnRate: 169, num_undead: 0, max_undead: 0
+[16:56:36] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.729167, spawnRate: 169, num_undead: 0, max_undead: 0
+[16:56:41] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.777778, spawnRate: 168, num_undead: 0, max_undead: 0
+[16:56:46] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.826389, spawnRate: 167, num_undead: 0, max_undead: 0
+[16:56:51] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.875, spawnRate: 166, num_undead: 0, max_undead: 0
+[16:56:56] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.923611, spawnRate: 166, num_undead: 0, max_undead: 0
+[16:57:01] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.972222, spawnRate: 165, num_undead: 0, max_undead: 0
+[16:57:06] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.02083, spawnRate: 164, num_undead: 0, max_undead: 0
+[16:57:11] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.06944, spawnRate: 163, num_undead: 0, max_undead: 0
+[16:57:16] Day: 1, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.11806, spawnRate: 163, num_undead: 0, max_undead: 0
+[16:57:20] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.16667, spawnRate: 162, num_undead: 0, max_undead: 0
+[16:57:25] Day: 1, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.21528, spawnRate: 161, num_undead: 0, max_undead: 0
+[16:57:30] Day: 1, Zombies: 4, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.26389, spawnRate: 161, num_undead: 0, max_undead: 0
+[16:57:35] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.3125, spawnRate: 160, num_undead: 0, max_undead: 0
+[16:57:38] User muriloreboucr tried to place a tile without having correct resoruces
+[16:57:39] User muriloreboucr tried to place a tile without having correct resoruces
+[16:57:39] User muriloreboucr tried to place a tile without having correct resoruces
+[16:57:39] User muriloreboucr tried to place a tile without having correct resoruces
+[16:57:40] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.36111, spawnRate: 159, num_undead: 0, max_undead: 0
+[16:57:45] Day: 1, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.40972, spawnRate: 158, num_undead: 0, max_undead: 0
+[16:57:50] Day: 1, Zombies: 8, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.45833, spawnRate: 158, num_undead: 0, max_undead: 0
+[16:57:55] Day: 1, Zombies: 9, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.50694, spawnRate: 157, num_undead: 0, max_undead: 0
+[16:58:00] Day: 1, Zombies: 10, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.55556, spawnRate: 156, num_undead: 0, max_undead: 0
+[16:58:05] Day: 1, Zombies: 11, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.60417, spawnRate: 155, num_undead: 0, max_undead: 0
+[16:58:10] Day: 1, Zombies: 11, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.65278, spawnRate: 155, num_undead: 0, max_undead: 0
+[16:58:15] Day: 1, Zombies: 11, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.70139, spawnRate: 154, num_undead: 0, max_undead: 0
+[16:58:20] Day: 2, Zombies: 11, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.75, spawnRate: 153, num_undead: 0, max_undead: 0
+[16:58:25] Day: 2, Zombies: 11, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.79861, spawnRate: 153, num_undead: 0, max_undead: 0
+[16:58:30] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.84722, spawnRate: 152, num_undead: 0, max_undead: 0
+[16:58:35] Day: 2, Zombies: 6, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 1.89583, spawnRate: 151, num_undead: 0, max_undead: 0
+[16:58:40] Day: 2, Zombies: 5, Portal Zombies: 1, Migrants: 1, zombdiff: 2.5, difficulty: 1.94444, spawnRate: 150, num_undead: 0, max_undead: 0
+[16:58:45] Day: 2, Zombies: 3, Portal Zombies: 1, Migrants: 0, zombdiff: 2.5, difficulty: 1.99306, spawnRate: 150, num_undead: 0, max_undead: 0
+[16:58:50] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 2.5, difficulty: 2.04167, spawnRate: 149, num_undead: 0, max_undead: 0
+[16:58:55] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 2.5, difficulty: 2.09028, spawnRate: 148, num_undead: 0, max_undead: 0
+[16:58:59] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.13889, spawnRate: 147, num_undead: 0, max_undead: 0
+[16:59:04] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.1875, spawnRate: 147, num_undead: 0, max_undead: 0
+[16:59:09] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.23611, spawnRate: 146, num_undead: 0, max_undead: 0
+[16:59:14] User muriloreboucr tried to place a tile without having correct resoruces
+[16:59:14] User muriloreboucr tried to place a tile without having correct resoruces
+[16:59:14] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.28472, spawnRate: 145, num_undead: 0, max_undead: 0
+[16:59:15] User muriloreboucr tried to place a tile without having correct resoruces
+[16:59:15] User muriloreboucr tried to place a tile without having correct resoruces
+[16:59:19] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.33333, spawnRate: 145, num_undead: 0, max_undead: 0
+[16:59:24] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.38194, spawnRate: 144, num_undead: 0, max_undead: 0
+[16:59:29] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.43056, spawnRate: 143, num_undead: 0, max_undead: 0
+[16:59:34] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.47917, spawnRate: 142, num_undead: 0, max_undead: 0
+[16:59:39] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[16:59:44] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[16:59:49] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[16:59:54] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[16:59:59] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[17:00:04] Day: 2, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[17:00:09] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0

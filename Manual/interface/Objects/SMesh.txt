@@ -1,0 +1,17 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'SMesh' --
+
+<constructor>()
+void SetVertex(const Vertex[]&in vertexs)
+void SetIndices(const uint16[]&in indices)
+void SetMaterial(SMaterial@ material)
+SMaterial@ GetMaterial()
+void LoadObjIntoMesh(const string&in location)
+void RenderMeshWithMaterial()
+void RenderMesh()
+void BuildMesh()
+void Clear()
+void DropMesh()
+void DropMeshBuffer()
+void SetDirty(Buffer buffer)
+void SetHardwareMapping(Map type)

@@ -1,0 +1,6 @@
+name = Premium
+users =
+roles = premium;
+commands = help; login;
+features = map_vote; mark_player; spectator; name_mouseover_spectator;
+assign = 

@@ -1,0 +1,32 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'APIServer' --
+
+bool gold
+bool password
+bool DNCycle
+bool connectable
+bool usingMods
+bool modsVerified
+string serverName
+string description
+string lastUpdate
+string firstSeen
+uint16 maxPlayers
+uint16 currentPlayers
+int16 ping
+string gameMode
+uint16 build
+uint16 serverPort
+string serverAddress
+string serverIPv4Address
+int reservedPlayers
+int spectatorPlayers
+int maxSpectatorPlayers
+uint16 mapW
+uint16 mapH
+uint16 gameState
+uint16 DNState
+
+void loadMinimap()
+void drawMinimap(Vec2f pos, Vec2f framePos, Vec2f dim, float scale)
+Vec2f getMinimapDim()

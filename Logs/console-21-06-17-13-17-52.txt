@@ -1,0 +1,246 @@
+[13:17:52] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[13:17:52] Loading ignorelist from Base/Security/ignorelist.cfg
+[13:17:52] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[13:17:52] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[13:17:52] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[13:17:52] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[13:17:52] Loading mod: Zombies_v1.071
+[13:17:52] Creating video device...
+[13:17:52] Checking driver support...
+[13:17:52] Initializing new video device...
+[13:17:52] Irrlicht Engine version 1.8.0-alpha
+[13:17:52] Precaching files...
+[13:17:52] Precaching files end.
+[13:17:52] Warning: control keys overlap!
+[13:17:52] Controls loaded from ../Cache/player1.dat
+[13:17:52] Warning: control keys overlap!
+[13:17:52] Controls loaded from ../Cache/player2.dat
+[13:17:52] Warning: control keys overlap!
+[13:17:52] Controls loaded from ../Cache/player3.dat
+[13:17:52] Warning: control keys overlap!
+[13:17:52] Controls loaded from ../Cache/player4.dat
+[13:17:52] Preloading all...
+[13:17:54] Match not found for file /materialsfromtiles.as
+[13:17:54] Script error: cannot find file : 
+[13:17:54] Match not found for file /woodfromlogs.as
+[13:17:54] Script error: cannot find file : 
+[13:17:54] Match not found for file MakeMat.as
+[13:17:54] Script: Compiling float onHit(CBlob@ this, Vec2f worldPoint, Vec2f velocity, float damage, CBlob@ hitterBlob, uint8 customData)
+[13:17:54] Script: No matching signatures to 'MakeMat(CBlob@&, Vec2f, const string, float)'
+[13:17:54]         [line 27 char 28] 		if (getNet().isServer()) MakeMat( this, hitterBlob.getPosition(), "mat_gold", 4 * damage );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Structures/GoldBrick/GoldBrick.as'
+[13:17:54] Script: Compiling void onInit(CBrain@ this)
+[13:17:54] Script: Illegal operation on 'Vec2f'
+[13:17:54]         [line 53 char 2] 	terpos += blob.getRadius();
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Natural/Animals/Scripts/ZombieBrain.as'
+[13:17:54] Script: Compiling void onInit(CBlob@ this)
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 30 char 84] 		ShopItem@ s = addShopItem( this, "Builder Shop", "$buildershop$", "buildershop", descriptions[54] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 30 char 17] 		ShopItem@ s = addShopItem( this, "Builder Shop", "$buildershop$", "buildershop", descriptions[54] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 34 char 74] 		ShopItem@ s = addShopItem( this, "Quarters", "$quarters$", "quarters", descriptions[59] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 34 char 17] 		ShopItem@ s = addShopItem( this, "Quarters", "$quarters$", "quarters", descriptions[59] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 38 char 81] 		ShopItem@ s = addShopItem( this, "Knight Shop", "$knightshop$", "knightshop", descriptions[55] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 38 char 17] 		ShopItem@ s = addShopItem( this, "Knight Shop", "$knightshop$", "knightshop", descriptions[55] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 42 char 81] 		ShopItem@ s = addShopItem( this, "Archer Shop", "$archershop$", "archershop", descriptions[56] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 42 char 17] 		ShopItem@ s = addShopItem( this, "Archer Shop", "$archershop$", "archershop", descriptions[56] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 46 char 75] 		ShopItem@ s = addShopItem( this, "Boat Shop", "$boatshop$", "boatshop", descriptions[58] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 46 char 17] 		ShopItem@ s = addShopItem( this, "Boat Shop", "$boatshop$", "boatshop", descriptions[58] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 51 char 84] 		ShopItem@ s = addShopItem( this, "Vehicle Shop", "$vehicleshop$", "vehicleshop", descriptions[57] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 51 char 17] 		ShopItem@ s = addShopItem( this, "Vehicle Shop", "$vehicleshop$", "vehicleshop", descriptions[57] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 56 char 78] 		ShopItem@ s = addShopItem( this, "Transport Tunnel", "$tunnel$", "tunnel", descriptions[34] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 56 char 17] 		ShopItem@ s = addShopItem( this, "Transport Tunnel", "$tunnel$", "tunnel", descriptions[34] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 61 char 71] 		ShopItem@ s = addShopItem( this, "Storage", "$storage$", "storage", descriptions[42] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 61 char 17] 		ShopItem@ s = addShopItem( this, "Storage", "$storage$", "storage", descriptions[42] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 65 char 71] 		ShopItem@ s = addShopItem( this, "Nursery", "$nursery$", "nursery", descriptions[40] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 65 char 17] 		ShopItem@ s = addShopItem( this, "Nursery", "$nursery$", "nursery", descriptions[40] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: 'descriptions' is not declared
+[13:17:54]         [line 73 char 62] 		ShopItem@ s = addShopItem( this, "Dorm", "$dorm$", "dorm", descriptions[48] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:54] Script: Can't implicitly convert from 'const int' to 'ShopItem@&'.
+[13:17:54]         [line 73 char 17] 		ShopItem@ s = addShopItem( this, "Dorm", "$dorm$", "dorm", descriptions[48] );
+[13:17:54]         in file '../Mods/Zombies_v1.071/Entities/Industry/Building/Building.as'
+[13:17:55] Loading rules ./../Mods/Zombies_v1.071//Rules/Zombies_v1.071/gamemode.cfg
+[13:17:55] warning: attempted to match illegal relative path "./../Mods/Zombies_v1.071//Rules/Zombies_v1.071/gamemode.cfg" - just searching for filename matches for "/gamemode.cfg" - out of date mod?
+[13:17:55] Loading game rules from ./../Mods/Zombies_v1.071//Rules/Zombies_v1.071/gamemode.cfg...
+[13:17:55] Loaded team 0 'Blue Team'
+[13:17:56] Blob already loaded 'knight'. Ignoring this one - Entities/Characters/Knight/Knight.cfg
+[13:17:56] Blob already loaded 'builder'. Ignoring this one - Entities/Characters/Builder/Builder.cfg
+[13:17:56] Blob already loaded 'necromancer'. Ignoring this one - Entities/Characters/Necromancer/Necromancer.cfg
+[13:17:56] Blob already loaded 'orb'. Ignoring this one - Entities/Characters/Necromancer/MagicOrb.cfg
+[13:17:56] Blob already loaded 'archer'. Ignoring this one - Entities/Characters/Archer/Archer.cfg
+[13:17:56] Files have the same name! (rename for safety) Maps/Official/CTF/JTG_NewGetisburgMines.png - Maps/CTF/Dormant/JTG_NewGetisburgMines.png
+[13:17:56] Files have the same name! (rename for safety) Maps/CTF/Dormant/JTG_NewGetisburgMines.png - Maps/Official/CTF/JTG_NewGetisburgMines.png
+[13:17:56] Files have the same name! (rename for safety) Maps/Official/CTF/HearthPlains.png - Maps/CTF/HearthPlains.png
+[13:17:56] Files have the same name! (rename for safety) Maps/CTF/HearthPlains.png - Maps/Official/CTF/HearthPlains.png
+[13:17:57] Blob already loaded 'trap_block'. Ignoring this one - Entities/Structures/Trap/TrapBlock.cfg
+[13:17:59] Blob already loaded 'building'. Ignoring this one - Entities/Industry/Building/Building.cfg
+[13:17:59] Blob already loaded 'nursery'. Ignoring this one - Entities/Industry/OldBuildings/Nursery/Nursery.cfg
+[13:17:59] Blob already loaded 'saw'. Ignoring this one - Entities/Industry/Saw/Saw.cfg
+[13:17:59] Loading rules Rules/Sandbox/gamemode.cfg
+[13:17:59] Loading game rules from Rules/Sandbox/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Loading rules Rules/Challenge/gamemode.cfg
+[13:17:59] Loading game rules from Rules/Challenge/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Loading rules Rules/Simple/gamemode.cfg
+[13:17:59] Loading game rules from Rules/Simple/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Loading rules Rules/CTF/gamemode.cfg
+[13:17:59] Loading game rules from Rules/CTF/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Loading rules Rules/SmallCTF/gamemode.cfg
+[13:17:59] Loading game rules from Rules/SmallCTF/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Loading rules Rules/WAR/gamemode.cfg
+[13:17:59] Loading game rules from Rules/WAR/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Loading rules Rules/TDM/gamemode.cfg
+[13:17:59] Loading game rules from Rules/TDM/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Script filename was blank for matched script''.
+[13:17:59] Initializing Game Script
+[13:17:59] ############ GAMEMODE Zombies_v1.071
+[13:17:59] Server created on 50301 (BUILD 3570)
+[13:17:59] Checking is server modded...
+[13:17:59] Using custom files
+[13:17:59] **** This is a modded server ****
+[13:17:59] Attempting mod verification
+[13:17:59] CModVerify::readModRegFile error: file ./../Mods/Zombies_v1.071//registration.json missing
+[13:17:59] Mod ./../Mods/Zombies_v1.071/ cannot be verified because it has no registration.json file
+[13:17:59] At least one active mod has failed verification
+[13:17:59] This is safe to ignore. If you are a modder, consider registering these mods through the API
+[13:17:59] Whitelist inactive.
+[13:17:59] Config file not found '/opt/kag-server/Security/blacklist.cfg'
+[13:17:59] Loading blacklist from Base/Security/blacklist.cfg
+[13:17:59] Loading blacklist failed - file missing or corrupt. A blank blacklist file will be generated for you.
+[13:17:59] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[13:17:59] Loading ignorelist from Base/Security/ignorelist.cfg
+[13:17:59] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[13:17:59] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[13:17:59] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[13:17:59] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[13:17:59] Config file not found '/opt/kag-server/Security/seclevs.cfg'
+[13:17:59] Loading security levels from Base/Security/seclevs.cfg
+[13:17:59] Loading default security levels
+[13:17:59] Loading game rules from ../Mods/Zombies_v1.071/Rules/Zombies_v1.071/gamemode.cfg...
+[13:17:59] Loaded team 0 'Blue Team'
+[13:17:59] Adding map to cycle 'Maps/test.cfg'
+[13:17:59] ############ GAMEMODE Zombies_v1.071
+[13:17:59] Adding map to cycle 'Maps/test.cfg'
+[13:17:59] File not found Maps/test.cfg, searching matches...
+[13:17:59] Best match ../Mods/Zombies_v1.071/Maps/test.cfg
+[13:17:59] GENERATING KAGGen MAP ../Mods/Zombies_v1.071/Maps/test.cfg
+[13:17:59] ### Setting Zombies Scrolls
+[13:17:59] Tech Stuff spawning: true
+[13:17:59] Scrolls spawning: true
+[13:17:59] ############ GAMEMODE Zombies_v1.071
+[13:17:59] Match not found for file ArcherMale.png
+[13:17:59] Match not found for file ArcherFemale.png
+[13:17:59] Match not found for file TeamPalette.png
+[13:17:59] Match not found for file KnightMale.png
+[13:17:59] Match not found for file KnightFemale.png
+[13:17:59] Match not found for file BuilderMale.png
+[13:17:59] Match not found for file BuilderFemale.png
+[13:17:59] Match not found for file ArcherCapeMale.png
+[13:17:59] Match not found for file ArcherCapeFemale.png
+[13:17:59] Match not found for file KnightCapeMale.png
+[13:17:59] Match not found for file KnightCapeFemale.png
+[13:17:59] Match not found for file BuilderCapeMale.png
+[13:17:59] Match not found for file BuilderCapeFemale.png
+[13:17:59] Match not found for file ArcherGoldMale.png
+[13:17:59] Match not found for file ArcherGoldFemale.png
+[13:17:59] Match not found for file KnightGoldMale.png
+[13:17:59] Match not found for file KnightGoldFemale.png
+[13:17:59] Match not found for file BuilderGoldMale.png
+[13:17:59] Match not found for file BuilderGoldFemale.png
+[13:17:59] Not using shaders. Not adding hq2x
+[13:17:59] Restarting rules script: ../Mods/Zombies_v1.071/Rules/Zombies_v1.071/Scripts/zombies_Rules.as
+[13:17:59] GS SERVER: true
+[13:17:59] ### Setting Zombies Scrolls
+[13:18:00] ############ GAMEMODE Zombies_v1.071
+[13:18:00] Not using shaders. Not adding hq2x
+[13:18:03] NO PLAYERS - SERVER PAUSED (to change this behaviour set /sv_canpause 0
+[13:23:33] Checking if update available
+[13:28:14] player tier: 0
+[13:28:14] * revolt620 connected (admin: 0 guard 0 gold 1 tester 0)
+[13:28:15] SENDING 149 FILES
+[13:28:23] player tier: 0
+[13:28:23] * revolt620 connected (admin: 0 guard 0 gold 1 tester 0)
+[13:28:33] sync
+[13:28:33] ADD SPAWN FOR revolt620Spawn Delay: 0
+[13:28:33] team0
+[13:28:33] Script error: cannot find file : 
+[13:28:33] Script error: cannot find file : 
+[13:28:34] ADD SPAWN FOR revolt620Spawn Delay: 0
+[13:28:34] Script error: cannot find file : 
+[13:28:34] Script error: cannot find file : 
+[13:28:36] Zombies: 0 Extra: 0
+[13:28:46] Zombies: 0 Extra: 0
+[13:28:55] Zombies: 0 Extra: 0
+[13:28:55] TE:901
+[13:29:05] Zombies: 0 Extra: 0
+[13:29:05] ED:0 TC:1
+[13:29:15] Zombies: 0 Extra: 0
+[13:29:15] ED:0 TC:1
+[13:29:25] Zombies: 0 Extra: 0
+[13:29:25] ED:0 TC:1
+[13:29:30] Player revolt620 left the game (players left 0)
+[13:29:30] NO PLAYERS - SERVER PAUSED (to change this behaviour set /sv_canpause 0
+[13:29:30] Checking if update available
+[13:35:00] Checking if update available
+[13:37:46] player tier: 0
+[13:37:46] * SirEarendil connected (admin: 0 guard 0 gold 1 tester 0)
+[13:37:46] SENDING 149 FILES
+[13:37:49] player tier: 0
+[13:37:49] * SirEarendil connected (admin: 0 guard 0 gold 1 tester 0)
+[13:37:53] sync
+[13:37:53] ADD SPAWN FOR SirEarendilSpawn Delay: 0
+[13:37:54] team0
+[13:37:54] Script error: cannot find file : 
+[13:37:54] Script error: cannot find file : 
+[13:37:54] ADD SPAWN FOR SirEarendilSpawn Delay: 0
+[13:37:54] Script error: cannot find file : 
+[13:37:54] Script error: cannot find file : 
+[13:37:56] Zombies: 0 Extra: 0
+[13:37:56] ED:0 TC:1
+[13:38:06] Zombies: 0 Extra: 0
+[13:38:06] ED:0 TC:1
+[13:38:16] Zombies: 0 Extra: 0
+[13:38:16] ED:0 TC:1
+[13:38:26] Zombies: 0 Extra: 0
+[13:38:26] ED:0 TC:1

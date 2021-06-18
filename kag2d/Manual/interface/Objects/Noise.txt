@@ -1,0 +1,9 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'Noise' --
+
+<constructor>()
+<constructor>(uint)
+float Sample(float x, float y)
+float Sample(const Vec2f&in pos)
+float Fractal(float x, float y)
+float Fractal(const Vec2f&in pos)

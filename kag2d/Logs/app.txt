@@ -1,0 +1,431 @@
+Engine
+File not found startup_config.cfg - creating...
+
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+Saving precached files.
+Engine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txt
+DEBUG: version_file version_file 1611585904-2625-aa2851546333 1611585904-2625-aa2851546333
+
+APP: downloading file http://update.kag2d.com/1/linux32-dedicated-release/App//version.txtEngine
+Downloading checksums from http://update.kag2d.com/1/linux32-dedicated-release/App/version.txt
+
+Removing unused/moved files in ./Base
+
+Version file the same (key matches)
+
+Using file '/opt/kag-server/libJuxta_dedi.so'
+APP GameDLLInit
+
+Game DLL initialized.
+Changing game working directory to '/opt/kag-server/Base/'
+Gathering all files from Base...
+Running autostart script configure from Scripts/server_autostart.as
+Precaching files.
+Game version 3570
+Saving precached files.

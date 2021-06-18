@@ -1,0 +1,9 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CSeclev' --
+
+void saveSeclev()
+int print()
+string getName()
+int getSeclevID()
+void addUser(const string username)
+void removeUser(const string username)

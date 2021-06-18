@@ -1,0 +1,16 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'APIPlayer' --
+
+string username
+bool banned
+bool active
+bool gold_kag
+bool gold_storm
+bool gold_trenchrun
+bool termsAccepted
+uint registrationTime
+string banReason
+string banExpiration
+int16 role
+int16 supportTier
+

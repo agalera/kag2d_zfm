@@ -1,0 +1,18 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'Animation' --
+
+uint16 time
+bool loop
+uint16 frame
+uint16 timer
+bool backward
+string name
+
+bool ended()
+int getFramesCount()
+void AddFrame(uint16 frame)
+void RemoveFrame(int index)
+void SetFrameIndex(int index)
+uint16 getFrame(int index)
+void setFrameFromRatio(float ratio)
+void AddFrames(int[]&in frames)

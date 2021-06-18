@@ -1,0 +1,9 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'HitInfo' --
+
+CBlob@ blob
+uint16 tile
+uint tileOffset
+Vec2f hitpos
+float distance
+

@@ -1,0 +1,16 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CGridButton' --
+
+bool deleteAfterClick
+string hoverText
+bool selectOnClick
+bool selectOneOnClick
+bool clickable
+SColor captionColor
+
+void SetHoverText(const string&in)
+void SetSelected(int selType)
+void SetNumber(int)
+int getNumber()
+void SetEnabled(bool)
+bool isEnabled()

@@ -1,0 +1,35 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CGridMenu' --
+
+bool deleteAfterClick
+bool modal
+bool kill
+
+CBlob@ getOwner()
+string getName()
+int getButtonsCount()
+CGridButton@ getButtonOfIndex(int index)
+CGridButton@ AddButton(CGridButton@ button)
+CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID)
+CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID, CBitStream&in parameters)
+CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID, Vec2f slotsDim)
+CGridButton@ AddButton(const string&in iconTexture, int frame, const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+CGridButton@ AddButton(const string&in iconTexture, int frame, Vec2f frameDimension, const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID)
+CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID, CBitStream&in parameters)
+CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID, Vec2f slotsDim)
+CGridButton@ AddButton(const string&in iconName, const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+CGridButton@ AddButton(const string&in iconName, const string&in caption, Vec2f slotsDim)
+CGridButton@ AddTextButton(const string&in caption, Vec2f slotsDim)
+CGridButton@ AddTextButton(const string&in caption, uint8 cmdID, Vec2f slotsDim, CBitStream&in parameters)
+CGridButton@ AddItemButton(CBlob@ blob, uint8 cmdID)
+CGridButton@ AddItemButton(CBlob@ blob, uint8 cmdID, CBitStream&in parameters)
+CGridButton@ AddEmptyButton()
+void FillUpRow()
+bool RemoveButton(CGridButton@ button)
+bool DeleteButton(CGridButton@ button)
+Vec2f getUpperLeftPosition()
+Vec2f getLowerRightPosition()
+void SetDefaultCommand(uint8 cmd, CBitStream&in parameters)
+void SetCaptionEnabled(bool enabled)
+void AddKeyCommand(EKEY_CODE key, uint8 cmdID, CBitStream&in parameters)

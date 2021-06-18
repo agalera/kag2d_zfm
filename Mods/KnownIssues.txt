@@ -1,0 +1,18 @@
+This file contains known but unlikely to be fixed issues with the modding system.
+We'll include workarounds where possible.
+---------------------------------------------------------
+- soft file matcher doesn't work on files in Mods/ eg. PlaySound("WaterSplash")
+	workaround: use the full path to the file
+
+- scripts not in .cfg files will not be synced (added only with AddScript)
+	workaround: include all the scripts and remove the ones you dont want, or 
+				have a "dummy" config file that includes all the missing scripts.
+
+- ConfigFile cfg("somefile") - doesn't use the filematcher
+	workaround: use cfg.loadFile("somefile") instead
+
+- files included with #include "filename" dont work from mods, it uses the
+	one in base/ preferentially.
+	workaround: include mods for the files that are supposed to be using a new
+				include, and change the name of the included file to something
+				that's not in base (like filename_modded or filename_yourmodname)

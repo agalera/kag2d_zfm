@@ -1,0 +1,6 @@
+name = VIP
+users =
+roles =
+commands = help; login;
+features = freeze_immunity; join_reserved; map_vote; mark_any_team; mark_player; pingkick_immunity; skip_votewait; spectator; name_mouseover_spectator;
+assign = 

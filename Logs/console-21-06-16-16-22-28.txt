@@ -1,0 +1,337 @@
+[16:22:28] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[16:22:28] Loading ignorelist from Base/Security/ignorelist.cfg
+[16:22:28] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[16:22:28] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[16:22:28] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[16:22:28] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[16:22:28] Creating video device...
+[16:22:28] Checking driver support...
+[16:22:28] Initializing new video device...
+[16:22:28] Irrlicht Engine version 1.8.0-alpha
+[16:22:28] Precaching files...
+[16:22:28] Precaching files end.
+[16:22:28] Warning: control keys overlap!
+[16:22:28] Controls loaded from ../Cache/player1.dat
+[16:22:28] Warning: control keys overlap!
+[16:22:28] Controls loaded from ../Cache/player2.dat
+[16:22:28] Warning: control keys overlap!
+[16:22:28] Controls loaded from ../Cache/player3.dat
+[16:22:28] Warning: control keys overlap!
+[16:22:28] Controls loaded from ../Cache/player4.dat
+[16:22:28] Preloading all...
+[16:22:30] Files have the same name! (rename for safety) Maps/Official/CTF/JTG_NewGetisburgMines.png - Maps/CTF/Dormant/JTG_NewGetisburgMines.png
+[16:22:30] Files have the same name! (rename for safety) Maps/CTF/Dormant/JTG_NewGetisburgMines.png - Maps/Official/CTF/JTG_NewGetisburgMines.png
+[16:22:31] Files have the same name! (rename for safety) Maps/Official/CTF/HearthPlains.png - Maps/CTF/HearthPlains.png
+[16:22:31] Files have the same name! (rename for safety) Maps/CTF/HearthPlains.png - Maps/Official/CTF/HearthPlains.png
+[16:22:34] Loading rules Rules/Sandbox/gamemode.cfg
+[16:22:34] Loading game rules from Rules/Sandbox/gamemode.cfg...
+[16:22:34] Loaded team 0 'Blue Team'
+[16:22:35] Loading rules Rules/Challenge/gamemode.cfg
+[16:22:35] Loading game rules from Rules/Challenge/gamemode.cfg...
+[16:22:35] Loaded team 0 'Blue Team'
+[16:22:35] Loaded team 1 'Red Team'
+[16:22:35] Loading rules Rules/Simple/gamemode.cfg
+[16:22:35] Loading game rules from Rules/Simple/gamemode.cfg...
+[16:22:35] Loaded team 0 'Blue Team'
+[16:22:35] Loaded team 1 'Red Team'
+[16:22:35] Loading rules Rules/CTF/gamemode.cfg
+[16:22:35] Loading game rules from Rules/CTF/gamemode.cfg...
+[16:22:35] Loaded team 0 'Blue Team'
+[16:22:35] Loaded team 1 'Red Team'
+[16:22:35] Loading rules Rules/SmallCTF/gamemode.cfg
+[16:22:35] Loading game rules from Rules/SmallCTF/gamemode.cfg...
+[16:22:35] Loaded team 0 'Blue Team'
+[16:22:35] Loaded team 1 'Red Team'
+[16:22:35] Loading rules Rules/WAR/gamemode.cfg
+[16:22:35] Loading game rules from Rules/WAR/gamemode.cfg...
+[16:22:35] Loaded team 0 'Blue Team'
+[16:22:35] Loaded team 1 'Red Team'
+[16:22:35] Loading rules Rules/TDM/gamemode.cfg
+[16:22:35] Loading game rules from Rules/TDM/gamemode.cfg...
+[16:22:35] Loaded team 0 'Blue Team'
+[16:22:35] Loaded team 1 'Red Team'
+[16:22:36] Initializing Game Script
+[16:22:36] ############ GAMEMODE ZFM+1.6.7f
+[16:22:36] Server created on 50301 (BUILD 3570)
+[16:22:36] Checking is server modded...
+[16:22:36] Whitelist inactive.
+[16:22:36] Config file not found '/opt/kag-server/Security/blacklist.cfg'
+[16:22:36] Loading blacklist from Base/Security/blacklist.cfg
+[16:22:36] Loading blacklist failed - file missing or corrupt. A blank blacklist file will be generated for you.
+[16:22:36] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[16:22:36] Loading ignorelist from Base/Security/ignorelist.cfg
+[16:22:36] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[16:22:36] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[16:22:36] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[16:22:36] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[16:22:36] Config file not found '/opt/kag-server/Security/seclevs.cfg'
+[16:22:36] Loading security levels from Base/Security/seclevs.cfg
+[16:22:36] Loading default security levels
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Simple/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/gamemode.cfg - Rules/Sandbox/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/TDM/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/WAR/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/SmallCTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/CTF/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/Simple/gamemode.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/gamemode.cfg - Rules/Challenge/gamemode.cfg
+[16:22:36] Loading game rules from Rules/ZFM+1.6.7f/gamemode.cfg...
+[16:22:36] Loaded team 0 'Blue Team'
+[16:22:36] Loaded team 1 'Red Team'
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/TDM/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/WAR/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/SmallCTF/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/CTF/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Challenge/mapcycle.cfg - Rules/Sandbox/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/TDM/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/WAR/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/SmallCTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/CTF/mapcycle.cfg
+[16:22:36] Files have the same name! (rename for safety) Rules/Sandbox/mapcycle.cfg - Rules/Challenge/mapcycle.cfg
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/HeraldsMarshes.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/CrampedCastle.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/TheCauldron.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Amarok_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ommadawn_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/SkyfortHiggins.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FilthPit.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Cloister.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Labyrinth.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Vault.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/RumbleGround.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/RoyalTomb.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/ForgottenHero.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/BorgRuins.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/RattleCage.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/LonelyTreasure.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/GamblersDen.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/CraggyOutlook.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FortMercury_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/LavalordTDM1.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/LavalordTDM2.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/GurinTDM3.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Retroactive_Interference.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Black_Dog.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Abrupt_Ending.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Death_Penalty.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ni_Watery.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ni_TrainingGround_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ni_Ashes.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ferrezinhre_Reaver.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ferrezinhre_Still_Free.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ferrezinhre_Wish.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Virgo.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Dirtkissing.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Cascade1.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Mandala.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_TDM1.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_TDM2.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Stringer_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FG_Clash.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FG_Bunker_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/super_gaming_geek_Trilevel.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/super_gaming_geek_Nook.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/super_gaming_geek_ChokePoint.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/HomekBunnie_StrusBorzy.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/SzczurWodny.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Yeti5000_Upsurge_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/HeraldsMarshes.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/CrampedCastle.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/TheCauldron.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Amarok_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ommadawn_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/SkyfortHiggins.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FilthPit.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Cloister.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Labyrinth.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Vault.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/RumbleGround.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/RoyalTomb.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/ForgottenHero.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/BorgRuins.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/RattleCage.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/LonelyTreasure.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/GamblersDen.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/CraggyOutlook.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FortMercury_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/LavalordTDM1.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/LavalordTDM2.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/GurinTDM3.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Retroactive_Interference.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Black_Dog.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Abrupt_Ending.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Biurza_Death_Penalty.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ni_Watery.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ni_TrainingGround_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ni_Ashes.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ferrezinhre_Reaver.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ferrezinhre_Still_Free.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Ferrezinhre_Wish.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Virgo.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Dirtkissing.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Cascade1.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Mandala.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_TDM1.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_TDM2.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/8x_Stringer_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FG_Clash.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/FG_Bunker_Revised.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/super_gaming_geek_Trilevel.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/super_gaming_geek_Nook.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/super_gaming_geek_ChokePoint.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/HomekBunnie_StrusBorzy.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/SzczurWodny.png'
+[16:22:36] Adding map to cycle 'Maps/Official/TDM/Yeti5000_Upsurge_Revised.png'
+[16:22:36] LOADING PNG MAP Maps/Official/TDM/RattleCage.png
+[16:22:36] ############ GAMEMODE ZFM+1.6.7f
+[16:22:36] Match not found for file ArcherMale.png
+[16:22:36] Match not found for file ArcherFemale.png
+[16:22:36] Match not found for file TeamPalette.png
+[16:22:36] Match not found for file KnightMale.png
+[16:22:36] Match not found for file KnightFemale.png
+[16:22:36] Match not found for file BuilderMale.png
+[16:22:36] Match not found for file BuilderFemale.png
+[16:22:36] Match not found for file ArcherCapeMale.png
+[16:22:36] Match not found for file ArcherCapeFemale.png
+[16:22:36] Match not found for file KnightCapeMale.png
+[16:22:36] Match not found for file KnightCapeFemale.png
+[16:22:36] Match not found for file BuilderCapeMale.png
+[16:22:36] Match not found for file BuilderCapeFemale.png
+[16:22:36] Match not found for file ArcherGoldMale.png
+[16:22:36] Match not found for file ArcherGoldFemale.png
+[16:22:36] Match not found for file KnightGoldMale.png
+[16:22:36] Match not found for file KnightGoldFemale.png
+[16:22:36] Match not found for file BuilderGoldMale.png
+[16:22:36] Match not found for file BuilderGoldFemale.png
+[16:22:36] Not using shaders. Not adding hq2x
+[16:22:36] Restarting rules script: Rules/TDM/Scripts/TDM.as
+[16:22:36] Match not found for file /GUI/InteractionIcons.png
+[16:22:36] Checking any holidays...
+[16:22:36] Match not found for file pixel.png
+[16:24:06] Closing console device: Signal 2 received

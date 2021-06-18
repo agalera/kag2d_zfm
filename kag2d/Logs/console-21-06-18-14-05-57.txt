@@ -1,0 +1,9 @@
+[14:05:57] Loading ignorelist from Base/Security/ignorelist.cfg
+[14:05:57] Ignorelist empty.
+[14:05:57] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[14:05:57] HideNamelist empty.
+[14:05:57] Loading mod: ZFM+1.6.7f
+[14:05:58] Creating video device...
+[14:05:58] Checking driver support...
+[14:05:58] Initializing new video device...
+[14:05:58] Irrlicht Engine version 1.8.0-alpha

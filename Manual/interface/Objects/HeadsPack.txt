@@ -1,0 +1,10 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'HeadsPack' --
+
+const string name
+const string display_name
+const string filename
+const int count
+const int required_tier
+const int steam_dlcnumber
+

@@ -1,0 +1,16 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'Tile' --
+
+uint16 type
+uint8 support
+uint8 dirt
+uint8 light
+uint16 flags
+uint8 damage
+uint16 blobid1
+uint16 blobid2
+uint16 backblobid1
+uint16 backblobid2
+
+<constructor>()
+Tile& opAssign(const Tile&in)

@@ -1,0 +1,12 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CFileMatcher' --
+
+<constructor>(const string&in)
+string search(const string&in)
+string getFirst()
+string getCurrent()
+string getRandom()
+bool iterating()
+bool reset()
+void printMatches()
+bool hasMatch()

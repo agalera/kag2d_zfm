@@ -1,0 +1,22 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CHUD' --
+
+bool scrollOut
+bool disableButtonsForATick
+int menuState
+
+void SetDefaultCursor()
+void SetCursorImage(const string&in textureFilename, Vec2f frameDimension)
+void SetCursorImage(const string&in textureFilename)
+void SetCursorFrame(int frame)
+int getCursorFrame()
+void SetCursorColor(SColor color)
+void HideCursor()
+void ShowCursor()
+bool hasCursor()
+void SetCursorOffset(Vec2f offset)
+bool hasMenus()
+bool hasButtons()
+void ClearMenus()
+void ClearMenus(bool killmodal)
+CButton@ getButtonWithCommandID(uint8 cmd)

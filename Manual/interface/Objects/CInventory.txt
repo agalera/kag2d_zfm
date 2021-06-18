@@ -1,0 +1,25 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CInventory' --
+
+bool doTickScripts
+
+CBlob@ getBlob()
+void server_SetActive(bool active)
+bool RemoveScript(const string&in fileName)
+bool AddScript(const string&in fileName)
+bool hasScript(const string&in fileName)
+string getMenuName()
+CGridMenu@ getGridMenu()
+int getItemsCount()
+CBlob@ getItem(int index)
+CBlob@ getItem(const string&in)
+bool canPutItem(CBlob@ blob)
+bool isFull()
+int server_RemoveItems(const string&in blobName, int quantity)
+int getCount(const string&in name)
+bool isInInventory(CBlob@ blob)
+bool isInInventory(const string&in, int)
+bool server_MoveInventoryTo(CInventory@ inventory)
+void RemoveAll()
+Vec2f getInventorySlots()
+ScriptData@ getCurrentScript()

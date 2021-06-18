@@ -1,0 +1,16 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CMixer' --
+
+void ResetMixer()
+bool AddTrack(const string&in filename, uint tag)
+void StopAll()
+void FadeOutAll(float toVolume, float seconds)
+bool PlayRandom(uint tag)
+bool FadeInRandom(uint tag, float fadeInSeconds)
+bool FadeOut(uint tag, float seconds)
+bool isPlaying(uint tag)
+bool Stop(uint tag)
+int getPlayingCount()
+uint getPlayingTag(int index)
+uint getLastAddedTag()
+void SetBeatTicks(int bps)

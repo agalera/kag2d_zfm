@@ -1,0 +1,25 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'AttachmentPoint' --
+
+string name
+Vec2f offset
+float offsetZ
+float radius
+Vec2f occupied_offset
+bool socket
+bool controller
+int customData
+
+CBlob@ getOccupied()
+Vec2f getPosition()
+void SetKeysToTake(uint16 keys)
+uint16 getKeysToTake()
+void SetMouseTaken(bool taken)
+bool getMouseTaken()
+int getID()
+bool isKeyPressed(keys key)
+bool wasKeyPressed(keys key)
+bool isKeyJustPressed(keys key)
+bool isKeyJustReleased(keys key)
+Vec2f getAimPos()
+CBlob@ getBlob()

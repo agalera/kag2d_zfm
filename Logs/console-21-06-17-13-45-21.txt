@@ -1,0 +1,246 @@
+[13:45:21] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[13:45:21] Loading ignorelist from Base/Security/ignorelist.cfg
+[13:45:21] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[13:45:21] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[13:45:21] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[13:45:21] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[13:45:21] Loading mod: ZFM+1.6.7f
+[13:45:21] Creating video device...
+[13:45:21] Checking driver support...
+[13:45:21] Initializing new video device...
+[13:45:21] Irrlicht Engine version 1.8.0-alpha
+[13:45:21] Precaching files...
+[13:45:21] Precaching files end.
+[13:45:21] Warning: control keys overlap!
+[13:45:21] Controls loaded from ../Cache/player1.dat
+[13:45:21] Warning: control keys overlap!
+[13:45:21] Controls loaded from ../Cache/player2.dat
+[13:45:21] Warning: control keys overlap!
+[13:45:21] Controls loaded from ../Cache/player3.dat
+[13:45:21] Warning: control keys overlap!
+[13:45:21] Controls loaded from ../Cache/player4.dat
+[13:45:21] Preloading all...
+[13:45:30] Loading rules ./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg
+[13:45:30] warning: attempted to match illegal relative path "./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg" - just searching for filename matches for "/gamemode.cfg" - out of date mod?
+[13:45:30] Loading game rules from ./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg...
+[13:45:30] Loaded team 0 'Survivors'
+[13:45:30] Loaded team 1 'Undead'
+[13:45:31] Blob already loaded 'mat_bolts'. Ignoring this one - Entities/Materials/Ammunition/MaterialBallistaBolt.cfg
+[13:45:31] Script: Compiling void GetButtonsFor(CBlob@ this, CBlob@ caller)
+[13:45:31] Script: 'buildSpawnMenu' is not declared
+[13:45:31]         [line 55 char 67] 		caller.CreateGenericButton("$change_class$", Vec2f(0, 0), this, buildSpawnMenu, getTranslatedString("Swap Class"));
+[13:45:31]         in file 'Entities/Special/Tent/TentLogic.as'
+[13:45:31] Blob already loaded 'knight'. Ignoring this one - Entities/Characters/Knight/Knight.cfg
+[13:45:31] Blob already loaded 'builder'. Ignoring this one - Entities/Characters/Builder/Builder.cfg
+[13:45:31] Blob already loaded 'archer'. Ignoring this one - Entities/Characters/Archer/Archer.cfg
+[13:45:31] Blob already loaded 'greg'. Ignoring this one - Entities/Zombies/Greg/Greg.cfg
+[13:45:31] Files have the same name! (rename for safety) Maps/Official/CTF/JTG_NewGetisburgMines.png - Maps/CTF/Dormant/JTG_NewGetisburgMines.png
+[13:45:31] Files have the same name! (rename for safety) Maps/CTF/Dormant/JTG_NewGetisburgMines.png - Maps/Official/CTF/JTG_NewGetisburgMines.png
+[13:45:31] Blob already loaded 'ballista_bolt'. Ignoring this one - Entities/Items/Projectiles/BallistaBolt.cfg
+[13:45:31] Blob already loaded 'arrow'. Ignoring this one - Entities/Items/Projectiles/Arrow.cfg
+[13:45:31] Files have the same name! (rename for safety) Maps/Official/CTF/HearthPlains.png - Maps/CTF/HearthPlains.png
+[13:45:31] Files have the same name! (rename for safety) Maps/CTF/HearthPlains.png - Maps/Official/CTF/HearthPlains.png
+[13:45:31] Blob already loaded 'chest'. Ignoring this one - Entities/Items/Containers/Chest/Chest.cfg
+[13:45:31] Blob already loaded 'log'. Ignoring this one - Entities/Items/Log/Log.cfg
+[13:45:31] Blob already loaded 'catapult'. Ignoring this one - Entities/Vehicles/Catapult/Catapult.cfg
+[13:45:31] Blob already loaded 'ballista'. Ignoring this one - Entities/Vehicles/Ballista/Ballista.cfg
+[13:45:31] Blob already loaded 'longboat'. Ignoring this one - Entities/Vehicles/Boats/LongBoat.cfg
+[13:45:31] Blob already loaded 'dinghy'. Ignoring this one - Entities/Vehicles/Boats/Dinghy.cfg
+[13:45:31] Blob already loaded 'warboat'. Ignoring this one - Entities/Vehicles/Boats/WarBoat/WarBoat.cfg
+[13:45:32] Blob already loaded 'stone_door'. Ignoring this one - Entities/Structures/Door/StoneDoor.cfg
+[13:45:32] Blob already loaded 'trap_block'. Ignoring this one - Entities/Structures/Trap/TrapBlock.cfg
+[13:45:32] Blob already loaded 'spikes'. Ignoring this one - Entities/Structures/Spikes/Spikes.cfg
+[13:45:32] Blob already loaded 'mounted_bow'. Ignoring this one - Entities/Structures/MountedBow/MountedBow.cfg
+[13:45:32] Blob already loaded 'trampoline'. Ignoring this one - Entities/Structures/Trampoline/Trampoline.cfg
+[13:45:32] Blob already loaded 'obstructor'. Ignoring this one - Entities/Structures/Components/Load/Obstructor/Obstructor.cfg
+[13:45:32] Blob already loaded 'sensor'. Ignoring this one - Entities/Structures/Components/Source/Sensor/Sensor.cfg
+[13:45:32] Blob already loaded 'wire'. Ignoring this one - Entities/Structures/Components/Passive/Wire/Wire.cfg
+[13:45:32] Blob already loaded 'magazine'. Ignoring this one - Entities/Structures/Components/Passive/Magazine/Magazine.cfg
+[13:45:32] Blob already loaded 'egg'. Ignoring this one - Entities/Natural/Animals/Chicken/Egg.cfg
+[13:45:32] Blob already loaded 'chicken'. Ignoring this one - Entities/Natural/Animals/Chicken/Chicken.cfg
+[13:45:32] Blob already loaded 'bison'. Ignoring this one - Entities/Natural/Animals/Bison/Bison.cfg
+[13:45:32] Blob already loaded 'shark'. Ignoring this one - Entities/Natural/Animals/Shark/Shark.cfg
+[13:45:32] Blob already loaded 'vehicleshop'. Ignoring this one - Entities/Industry/CTFShops/VehicleShop/VehicleShop.cfg
+[13:45:32] Blob already loaded 'storage'. Ignoring this one - Entities/Industry/CTFShops/Storage/Storage.cfg
+[13:45:32] Blob already loaded 'knightshop'. Ignoring this one - Entities/Industry/CTFShops/KnightShop/KnightShop.cfg
+[13:45:32] Blob already loaded 'archershop'. Ignoring this one - Entities/Industry/CTFShops/ArcherShop/ArcherShop.cfg
+[13:45:32] Blob already loaded 'buildershop'. Ignoring this one - Entities/Industry/CTFShops/BuilderShop/BuilderShop.cfg
+[13:45:32] Blob already loaded 'tunnel'. Ignoring this one - Entities/Industry/Tunnel/Tunnel.cfg
+[13:45:33] Blob already loaded 'building'. Ignoring this one - Entities/Industry/Building/Building.cfg
+[13:45:33] Script: Compiling void GetButtonsFor(CBlob@ this, CBlob@ caller)
+[13:45:33] Script: 'buildSpawnMenu' is not declared
+[13:45:33]         [line 385 char 68] 		caller.CreateGenericButton("$change_class$", Vec2f(12, 7), this, buildSpawnMenu, getTranslatedString("Change class"));
+[13:45:33]         in file 'Entities/Industry/Hall/Hall.as'
+[13:45:33] Blob already loaded 'dorm'. Ignoring this one - Entities/Industry/OldBuildings/Dorm/Dorm.cfg
+[13:45:33] Blob already loaded 'drill'. Ignoring this one - Entities/Industry/Drill/Drill.cfg
+[13:45:33] Blob already loaded 'saw'. Ignoring this one - Entities/Industry/Saw/Saw.cfg
+[13:45:33] Loading rules Rules/Sandbox/gamemode.cfg
+[13:45:33] Loading game rules from Rules/Sandbox/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Loading rules Rules/Challenge/gamemode.cfg
+[13:45:33] Loading game rules from Rules/Challenge/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Loading rules Rules/Simple/gamemode.cfg
+[13:45:33] Loading game rules from Rules/Simple/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Loading rules Rules/CTF/gamemode.cfg
+[13:45:33] Loading game rules from Rules/CTF/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Loading rules Rules/SmallCTF/gamemode.cfg
+[13:45:33] Loading game rules from Rules/SmallCTF/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Loading rules Rules/WAR/gamemode.cfg
+[13:45:33] Loading game rules from Rules/WAR/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Loading rules Rules/TDM/gamemode.cfg
+[13:45:33] Loading game rules from Rules/TDM/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Initializing Game Script
+[13:45:33] ############ GAMEMODE ZFM+1.6.7f
+[13:45:33] Server created on 50301 (BUILD 3570)
+[13:45:33] Checking is server modded...
+[13:45:33] Using custom files
+[13:45:33] **** This is a modded server ****
+[13:45:33] Attempting mod verification
+[13:45:33] CModVerify::readModRegFile error: file ./../Mods/ZFM+1.6.7f//registration.json missing
+[13:45:33] Mod ./../Mods/ZFM+1.6.7f/ cannot be verified because it has no registration.json file
+[13:45:33] At least one active mod has failed verification
+[13:45:33] This is safe to ignore. If you are a modder, consider registering these mods through the API
+[13:45:33] Whitelist inactive.
+[13:45:33] Config file not found '/opt/kag-server/Security/blacklist.cfg'
+[13:45:33] Loading blacklist from Base/Security/blacklist.cfg
+[13:45:33] Loading blacklist failed - file missing or corrupt. A blank blacklist file will be generated for you.
+[13:45:33] Config file not found '/opt/kag-server/Security/ignorelist.cfg'
+[13:45:33] Loading ignorelist from Base/Security/ignorelist.cfg
+[13:45:33] Loading ignorelist failed - file missing or corrupt. A blank ignorelist file will be generated for you.
+[13:45:33] Config file not found '/opt/kag-server/Security/hidenamelist.cfg'
+[13:45:33] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[13:45:33] Loading hidenamelist failed - file missing or corrupt. A blank hidenamelist file will be generated for you.
+[13:45:33] Config file not found '/opt/kag-server/Security/seclevs.cfg'
+[13:45:33] Loading security levels from Base/Security/seclevs.cfg
+[13:45:33] Loading default security levels
+[13:45:33] Loading game rules from ../Mods/ZFM+1.6.7f/Rules/gamemode.cfg...
+[13:45:33] Loaded team 0 'Survivors'
+[13:45:33] Loaded team 1 'Undead'
+[13:45:33] Adding map to cycle 'Maps/zf_00.png'
+[13:45:33] Adding map to cycle 'Maps/zf_01.png'
+[13:45:33] Adding map to cycle 'Maps/zf_02.png'
+[13:45:33] Adding map to cycle 'Maps/zf_03.png'
+[13:45:33] Adding map to cycle 'Maps/zf_04.png'
+[13:45:33] Adding map to cycle 'Maps/zf_05.png'
+[13:45:33] Adding map to cycle 'Maps/zf_06.png'
+[13:45:33] Adding map to cycle 'Maps/zf_07.png'
+[13:45:33] Adding map to cycle 'Maps/zf_08.png'
+[13:45:33] Adding map to cycle 'Maps/zf_09.png'
+[13:45:33] Adding map to cycle 'Maps/zf_10.png'
+[13:45:33] Adding map to cycle 'Maps/zf_11.png'
+[13:45:33] Adding map to cycle 'Maps/zf_12.png'
+[13:45:33] Adding map to cycle 'Maps/zf_13.png'
+[13:45:33] Adding map to cycle 'Maps/zf_14.png'
+[13:45:33] Adding map to cycle 'Maps/zf_15.png'
+[13:45:33] Adding map to cycle 'Maps/zf_16.png'
+[13:45:33] Adding map to cycle 'Maps/zf_17.png'
+[13:45:33] Adding map to cycle 'Maps/zf_18.png'
+[13:45:33] Adding map to cycle 'Maps/zf_19.png'
+[13:45:33] Adding map to cycle 'Maps/zf_20.png'
+[13:45:33] Adding map to cycle 'Maps/zf_21.png'
+[13:45:33] Adding map to cycle 'Maps/zf_22.png'
+[13:45:33] Adding map to cycle 'Maps/zf_23.png'
+[13:45:33] Adding map to cycle 'Maps/zf_24.png'
+[13:45:33] Adding map to cycle 'Maps/zf_25.png'
+[13:45:33] Adding map to cycle 'Maps/zf_26.png'
+[13:45:33] Adding map to cycle 'Maps/zf_27.png'
+[13:45:33] Adding map to cycle 'Maps/zf_28.png'
+[13:45:33] Adding map to cycle 'Maps/zf_29.png'
+[13:45:33] Adding map to cycle 'Maps/zf_30.png'
+[13:45:33] Adding map to cycle 'Maps/zf_31.png'
+[13:45:33] Adding map to cycle 'Maps/zf_32.png'
+[13:45:33] Adding map to cycle 'Maps/zf_33.png'
+[13:45:33] Adding map to cycle 'Maps/zf_34.png'
+[13:45:33] Adding map to cycle 'Maps/zf_35.png'
+[13:45:33] Adding map to cycle 'Maps/zf_36.png'
+[13:45:33] Adding map to cycle 'Maps/zf_37.png'
+[13:45:33] Adding map to cycle 'Maps/zf_38.png'
+[13:45:33] Adding map to cycle 'Maps/zf_39.png'
+[13:45:33] Adding map to cycle 'Maps/zf_40.png'
+[13:45:33] Adding map to cycle 'Maps/zf_41.png'
+[13:45:33] ############ GAMEMODE ZFM+1.6.7f
+[13:45:33] Adding map to cycle 'Maps/zf_00.png'
+[13:45:33] Adding map to cycle 'Maps/zf_01.png'
+[13:45:33] Adding map to cycle 'Maps/zf_02.png'
+[13:45:33] Adding map to cycle 'Maps/zf_03.png'
+[13:45:33] Adding map to cycle 'Maps/zf_04.png'
+[13:45:33] Adding map to cycle 'Maps/zf_05.png'
+[13:45:33] Adding map to cycle 'Maps/zf_06.png'
+[13:45:33] Adding map to cycle 'Maps/zf_07.png'
+[13:45:33] Adding map to cycle 'Maps/zf_08.png'
+[13:45:33] Adding map to cycle 'Maps/zf_09.png'
+[13:45:33] Adding map to cycle 'Maps/zf_10.png'
+[13:45:33] Adding map to cycle 'Maps/zf_11.png'
+[13:45:33] Adding map to cycle 'Maps/zf_12.png'
+[13:45:33] Adding map to cycle 'Maps/zf_13.png'
+[13:45:33] Adding map to cycle 'Maps/zf_14.png'
+[13:45:33] Adding map to cycle 'Maps/zf_15.png'
+[13:45:33] Adding map to cycle 'Maps/zf_16.png'
+[13:45:33] Adding map to cycle 'Maps/zf_17.png'
+[13:45:33] Adding map to cycle 'Maps/zf_18.png'
+[13:45:33] Adding map to cycle 'Maps/zf_19.png'
+[13:45:33] Adding map to cycle 'Maps/zf_20.png'
+[13:45:33] Adding map to cycle 'Maps/zf_21.png'
+[13:45:33] Adding map to cycle 'Maps/zf_22.png'
+[13:45:33] Adding map to cycle 'Maps/zf_23.png'
+[13:45:33] Adding map to cycle 'Maps/zf_24.png'
+[13:45:33] Adding map to cycle 'Maps/zf_25.png'
+[13:45:33] Adding map to cycle 'Maps/zf_26.png'
+[13:45:33] Adding map to cycle 'Maps/zf_27.png'
+[13:45:33] Adding map to cycle 'Maps/zf_28.png'
+[13:45:33] Adding map to cycle 'Maps/zf_29.png'
+[13:45:33] Adding map to cycle 'Maps/zf_30.png'
+[13:45:33] Adding map to cycle 'Maps/zf_31.png'
+[13:45:33] Adding map to cycle 'Maps/zf_32.png'
+[13:45:33] Adding map to cycle 'Maps/zf_33.png'
+[13:45:33] Adding map to cycle 'Maps/zf_34.png'
+[13:45:33] Adding map to cycle 'Maps/zf_35.png'
+[13:45:33] Adding map to cycle 'Maps/zf_36.png'
+[13:45:33] Adding map to cycle 'Maps/zf_37.png'
+[13:45:33] Adding map to cycle 'Maps/zf_38.png'
+[13:45:33] Adding map to cycle 'Maps/zf_39.png'
+[13:45:33] Adding map to cycle 'Maps/zf_40.png'
+[13:45:33] Adding map to cycle 'Maps/zf_41.png'
+[13:45:33] File not found Maps/zf_06.png, searching matches...
+[13:45:33] Best match ../Mods/ZFM+1.6.7f/Maps/zf_06.png
+[13:45:33] LOADING PNG MAP ../Mods/ZFM+1.6.7f/Maps/zf_06.png
+[13:45:34] Match not found for file /GUI/InteractionIcons.png
+[13:45:34] ############ GAMEMODE ZFM+1.6.7f
+[13:45:34] Match not found for file ArcherMale.png
+[13:45:34] Match not found for file ArcherFemale.png
+[13:45:34] Match not found for file TeamPalette.png
+[13:45:34] Match not found for file KnightMale.png
+[13:45:34] Match not found for file KnightFemale.png
+[13:45:34] Match not found for file BuilderMale.png
+[13:45:34] Match not found for file BuilderFemale.png
+[13:45:34] Match not found for file ArcherCapeMale.png
+[13:45:34] Match not found for file ArcherCapeFemale.png
+[13:45:34] Match not found for file KnightCapeMale.png
+[13:45:34] Match not found for file KnightCapeFemale.png
+[13:45:34] Match not found for file BuilderCapeMale.png
+[13:45:34] Match not found for file BuilderCapeFemale.png
+[13:45:34] Match not found for file ArcherGoldMale.png
+[13:45:34] Match not found for file ArcherGoldFemale.png
+[13:45:34] Match not found for file KnightGoldMale.png
+[13:45:34] Match not found for file KnightGoldFemale.png
+[13:45:34] Match not found for file BuilderGoldMale.png
+[13:45:34] Match not found for file BuilderGoldFemale.png
+[13:45:34] Not using shaders. Not adding hq2x
+[13:45:34] Restarting rules script: ../Mods/ZFM+1.6.7f/Rules/zombies_Rules.as
+[13:45:34] Checking any holidays...
+[13:45:34] Match not found for file pixel.png
+[13:45:37] NO PLAYERS - SERVER PAUSED (to change this behaviour set /sv_canpause 0
+[13:45:42] Closing console device: Signal 2 received

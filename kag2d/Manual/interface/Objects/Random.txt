@@ -1,0 +1,11 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'Random' --
+
+<constructor>()
+<constructor>(uint)
+<constructor>(const Random&in)
+uint Next()
+uint NextRanged(uint range)
+float NextFloat()
+uint getSeed()
+void Reset(uint seed)

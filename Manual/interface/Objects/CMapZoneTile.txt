@@ -1,0 +1,7 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CMapZoneTile' --
+
+uint8 edge
+uint8 cost
+bool solid
+

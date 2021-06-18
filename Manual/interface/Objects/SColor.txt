@@ -1,0 +1,27 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'SColor' --
+
+uint color
+
+<constructor>()
+<constructor>(SColor)
+<constructor>(uint)
+<constructor>(uint, uint, uint, uint)
+SColor& opAssign(const SColor&in)
+SColor opAdd(const SColor&in)
+bool opEquals(const SColor&in)
+bool opCmp(const SColor&in)
+uint getAlpha() const
+uint getAverage() const
+uint getBlue() const
+uint getGreen() const
+uint getRed() const
+SColor getInterpolated(const SColor&in, float) const
+SColor getInterpolated_quadratic(const SColor&in, const SColor&in, float) const
+float getLuminance() const
+void set(uint)
+void set(uint, uint, uint, uint)
+void setAlpha(uint)
+void setBlue(uint)
+void setGreen(uint)
+void setRed(uint)

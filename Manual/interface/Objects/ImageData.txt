@@ -1,0 +1,12 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'ImageData' --
+
+<constructor>(int, int)
+int width() const
+int height() const
+int size() const
+SColor get(int x, int y)
+void put(int x, int y, const SColor&in v)
+void remap(const SColor[]&in in_col, const SColor[]&in out_col, uint8 remap_alpha_threshold = 255, bool ignore_source_alpha = false, bool preserve_source_alpha = false)
+SColor& opIndex(int)
+const SColor& opIndex(int) const

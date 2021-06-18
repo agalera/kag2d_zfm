@@ -1,0 +1,433 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- GLOBAL ENUMS --
+
+EKEY_CODE
+	KEY_LBUTTON
+	KEY_RBUTTON
+	KEY_CANCEL
+	KEY_MBUTTON
+	KEY_XBUTTON1
+	KEY_XBUTTON2
+	KEY_BACK
+	KEY_TAB
+	KEY_CLEAR
+	KEY_RETURN
+	KEY_SHIFT
+	KEY_CONTROL
+	KEY_MENU
+	KEY_PAUSE
+	KEY_CAPITAL
+	KEY_ESCAPE
+	KEY_SPACE
+	KEY_PRIOR
+	KEY_NEXT
+	KEY_END
+	KEY_HOME
+	KEY_LEFT
+	KEY_UP
+	KEY_RIGHT
+	KEY_DOWN
+	KEY_SELECT
+	KEY_PRINT
+	KEY_EXECUT
+	KEY_INSERT
+	KEY_DELETE
+	KEY_HELP
+	KEY_KEY_0
+	KEY_KEY_1
+	KEY_KEY_2
+	KEY_KEY_3
+	KEY_KEY_4
+	KEY_KEY_5
+	KEY_KEY_6
+	KEY_KEY_7
+	KEY_KEY_8
+	KEY_KEY_9
+	KEY_KEY_A
+	KEY_KEY_B
+	KEY_KEY_C
+	KEY_KEY_D
+	KEY_KEY_E
+	KEY_KEY_F
+	KEY_KEY_G
+	KEY_KEY_H
+	KEY_KEY_I
+	KEY_KEY_J
+	KEY_KEY_K
+	KEY_KEY_L
+	KEY_KEY_M
+	KEY_KEY_N
+	KEY_KEY_O
+	KEY_KEY_P
+	KEY_KEY_Q
+	KEY_KEY_R
+	KEY_KEY_S
+	KEY_KEY_T
+	KEY_KEY_U
+	KEY_KEY_V
+	KEY_KEY_W
+	KEY_KEY_X
+	KEY_KEY_Y
+	KEY_KEY_Z
+	KEY_LWIN
+	KEY_RWIN
+	KEY_APPS
+	KEY_SLEEP
+	KEY_NUMPAD0
+	KEY_NUMPAD1
+	KEY_NUMPAD2
+	KEY_NUMPAD3
+	KEY_NUMPAD4
+	KEY_NUMPAD5
+	KEY_NUMPAD6
+	KEY_NUMPAD7
+	KEY_NUMPAD8
+	KEY_NUMPAD9
+	KEY_MULTIPLY
+	KEY_ADD
+	KEY_SEPARATOR
+	KEY_SUBTRACT
+	KEY_DECIMAL
+	KEY_DIVIDE
+	KEY_F1
+	KEY_F2
+	KEY_F3
+	KEY_F4
+	KEY_F5
+	KEY_F6
+	KEY_F7
+	KEY_F8
+	KEY_F9
+	KEY_F10
+	KEY_F11
+	KEY_F12
+	KEY_NUMLOCK
+	KEY_SCROLL
+	KEY_LSHIFT
+	KEY_RSHIFT
+	KEY_LCONTROL
+	KEY_RCONTROL
+	KEY_LMENU
+	KEY_RMENU
+	KEY_PLUS
+	KEY_COMMA
+	KEY_MINUS
+	KEY_PERIOD
+	KEY_PLAY
+	MOUSE_SCROLL_UP
+	MOUSE_SCROLL_DOWN
+	JOYSTICK_1_MOVE_LEFT
+	JOYSTICK_1_MOVE_RIGHT
+	JOYSTICK_1_MOVE_UP
+	JOYSTICK_1_MOVE_DOWN
+	JOYSTICK_1_BUTTON
+	JOYSTICK_1_BUTTON_LAST
+	JOYSTICK_2_MOVE_LEFT
+	JOYSTICK_2_MOVE_RIGHT
+	JOYSTICK_2_MOVE_UP
+	JOYSTICK_2_MOVE_DOWN
+	JOYSTICK_2_BUTTON
+	JOYSTICK_2_BUTTON_LAST
+	JOYSTICK_3_MOVE_LEFT
+	JOYSTICK_3_MOVE_RIGHT
+	JOYSTICK_3_MOVE_UP
+	JOYSTICK_3_MOVE_DOWN
+	JOYSTICK_3_BUTTON
+	JOYSTICK_3_BUTTON_LAST
+	JOYSTICK_4_MOVE_LEFT
+	JOYSTICK_4_MOVE_RIGHT
+	JOYSTICK_4_MOVE_UP
+	JOYSTICK_4_MOVE_DOWN
+	JOYSTICK_4_BUTTON
+	JOYSTICK_4_BUTTON_LAST
+
+ImageFileBase
+	IMAGE_FILENAME_BASE_MAPS
+	IMAGE_FILENAME_BASE_CACHE
+
+RuleState
+	INTERMISSION
+	WARMUP
+	GAME
+	GAME_OVER
+
+E_ACTIONKEYS
+	AK_MOVE_LEFT
+	AK_MOVE_RIGHT
+	AK_MOVE_UP
+	AK_MOVE_DOWN
+	AK_ACTION1
+	AK_ACTION2
+	AK_ACTION3
+	AK_INVENTORY
+	AK_USE
+	AK_PICKUP
+	AK_ZOOMIN
+	AK_ZOOMOUT
+	AK_BUBBLES
+	AK_TAUNTS
+	AK_EAT
+	AK_MAP
+	AK_MENU
+	AK_PARTY
+	AK_BUILD_MODIFIER
+	AK_PICKUP_MODIFIER
+	AK_NUM
+
+Tile::TileFlags
+	SPARE_0
+	SOLID
+	BACKGROUND
+	LADDER
+	LIGHT_PASSES
+	WATER_PASSES
+	FLAMMABLE
+	PLATFORM
+	LIGHT_SOURCE
+	MIRROR
+	FLIP
+	ROTATE
+	COLLISION
+	SPARE_2
+	SPARE_3
+	SPARE_4
+
+CMap::TileEnum
+	tile_empty
+	tile_ground
+	tile_ground_d1
+	tile_ground_d0
+	tile_ground_back
+	tile_grass
+	tile_castle
+	tile_castle_d0
+	tile_castle_d1
+	tile_castle_moss
+	tile_castle_back
+	tile_castle_back_moss
+	tile_gold
+	tile_stone
+	tile_stone_d1
+	tile_stone_d0
+	tile_thickstone
+	tile_thickstone_d1
+	tile_thickstone_d0
+	tile_bedrock
+	tile_ladder
+	tile_ladder_ground
+	tile_ladder_castle
+	tile_ladder_wood
+	tile_wood
+	tile_wood_d1
+	tile_wood_d0
+	tile_wood_back
+	tile_rubble
+	tile_sand
+
+RenderStyle::Style
+	normal
+	light
+	outline
+	outline_front
+	additive
+	subtractive
+	shadow
+	solid
+
+keys
+	key_up
+	key_down
+	key_left
+	key_right
+	key_action1
+	key_action2
+	key_action3
+	key_use
+	key_inventory
+	key_pickup
+	key_jump
+	key_eat
+	key_taunts
+	key_map
+	key_bubbles
+	key_crouch
+
+CBlob::MinimapEnum
+	minimap_none
+	minimap_snap
+	minimap_arrow
+
+CBlob::EdgeEnum
+	map_collide_none
+	map_collide_up
+	map_collide_down
+	map_collide_left
+	map_collide_right
+	map_collide_sides
+	map_collide_nodeath
+	map_collide_bounce
+
+CBrain::BrainState
+	idle
+	searching
+	wrong_path
+	has_path
+	stuck
+
+PlayerStats
+	PS_SCORE
+	PS_KILLS
+	PS_DEATHS
+	PS_ASSISTS
+	PS_PING
+	PS_COINS
+
+PlayerArmourSet
+	PLAYER_ARMOUR_STANDARD
+	PLAYER_ARMOUR_CAPE
+	PLAYER_ARMOUR_GOLD
+	PLAYER_ARMOUR_NUM
+
+GameState::State
+	game
+	menu
+
+SupportTier
+	SUPPORT_TIER_NONE
+	SUPPORT_TIER_SQUIRE
+	SUPPORT_TIER_KNIGHT
+	SUPPORT_TIER_ROYALGUARD
+	SUPPORT_TIER_ROUNDTABLE
+
+Script::RunFlags
+	tick_sleeping
+	tick_onscreen
+	tick_inwater
+	tick_not_inwater
+	tick_onground
+	tick_not_onground
+	tick_moving
+	tick_not_moving
+	tick_infire
+	tick_not_infire
+	tick_overlapping
+	tick_not_overlapping
+	tick_blob_in_proximity
+	remove_after_this
+	tick_not_sleeping
+	tick_attached
+	tick_not_attached
+	tick_onladder
+	tick_not_onladder
+	tick_myplayer
+	tick_onmap
+	tick_not_onmap
+	tick_hasattached
+	tick_not_hasattached
+	tick_ininventory
+	tick_not_ininventory
+
+SMaterial::MFlag
+	WIREFRAME
+	POINTCLOUD
+	GOURAUD_SHADING
+	LIGHTING
+	ZBUFFER
+	ZWRITE_ENABLE
+	BACK_FACE_CULLING
+	FRONT_FACE_CULLING
+	BILINEAR_FILTER
+	TRILINER_FILTER
+	ANISOTROPIC_FILTER
+	FOG_ENABLE
+	NORMALIZE_NORMALS
+	TEXTURE_WRAP
+	ANTI_ALIASING
+	COLOR_MASK
+	COLOR_MATERIAL
+	USE_MIP_MAPS
+	BLEND_OPERATION
+	POLYGON_OFFSET
+
+SMaterial::CMask
+	NONE
+	ALPHA
+	RED
+	GREEN
+	BLUE
+	RGB
+	ALL
+
+SMaterial::CMaterial
+	NONE
+	DIFFUSE
+	EMISSIVE
+	SPECULAR
+	DIFFUSE_AND_AMBIENT
+
+SMaterial::MType
+	SOLID
+	SOLID_2_LAYER
+	LIGHTMAP
+	LIGHTMAP_ADD
+	LIGHTMAP_M2
+	LIGHTMAP_M4
+	LIGHTMAP_LIGHTING
+	LIGHTMAP_LIGHTING_M2
+	LIGHTMAP_LIGHTING_M4
+	DETAIL_MAP
+	SPHERE_MAP
+	REFLECTION_2_LAYER
+	TRANSPARENT_ADD_COLOR
+	TRANSPARENT_ALPHA_CHANNEL
+	TRANSPARENT_ALPHA_CHANNEL_REF
+	TRANSPARENT_VERTEX_ALPHA
+	TRANSPARENT_REFLECTION_2_LAYER
+	NORMAL_MAP_SOLID
+	NORMAL_MAP_TRANSPARENT_ADD_COLOR
+	NORMAL_MAP_TRANSPARENT_VERTEX_ALPHA
+	PARALLAX_MAP_SOLID
+	PARRLLAX_MAP_TRANSPARENT_ADD_COLOR
+	PARALLAX_MAP_TRANSPARENT_VERTEX_ALPHA
+	ONETEXTURE_BLEND
+
+SMaterial::BlendType
+	NONE
+	ADD
+	SUBTRACT
+	REVSUBTRACT
+	MIN
+	MAX
+	MIN_FACTOR
+	MAX_FACTOR
+	MIN_ALPHA
+	MAX_ALPHA
+
+SMesh::Map
+	NONE
+	STATIC
+	DYNAMIC
+	STREAM
+
+SMesh::Buffer
+	NONE
+	VERTEX
+	INDEX
+	VERTEX_INDEX
+
+SMesh::FogType
+	EXP
+	EXP2
+	LINEAR
+
+Render::ScriptLayer
+	layer_background
+	layer_tiles
+	layer_objects
+	layer_floodlayers
+	layer_postworld
+	layer_prehud
+	layer_posthud
+	layer_last
+	layer_count
+

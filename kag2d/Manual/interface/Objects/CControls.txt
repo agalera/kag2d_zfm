@@ -1,0 +1,35 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CControls' --
+
+bool mousePressed1
+bool mousePressed2
+bool mouseScrollUp
+bool mouseScrollDown
+int lastKeyPressed
+bool externalControl
+uint lastKeyPressTime
+float hat1intensity
+float hat2intensity
+
+bool isMenuOpened()
+bool NoKeysPressed()
+void ClearKeys()
+Vec2f getMouseScreenPos()
+Vec2f getMouseWorldPos()
+Vec2f getInterpMouseScreenPos()
+bool isKeyPressed(int keycode)
+bool isKeyJustPressed(int keycode)
+bool isKeyJustReleased(int keycode)
+void setMousePosition(Vec2f pos)
+void setCameraLock(bool locked)
+void setButtonsLock(bool locked)
+void unlockCameraAndButtons()
+bool isButtonsLocked()
+bool isCameraLocked()
+bool ActionKeyPressed(E_ACTIONKEYS action_key)
+bool ActionKeyReleased(E_ACTIONKEYS action_key)
+bool MapActionKey(E_ACTIONKEYS action_key, int keycode)
+string getActionKeyKeyName(E_ACTIONKEYS action_key)
+int getActionKeyKey(E_ACTIONKEYS action_key)
+int getIndex()
+uint getLastKeyPressTime()

@@ -1,0 +1,16 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- GLOBAL TYPEDEFS --
+
+int8
+int8
+float
+double
+int16
+int
+int64
+int64
+uint64
+uint
+uint16
+uint8
+uint16

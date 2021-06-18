@@ -1,0 +1,25 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'ShapeVars' --
+
+Vec2f pos
+Vec2f oldpos
+Vec2f vel
+Vec2f oldvel
+float angvel
+float oldangvel
+bool onground
+bool onladder
+bool onwall
+bool onceiling
+bool onmap
+float waterDragScale
+Vec2f groundNormal
+bool inwater
+bool old_inwater
+bool infire
+bool old_infire
+float totalImpulse
+float frictionImpulse
+int customData
+bool isladder
+

@@ -1,0 +1,42 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CBrain' --
+
+int failtime_end
+int plannerMaxSteps
+int plannerSearchSteps
+int lowLevelSteps
+int lowLevelMaxSteps
+
+CBlob@ getBlob()
+void server_SetActive(bool active)
+bool isActive()
+bool RemoveScript(const string&in fileName)
+bool AddScript(const string&in fileName)
+bool hasScript(const string&in fileName)
+BrainVars@ getVars()
+CBlob@ getTarget()
+void SetTarget(CBlob@ blob)
+void SetPathTo(Vec2f endpoint, bool ignoreGravity)
+void SetPathTo(Vec2f endpoint, int search_style)
+Vec2f getPathPosition()
+Vec2f getNextPathPosition()
+int getPathSize()
+Vec2f getPathPositionAtIndex(int index)
+void SetSuggestedKeys()
+BrainState getState()
+string getStateString()
+bool SetHighLevelPath(Vec2f start, Vec2f end)
+int getHighPathSize()
+Vec2f getHighPathPositionAtIndex(int index)
+Vec2f getClosestNodeAtPosition(Vec2f pos)
+void SetLowLevelPath(Vec2f start, Vec2f end)
+void ResetLowLevelPath()
+void EndPath()
+Vec2f getShootAimPosition(Vec2f targetPos, bool hardShot, bool&out worthShooting, const float heightModifier)
+ScriptData@ getCurrentScript()
+bool PlanStatePath(PlannerState@ start, PlannerState@ end)
+bool StatePathStep()
+PlannerState@ AddPlannerState(const string&in name)
+bool getPlannerStates(PlannerState@[]@ states)
+bool getPlannerSolution(PlannerState@[]@ states)
+PlannerState@ getPlannerState(const string&in name)

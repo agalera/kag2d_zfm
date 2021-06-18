@@ -1,0 +1,21 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CAttachment' --
+
+bool doTickScripts
+
+CBlob@ getBlob()
+void server_SetActive(bool active)
+bool RemoveScript(const string&in fileName)
+bool AddScript(const string&in fileName)
+bool hasScript(const string&in fileName)
+AttachmentPoint@ getAttachmentPointByName(const string&in)
+AttachmentPoint@ getAttachmentPoint(const string&in)
+AttachmentPoint@ getAttachmentPoint(const string&in, bool socket)
+AttachmentPoint@ getAttachmentPoint(const string&in, bool socket, bool occupied)
+AttachmentPoint@ getAttachmentPointByID(const int id)
+AttachmentPoint@ getAttachmentWithBlob(CBlob@ blob)
+CBlob@ getAttachedBlob(const string&in, int index)
+CBlob@ getAttachedBlob(const string&in)
+int getOccupiedCount()
+AttachmentPoint@ AddAttachmentPoint(const string&in name, bool socket)
+ScriptData@ getCurrentScript()

@@ -1,0 +1,14 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CRespawnQueueActor' --
+
+string actorName
+string actorConfigFile
+string characterName
+int team
+int classnum
+int sex
+int skin
+
+CBlob@ getRespawnBlob()
+CRespawnPoint@ getRespawnPoint()
+CPlayer@ getPlayer()

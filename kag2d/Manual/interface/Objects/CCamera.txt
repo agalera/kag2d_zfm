@@ -1,0 +1,19 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CCamera' --
+
+float targetDistance
+float targetFactor
+float mouseFactor
+float posLag
+int mousecamstyle
+
+void setTarget(CBlob@ blob)
+CBlob@ getTarget()
+void setLocked(bool locked)
+bool isLocked()
+Vec2f getInterpolationOffset()
+void setRotation(float z)
+void setRotation(float x, float y, float z)
+float getRotation()
+void setPosition(Vec2f pos)
+Vec2f getPosition()

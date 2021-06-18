@@ -1,0 +1,56 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CParticle' --
+
+uint8 frame
+uint8 framesize
+uint8 animated
+uint8 style
+float framestep
+float stylestep
+Vec2f position
+Vec2f oldposition
+Vec2f velocity
+Vec2f oldvelocity
+Vec2f initpos
+Vec2f tilepos
+Vec2f oldtilepos
+float Z
+float slide
+float damping
+float bounce
+float mass
+float waterdamping
+Vec2f gravity
+bool collides
+bool diesoncollide
+bool resting
+bool diesonanimate
+bool fastcollision
+bool rotates
+bool stretches
+bool freerotation
+Vec2f rotation
+uint16 freerotationscale
+int16 timeout
+int16 alivetime
+bool outofbounds
+bool pickable
+uint8 deadeffect
+uint8 emiteffect
+float windaffect
+float damage
+bool standardcollision
+float scale
+float growth
+SColor colour
+bool fadeout
+float width
+float height
+bool lighting
+uint8 lighting_delay
+bool lighting_force_original_color
+SColor forcecolor
+
+<constructor>(string, Vec2f, Vec2f, float, float, uint8, float, bool)
+void AddDieFunction(string scriptname, string scriptfunction)
+void setRenderStyle(Style new_style)

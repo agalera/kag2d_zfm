@@ -1,0 +1,22 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'ShapeConsts' --
+
+float mass
+float radius
+float buoyancy
+bool collidable
+bool lightPasses
+bool mapCollisions
+bool background
+bool snapToGrid
+bool rotates
+bool platform
+bool transports
+bool bullet
+bool collideWhenAttached
+bool waterPasses
+bool isFlammable
+bool tileLightSource
+uint8 support
+float net_threshold_multiplier
+

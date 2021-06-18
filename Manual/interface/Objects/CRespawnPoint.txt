@@ -1,0 +1,11 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CRespawnPoint' --
+
+string actorName
+string parentActorName
+string parentActorScriptName
+int index
+Vec2f position
+int team
+float radius
+

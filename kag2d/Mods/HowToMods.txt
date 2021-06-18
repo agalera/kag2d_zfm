@@ -1,0 +1,35 @@
+# Using Mods in KAG
+
+## Joining a Modded Server
+
+Simply join the server and accept the mod download.
+Everything should compile and work "out of the box" with no fiddling with files!
+If you have trouble, try clearing out your mods folder and restarting your KAG; you might have an incompatible version.
+
+## Downloading mods directly
+
+For offline play, you need to download the mod directly into your KAG folder.
+Put the mod folder inside {KAG}/Mods - do not put the mod files directly inside the mods folder, it will not work.
+Add folder names to {KAG}/mods.cfg to use each specific mod. This lets you turn mods on and off without deleting or moving them.
+
+## Hosting mods
+
+Say you want to add bunnies on your server.
+
+- Go to this thread (https://forum.kag2d.com/threads/king-arthurs-armory.15559/) and download the bunny rabbit mod by Skinney from the modding forums.
+- Unpack the bunny into {KAG}/Mods/Bunny
+- Open {KAG}/mods.cfg and add the line Bunny at the bottom of the file
+- Start your dedicated server
+- Spawn bunnies into the server with the chat command !bunny
+- When people join your server, they will automatically download the mod
+
+## Making mods
+
+Modding Discussion is on #modding on the Official Discord - the link is in-game.
+Posting mods to the forums as resources helps other people find and share your mod!
+Hosting mods on your own server can also help people easily play it.
+
+Testing your mod locally in singleplayer:
+1. Make a Sandbox mode by copying Sandbox rules to your mod folder and run Sandbox through the main menu.
+2. If you're making a new gamemode don't forget to change: sv_gamemode = YourNewGameMode in autoconfig.cfg
+and then launch with params: KAG.exe noautoupdate nolauncher autostart Scripts/localhost.as

@@ -1,0 +1,14 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CButton' --
+
+Vec2f offset
+SColor color
+bool kill
+bool hovered
+bool deleteAfterClick
+float radius
+float enableRadius
+
+CBlob@ getOwner()
+void SetEnabled(bool enabled)
+bool getEnabled()

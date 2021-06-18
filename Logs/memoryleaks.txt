@@ -1,0 +1,56 @@
+Instance Report for: 8asScript
+650 8asScript created.
+650 8asScript deleted.
+all instances of 8asScript destroyed. Good job! :)
+
+
+Instance Report for: N13CScriptObject10ScriptDataE
+4483 N13CScriptObject10ScriptDataE created.
+4483 N13CScriptObject10ScriptDataE deleted.
+all instances of N13CScriptObject10ScriptDataE destroyed. Good job! :)
+
+
+Instance Report for: 6CActor
+377 6CActor created.
+377 6CActor deleted.
+all instances of 6CActor destroyed. Good job! :)
+
+
+Instance Report for: 9CControls
+4 9CControls created.
+0 9CControls deleted.
+4 9CControls were left undeleted.
+3984 bytes were not freed.
+
+
+Instance Report for: 7CPlayer
+0 7CPlayer created.
+0 7CPlayer deleted.
+all instances of 7CPlayer destroyed. Good job! :)
+
+
+Instance Report for: 9CParticle
+8192 9CParticle created.
+0 9CParticle deleted.
+8192 9CParticle were left undeleted.
+2170880 bytes were not freed.
+
+
+Instance Report for: 12PlayTrackDef
+0 12PlayTrackDef created.
+0 12PlayTrackDef deleted.
+all instances of 12PlayTrackDef destroyed. Good job! :)
+
+
+Instance Report for: 7PlayDef
+0 7PlayDef created.
+0 7PlayDef deleted.
+all instances of 7PlayDef destroyed. Good job! :)
+
+
+Instance Report for: 6CTrack
+0 6CTrack created.
+0 6CTrack deleted.
+all instances of 6CTrack destroyed. Good job! :)
+
+

@@ -1,0 +1,1388 @@
+[02:46:01] Loading ignorelist from Base/Security/ignorelist.cfg
+[02:46:01] Ignorelist empty.
+[02:46:01] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[02:46:01] HideNamelist empty.
+[02:46:01] Loading mod: ZFM+1.6.7f
+[02:46:01] Creating video device...
+[02:46:01] Checking driver support...
+[02:46:01] Initializing new video device...
+[02:46:01] Irrlicht Engine version 1.8.0-alpha
+[02:46:01] Precaching files...
+[02:46:01] Precaching files end.
+[02:46:01] Warning: control keys overlap!
+[02:46:01] Controls loaded from ../Cache/player1.dat
+[02:46:01] Warning: control keys overlap!
+[02:46:01] Controls loaded from ../Cache/player2.dat
+[02:46:01] Warning: control keys overlap!
+[02:46:01] Controls loaded from ../Cache/player3.dat
+[02:46:01] Warning: control keys overlap!
+[02:46:01] Controls loaded from ../Cache/player4.dat
+[02:46:01] Preloading all...
+[02:46:10] Loading rules ./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg
+[02:46:10] warning: attempted to match illegal relative path "./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg" - just searching for filename matches for "/gamemode.cfg" - out of date mod?
+[02:46:10] Loading game rules from ./../Mods/ZFM+1.6.7f//Rules/gamemode.cfg...
+[02:46:10] Loaded team 0 'Survivors'
+[02:46:10] Loaded team 1 'Undead'
+[02:46:11] Blob already loaded 'mat_bolts'. Ignoring this one - Entities/Materials/Ammunition/MaterialBallistaBolt.cfg
+[02:46:11] Script: Compiling void GetButtonsFor(CBlob@ this, CBlob@ caller)
+[02:46:11] Script: 'buildSpawnMenu' is not declared
+[02:46:11]         [line 55 char 67] 		caller.CreateGenericButton("$change_class$", Vec2f(0, 0), this, buildSpawnMenu, getTranslatedString("Swap Class"));
+[02:46:11]         in file 'Entities/Special/Tent/TentLogic.as'
+[02:46:11] Blob already loaded 'knight'. Ignoring this one - Entities/Characters/Knight/Knight.cfg
+[02:46:11] Blob already loaded 'builder'. Ignoring this one - Entities/Characters/Builder/Builder.cfg
+[02:46:11] Blob already loaded 'archer'. Ignoring this one - Entities/Characters/Archer/Archer.cfg
+[02:46:11] Blob already loaded 'greg'. Ignoring this one - Entities/Zombies/Greg/Greg.cfg
+[02:46:11] Files have the same name! (rename for safety) Maps/Official/CTF/JTG_NewGetisburgMines.png - Maps/CTF/Dormant/JTG_NewGetisburgMines.png
+[02:46:11] Files have the same name! (rename for safety) Maps/CTF/Dormant/JTG_NewGetisburgMines.png - Maps/Official/CTF/JTG_NewGetisburgMines.png
+[02:46:12] Blob already loaded 'ballista_bolt'. Ignoring this one - Entities/Items/Projectiles/BallistaBolt.cfg
+[02:46:12] Blob already loaded 'arrow'. Ignoring this one - Entities/Items/Projectiles/Arrow.cfg
+[02:46:12] Files have the same name! (rename for safety) Maps/Official/CTF/HearthPlains.png - Maps/CTF/HearthPlains.png
+[02:46:12] Files have the same name! (rename for safety) Maps/CTF/HearthPlains.png - Maps/Official/CTF/HearthPlains.png
+[02:46:12] Blob already loaded 'chest'. Ignoring this one - Entities/Items/Containers/Chest/Chest.cfg
+[02:46:12] Blob already loaded 'log'. Ignoring this one - Entities/Items/Log/Log.cfg
+[02:46:12] Blob already loaded 'catapult'. Ignoring this one - Entities/Vehicles/Catapult/Catapult.cfg
+[02:46:12] Blob already loaded 'ballista'. Ignoring this one - Entities/Vehicles/Ballista/Ballista.cfg
+[02:46:12] Blob already loaded 'longboat'. Ignoring this one - Entities/Vehicles/Boats/LongBoat.cfg
+[02:46:12] Blob already loaded 'dinghy'. Ignoring this one - Entities/Vehicles/Boats/Dinghy.cfg
+[02:46:12] Blob already loaded 'warboat'. Ignoring this one - Entities/Vehicles/Boats/WarBoat/WarBoat.cfg
+[02:46:12] Blob already loaded 'stone_door'. Ignoring this one - Entities/Structures/Door/StoneDoor.cfg
+[02:46:12] Blob already loaded 'trap_block'. Ignoring this one - Entities/Structures/Trap/TrapBlock.cfg
+[02:46:12] Blob already loaded 'spikes'. Ignoring this one - Entities/Structures/Spikes/Spikes.cfg
+[02:46:12] Blob already loaded 'mounted_bow'. Ignoring this one - Entities/Structures/MountedBow/MountedBow.cfg
+[02:46:12] Blob already loaded 'trampoline'. Ignoring this one - Entities/Structures/Trampoline/Trampoline.cfg
+[02:46:12] Blob already loaded 'obstructor'. Ignoring this one - Entities/Structures/Components/Load/Obstructor/Obstructor.cfg
+[02:46:12] Blob already loaded 'sensor'. Ignoring this one - Entities/Structures/Components/Source/Sensor/Sensor.cfg
+[02:46:12] Blob already loaded 'wire'. Ignoring this one - Entities/Structures/Components/Passive/Wire/Wire.cfg
+[02:46:12] Blob already loaded 'magazine'. Ignoring this one - Entities/Structures/Components/Passive/Magazine/Magazine.cfg
+[02:46:12] Blob already loaded 'egg'. Ignoring this one - Entities/Natural/Animals/Chicken/Egg.cfg
+[02:46:12] Blob already loaded 'chicken'. Ignoring this one - Entities/Natural/Animals/Chicken/Chicken.cfg
+[02:46:12] Blob already loaded 'bison'. Ignoring this one - Entities/Natural/Animals/Bison/Bison.cfg
+[02:46:12] Blob already loaded 'shark'. Ignoring this one - Entities/Natural/Animals/Shark/Shark.cfg
+[02:46:13] Blob already loaded 'vehicleshop'. Ignoring this one - Entities/Industry/CTFShops/VehicleShop/VehicleShop.cfg
+[02:46:13] Blob already loaded 'storage'. Ignoring this one - Entities/Industry/CTFShops/Storage/Storage.cfg
+[02:46:13] Blob already loaded 'knightshop'. Ignoring this one - Entities/Industry/CTFShops/KnightShop/KnightShop.cfg
+[02:46:13] Blob already loaded 'archershop'. Ignoring this one - Entities/Industry/CTFShops/ArcherShop/ArcherShop.cfg
+[02:46:13] Blob already loaded 'buildershop'. Ignoring this one - Entities/Industry/CTFShops/BuilderShop/BuilderShop.cfg
+[02:46:13] Blob already loaded 'tunnel'. Ignoring this one - Entities/Industry/Tunnel/Tunnel.cfg
+[02:46:13] Blob already loaded 'building'. Ignoring this one - Entities/Industry/Building/Building.cfg
+[02:46:13] Script: Compiling void GetButtonsFor(CBlob@ this, CBlob@ caller)
+[02:46:13] Script: 'buildSpawnMenu' is not declared
+[02:46:13]         [line 385 char 68] 		caller.CreateGenericButton("$change_class$", Vec2f(12, 7), this, buildSpawnMenu, getTranslatedString("Change class"));
+[02:46:13]         in file 'Entities/Industry/Hall/Hall.as'
+[02:46:13] Blob already loaded 'dorm'. Ignoring this one - Entities/Industry/OldBuildings/Dorm/Dorm.cfg
+[02:46:13] Blob already loaded 'drill'. Ignoring this one - Entities/Industry/Drill/Drill.cfg
+[02:46:13] Blob already loaded 'saw'. Ignoring this one - Entities/Industry/Saw/Saw.cfg
+[02:46:14] Loading rules Rules/Sandbox/gamemode.cfg
+[02:46:14] Loading game rules from Rules/Sandbox/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Loading rules Rules/Challenge/gamemode.cfg
+[02:46:14] Loading game rules from Rules/Challenge/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Loading rules Rules/Simple/gamemode.cfg
+[02:46:14] Loading game rules from Rules/Simple/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Loading rules Rules/CTF/gamemode.cfg
+[02:46:14] Loading game rules from Rules/CTF/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Loading rules Rules/SmallCTF/gamemode.cfg
+[02:46:14] Loading game rules from Rules/SmallCTF/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Loading rules Rules/WAR/gamemode.cfg
+[02:46:14] Loading game rules from Rules/WAR/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Loading rules Rules/TDM/gamemode.cfg
+[02:46:14] Loading game rules from Rules/TDM/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Initializing Game Script
+[02:46:14] ############ GAMEMODE ZFM+1.6.7f
+[02:46:14] Server created on 50301 (BUILD 3570)
+[02:46:14] Checking is server modded...
+[02:46:14] Using custom files
+[02:46:14] **** This is a modded server ****
+[02:46:14] Attempting mod verification
+[02:46:14] CModVerify::readModRegFile error: file ./../Mods/ZFM+1.6.7f//registration.json missing
+[02:46:14] Mod ./../Mods/ZFM+1.6.7f/ cannot be verified because it has no registration.json file
+[02:46:14] At least one active mod has failed verification
+[02:46:14] This is safe to ignore. If you are a modder, consider registering these mods through the API
+[02:46:14] Whitelist inactive.
+[02:46:14] Loading blacklist from Base/Security/blacklist.cfg
+[02:46:14] Blacklist empty.
+[02:46:14] Loading ignorelist from Base/Security/ignorelist.cfg
+[02:46:14] Ignorelist empty.
+[02:46:14] Loading hidenamelist from Base/Security/hidenamelist.cfg
+[02:46:14] HideNamelist empty.
+[02:46:14] Config file not found '/opt/kag-server/Security/seclevs.cfg'
+[02:46:14] Loading security levels from Base/Security/seclevs.cfg
+[02:46:14] Loading default security levels
+[02:46:14] Loading game rules from ../Mods/ZFM+1.6.7f/Rules/gamemode.cfg...
+[02:46:14] Loaded team 0 'Survivors'
+[02:46:14] Loaded team 1 'Undead'
+[02:46:14] Adding map to cycle 'Maps/zf_00.png'
+[02:46:14] Adding map to cycle 'Maps/zf_01.png'
+[02:46:14] Adding map to cycle 'Maps/zf_02.png'
+[02:46:14] Adding map to cycle 'Maps/zf_03.png'
+[02:46:14] Adding map to cycle 'Maps/zf_04.png'
+[02:46:14] Adding map to cycle 'Maps/zf_05.png'
+[02:46:14] Adding map to cycle 'Maps/zf_06.png'
+[02:46:14] Adding map to cycle 'Maps/zf_07.png'
+[02:46:14] Adding map to cycle 'Maps/zf_08.png'
+[02:46:14] Adding map to cycle 'Maps/zf_09.png'
+[02:46:14] Adding map to cycle 'Maps/zf_10.png'
+[02:46:14] Adding map to cycle 'Maps/zf_11.png'
+[02:46:14] Adding map to cycle 'Maps/zf_12.png'
+[02:46:14] Adding map to cycle 'Maps/zf_13.png'
+[02:46:14] Adding map to cycle 'Maps/zf_14.png'
+[02:46:14] Adding map to cycle 'Maps/zf_15.png'
+[02:46:14] Adding map to cycle 'Maps/zf_16.png'
+[02:46:14] Adding map to cycle 'Maps/zf_17.png'
+[02:46:14] Adding map to cycle 'Maps/zf_18.png'
+[02:46:14] Adding map to cycle 'Maps/zf_19.png'
+[02:46:14] Adding map to cycle 'Maps/zf_20.png'
+[02:46:14] Adding map to cycle 'Maps/zf_21.png'
+[02:46:14] Adding map to cycle 'Maps/zf_22.png'
+[02:46:14] Adding map to cycle 'Maps/zf_23.png'
+[02:46:14] Adding map to cycle 'Maps/zf_24.png'
+[02:46:14] Adding map to cycle 'Maps/zf_25.png'
+[02:46:14] Adding map to cycle 'Maps/zf_26.png'
+[02:46:14] Adding map to cycle 'Maps/zf_27.png'
+[02:46:14] Adding map to cycle 'Maps/zf_28.png'
+[02:46:14] Adding map to cycle 'Maps/zf_29.png'
+[02:46:14] Adding map to cycle 'Maps/zf_30.png'
+[02:46:14] Adding map to cycle 'Maps/zf_31.png'
+[02:46:14] Adding map to cycle 'Maps/zf_32.png'
+[02:46:14] Adding map to cycle 'Maps/zf_33.png'
+[02:46:14] Adding map to cycle 'Maps/zf_34.png'
+[02:46:14] Adding map to cycle 'Maps/zf_35.png'
+[02:46:14] Adding map to cycle 'Maps/zf_36.png'
+[02:46:14] Adding map to cycle 'Maps/zf_37.png'
+[02:46:14] Adding map to cycle 'Maps/zf_38.png'
+[02:46:14] Adding map to cycle 'Maps/zf_39.png'
+[02:46:14] Adding map to cycle 'Maps/zf_40.png'
+[02:46:14] Adding map to cycle 'Maps/zf_41.png'
+[02:46:14] ############ GAMEMODE ZFM+1.6.7f
+[02:46:14] Adding map to cycle 'Maps/zf_00.png'
+[02:46:14] Adding map to cycle 'Maps/zf_01.png'
+[02:46:14] Adding map to cycle 'Maps/zf_02.png'
+[02:46:14] Adding map to cycle 'Maps/zf_03.png'
+[02:46:14] Adding map to cycle 'Maps/zf_04.png'
+[02:46:14] Adding map to cycle 'Maps/zf_05.png'
+[02:46:14] Adding map to cycle 'Maps/zf_06.png'
+[02:46:14] Adding map to cycle 'Maps/zf_07.png'
+[02:46:14] Adding map to cycle 'Maps/zf_08.png'
+[02:46:14] Adding map to cycle 'Maps/zf_09.png'
+[02:46:14] Adding map to cycle 'Maps/zf_10.png'
+[02:46:14] Adding map to cycle 'Maps/zf_11.png'
+[02:46:14] Adding map to cycle 'Maps/zf_12.png'
+[02:46:14] Adding map to cycle 'Maps/zf_13.png'
+[02:46:14] Adding map to cycle 'Maps/zf_14.png'
+[02:46:14] Adding map to cycle 'Maps/zf_15.png'
+[02:46:14] Adding map to cycle 'Maps/zf_16.png'
+[02:46:14] Adding map to cycle 'Maps/zf_17.png'
+[02:46:14] Adding map to cycle 'Maps/zf_18.png'
+[02:46:14] Adding map to cycle 'Maps/zf_19.png'
+[02:46:14] Adding map to cycle 'Maps/zf_20.png'
+[02:46:14] Adding map to cycle 'Maps/zf_21.png'
+[02:46:14] Adding map to cycle 'Maps/zf_22.png'
+[02:46:14] Adding map to cycle 'Maps/zf_23.png'
+[02:46:14] Adding map to cycle 'Maps/zf_24.png'
+[02:46:14] Adding map to cycle 'Maps/zf_25.png'
+[02:46:14] Adding map to cycle 'Maps/zf_26.png'
+[02:46:14] Adding map to cycle 'Maps/zf_27.png'
+[02:46:14] Adding map to cycle 'Maps/zf_28.png'
+[02:46:14] Adding map to cycle 'Maps/zf_29.png'
+[02:46:14] Adding map to cycle 'Maps/zf_30.png'
+[02:46:14] Adding map to cycle 'Maps/zf_31.png'
+[02:46:14] Adding map to cycle 'Maps/zf_32.png'
+[02:46:14] Adding map to cycle 'Maps/zf_33.png'
+[02:46:14] Adding map to cycle 'Maps/zf_34.png'
+[02:46:14] Adding map to cycle 'Maps/zf_35.png'
+[02:46:14] Adding map to cycle 'Maps/zf_36.png'
+[02:46:14] Adding map to cycle 'Maps/zf_37.png'
+[02:46:14] Adding map to cycle 'Maps/zf_38.png'
+[02:46:14] Adding map to cycle 'Maps/zf_39.png'
+[02:46:14] Adding map to cycle 'Maps/zf_40.png'
+[02:46:14] Adding map to cycle 'Maps/zf_41.png'
+[02:46:14] File not found Maps/zf_34.png, searching matches...
+[02:46:14] Best match ../Mods/ZFM+1.6.7f/Maps/zf_34.png
+[02:46:14] LOADING PNG MAP ../Mods/ZFM+1.6.7f/Maps/zf_34.png
+[02:46:14] Match not found for file /GUI/InteractionIcons.png
+[02:46:15] ############ GAMEMODE ZFM+1.6.7f
+[02:46:15] Match not found for file ArcherMale.png
+[02:46:15] Match not found for file ArcherFemale.png
+[02:46:15] Match not found for file TeamPalette.png
+[02:46:15] Match not found for file KnightMale.png
+[02:46:15] Match not found for file KnightFemale.png
+[02:46:15] Match not found for file BuilderMale.png
+[02:46:15] Match not found for file BuilderFemale.png
+[02:46:15] Match not found for file ArcherCapeMale.png
+[02:46:15] Match not found for file ArcherCapeFemale.png
+[02:46:15] Match not found for file KnightCapeMale.png
+[02:46:15] Match not found for file KnightCapeFemale.png
+[02:46:15] Match not found for file BuilderCapeMale.png
+[02:46:15] Match not found for file BuilderCapeFemale.png
+[02:46:15] Match not found for file ArcherGoldMale.png
+[02:46:15] Match not found for file ArcherGoldFemale.png
+[02:46:15] Match not found for file KnightGoldMale.png
+[02:46:15] Match not found for file KnightGoldFemale.png
+[02:46:15] Match not found for file BuilderGoldMale.png
+[02:46:15] Match not found for file BuilderGoldFemale.png
+[02:46:15] Not using shaders. Not adding hq2x
+[02:46:15] Restarting rules script: ../Mods/ZFM+1.6.7f/Rules/zombies_Rules.as
+[02:46:15] Checking any holidays...
+[02:46:15] Match not found for file pixel.png
+[02:46:16] player tier: 0
+[02:46:16] * fizzle7 connected (admin: 0 guard 0 gold 1 tester 0)
+[02:46:17] player tier: 0
+[02:46:17] * caveman1983 connected (admin: 0 guard 0 gold 1 tester 0)
+[02:46:18] NO PLAYERS - SERVER PAUSED (to change this behaviour set /sv_canpause 0
+[02:46:19] SENDING 2 FILES
+[02:46:19] * SirEarendil connected (admin: 0 guard 0 gold 1 tester 0)
+[02:46:19] player tier: 0
+[02:46:20] SENDING 2 FILES
+[02:46:21] player tier: 0
+[02:46:21] * HugoC54 connected (admin: 0 guard 0 gold 1 tester 0)
+[02:46:21] SENDING 2 FILES
+[02:46:25] SENDING 2 FILES
+[02:46:32] SENDING 2 FILES
+[02:46:42] player tier: 0
+[02:46:42] * SirEarendil connected (admin: 0 guard 0 gold 1 tester 0)
+[02:46:47] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0486111, spawnRate: 179, num_undead: 0, max_undead: 0
+[02:46:47] sync
+[02:46:52] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0972222, spawnRate: 178, num_undead: 0, max_undead: 0
+[02:46:57] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.145833, spawnRate: 177, num_undead: 0, max_undead: 0
+[02:47:02] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.194444, spawnRate: 177, num_undead: 0, max_undead: 0
+[02:47:03] sync
+[02:47:07] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.243056, spawnRate: 176, num_undead: 0, max_undead: 0
+[02:47:12] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.291667, spawnRate: 175, num_undead: 0, max_undead: 0
+[02:47:16] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.340278, spawnRate: 174, num_undead: 0, max_undead: 0
+[02:47:21] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.388889, spawnRate: 174, num_undead: 0, max_undead: 0
+[02:47:26] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.4375, spawnRate: 173, num_undead: 0, max_undead: 0
+[02:47:31] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.486111, spawnRate: 172, num_undead: 0, max_undead: 0
+[02:47:36] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.534722, spawnRate: 171, num_undead: 0, max_undead: 0
+[02:47:41] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.583333, spawnRate: 171, num_undead: 0, max_undead: 0
+[02:47:46] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.631944, spawnRate: 170, num_undead: 0, max_undead: 0
+[02:47:51] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.680556, spawnRate: 169, num_undead: 0, max_undead: 0
+[02:47:56] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.729167, spawnRate: 169, num_undead: 0, max_undead: 0
+[02:48:01] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.777778, spawnRate: 168, num_undead: 0, max_undead: 0
+[02:48:06] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.826389, spawnRate: 167, num_undead: 0, max_undead: 0
+[02:48:11] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.875, spawnRate: 166, num_undead: 0, max_undead: 0
+[02:48:16] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.923611, spawnRate: 166, num_undead: 0, max_undead: 0
+[02:48:21] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.972222, spawnRate: 165, num_undead: 0, max_undead: 0
+[02:48:26] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.02083, spawnRate: 164, num_undead: 0, max_undead: 0
+[02:48:31] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.06944, spawnRate: 163, num_undead: 0, max_undead: 0
+[02:48:36] Day: 1, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.11806, spawnRate: 163, num_undead: 0, max_undead: 0
+[02:48:41] Day: 1, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.16667, spawnRate: 162, num_undead: 0, max_undead: 0
+[02:48:46] Day: 1, Zombies: 4, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.21528, spawnRate: 161, num_undead: 0, max_undead: 0
+[02:48:51] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.26389, spawnRate: 161, num_undead: 0, max_undead: 0
+[02:48:55] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.3125, spawnRate: 160, num_undead: 0, max_undead: 0
+[02:49:00] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.36111, spawnRate: 159, num_undead: 0, max_undead: 0
+[02:49:05] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.40972, spawnRate: 158, num_undead: 0, max_undead: 0
+[02:49:10] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.45833, spawnRate: 158, num_undead: 0, max_undead: 0
+[02:49:15] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.50694, spawnRate: 157, num_undead: 0, max_undead: 0
+[02:49:20] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.55556, spawnRate: 156, num_undead: 0, max_undead: 0
+[02:49:25] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.60417, spawnRate: 155, num_undead: 0, max_undead: 0
+[02:49:30] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.65278, spawnRate: 155, num_undead: 0, max_undead: 0
+[02:49:35] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.70139, spawnRate: 154, num_undead: 0, max_undead: 0
+[02:49:40] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.75, spawnRate: 153, num_undead: 0, max_undead: 0
+[02:49:45] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.79861, spawnRate: 153, num_undead: 0, max_undead: 0
+[02:49:50] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.84722, spawnRate: 152, num_undead: 0, max_undead: 0
+[02:49:55] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.89583, spawnRate: 151, num_undead: 0, max_undead: 0
+[02:50:00] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.94444, spawnRate: 150, num_undead: 0, max_undead: 0
+[02:50:05] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.99306, spawnRate: 150, num_undead: 0, max_undead: 0
+[02:50:10] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.04167, spawnRate: 149, num_undead: 0, max_undead: 0
+[02:50:15] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.09028, spawnRate: 148, num_undead: 0, max_undead: 0
+[02:50:20] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.13889, spawnRate: 147, num_undead: 0, max_undead: 0
+[02:50:25] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.1875, spawnRate: 147, num_undead: 0, max_undead: 0
+[02:50:28] Player KiAn left the game (players left 1)
+[02:50:30] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.23611, spawnRate: 146, num_undead: 0, max_undead: 0
+[02:50:34] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.28472, spawnRate: 145, num_undead: 0, max_undead: 0
+[02:50:39] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.33333, spawnRate: 145, num_undead: 0, max_undead: 0
+[02:50:44] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.38194, spawnRate: 144, num_undead: 0, max_undead: 0
+[02:50:49] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.43056, spawnRate: 143, num_undead: 0, max_undead: 0
+[02:50:54] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.47917, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:50:59] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:04] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:09] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:14] Day: 2, Zombies: 7, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:19] player tier: 0
+[02:51:19] * Yeah0 connected (admin: 0 guard 0 gold 1 tester 0)
+[02:51:19] Day: 2, Zombies: 7, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:20] SENDING 2 FILES
+[02:51:24] Day: 2, Zombies: 7, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:29] Day: 2, Zombies: 8, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:34] Day: 2, Zombies: 9, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:39] Day: 2, Zombies: 10, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:44] Day: 2, Zombies: 11, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:47] player tier: 0
+[02:51:47] * Yeah0 connected (admin: 0 guard 0 gold 1 tester 0)
+[02:51:49] Day: 2, Zombies: 12, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:51] sync
+[02:51:54] Day: 2, Zombies: 13, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:51:59] Day: 2, Zombies: 13, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:04] Day: 2, Zombies: 13, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:09] Day: 2, Zombies: 10, Portal Zombies: 1, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:13] Day: 2, Zombies: 8, Portal Zombies: 0, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:18] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:23] Day: 2, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:28] Day: 2, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:33] Day: 2, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[02:52:38] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.5, spawnRate: 127, num_undead: 0, max_undead: 0
+[02:52:43] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.54861, spawnRate: 126, num_undead: 0, max_undead: 0
+[02:52:48] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.59722, spawnRate: 126, num_undead: 0, max_undead: 0
+[02:52:53] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.64583, spawnRate: 125, num_undead: 0, max_undead: 0
+[02:52:58] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.69444, spawnRate: 124, num_undead: 0, max_undead: 0
+[02:53:03] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.74306, spawnRate: 123, num_undead: 0, max_undead: 0
+[02:53:08] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.79167, spawnRate: 123, num_undead: 0, max_undead: 0
+[02:53:13] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 0, zombdiff: 5, difficulty: 3.84028, spawnRate: 122, num_undead: 0, max_undead: 0
+[02:53:18] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.88889, spawnRate: 121, num_undead: 0, max_undead: 0
+[02:53:23] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.9375, spawnRate: 120, num_undead: 0, max_undead: 0
+[02:53:28] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.98611, spawnRate: 120, num_undead: 0, max_undead: 0
+[02:53:33] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.03472, spawnRate: 119, num_undead: 0, max_undead: 0
+[02:53:38] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.08333, spawnRate: 118, num_undead: 0, max_undead: 0
+[02:53:43] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.13194, spawnRate: 118, num_undead: 0, max_undead: 0
+[02:53:48] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.18056, spawnRate: 117, num_undead: 0, max_undead: 0
+[02:53:52] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.22917, spawnRate: 116, num_undead: 0, max_undead: 0
+[02:53:57] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.27778, spawnRate: 115, num_undead: 0, max_undead: 0
+[02:54:02] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.32639, spawnRate: 115, num_undead: 0, max_undead: 0
+[02:54:07] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.375, spawnRate: 114, num_undead: 0, max_undead: 0
+[02:54:12] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.42361, spawnRate: 113, num_undead: 0, max_undead: 0
+[02:54:17] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.47222, spawnRate: 112, num_undead: 0, max_undead: 0
+[02:54:22] Day: 3, Zombies: 7, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.52083, spawnRate: 112, num_undead: 0, max_undead: 0
+[02:54:27] Day: 3, Zombies: 8, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.56944, spawnRate: 111, num_undead: 0, max_undead: 0
+[02:54:32] Day: 3, Zombies: 8, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.61806, spawnRate: 110, num_undead: 0, max_undead: 0
+[02:54:37] Day: 3, Zombies: 9, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.66667, spawnRate: 110, num_undead: 0, max_undead: 0
+[02:54:42] Day: 3, Zombies: 10, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 4.71528, spawnRate: 109, num_undead: 0, max_undead: 0
+[02:54:47] Day: 3, Zombies: 11, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 4.76389, spawnRate: 108, num_undead: 0, max_undead: 0
+[02:54:52] Day: 3, Zombies: 12, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 4.8125, spawnRate: 107, num_undead: 0, max_undead: 0
+[02:54:57] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 4.86111, spawnRate: 107, num_undead: 0, max_undead: 0
+[02:55:02] Day: 3, Zombies: 15, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 4.90972, spawnRate: 106, num_undead: 0, max_undead: 0
+[02:55:07] Day: 3, Zombies: 16, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 4.95833, spawnRate: 105, num_undead: 0, max_undead: 0
+[02:55:12] Day: 3, Zombies: 18, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[02:55:17] Day: 3, Zombies: 19, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[02:55:22] Day: 3, Zombies: 20, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[02:55:27] Day: 3, Zombies: 20, Portal Zombies: 0, Migrants: 1, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[02:55:31] Day: 3, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[02:55:36] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.25, spawnRate: 101, num_undead: 0, max_undead: 0
+[02:55:41] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.29861, spawnRate: 100, num_undead: 0, max_undead: 0
+[02:55:46] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.34722, spawnRate: 99, num_undead: 0, max_undead: 0
+[02:55:51] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.39583, spawnRate: 99, num_undead: 0, max_undead: 0
+[02:55:56] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.44444, spawnRate: 98, num_undead: 0, max_undead: 0
+[02:56:01] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.49306, spawnRate: 97, num_undead: 0, max_undead: 0
+[02:56:06] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.54167, spawnRate: 96, num_undead: 0, max_undead: 0
+[02:56:11] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 0, zombdiff: 7.5, difficulty: 5.59028, spawnRate: 96, num_undead: 0, max_undead: 0
+[02:56:16] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.63889, spawnRate: 95, num_undead: 0, max_undead: 0
+[02:56:21] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.6875, spawnRate: 94, num_undead: 0, max_undead: 0
+[02:56:26] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.73611, spawnRate: 93, num_undead: 0, max_undead: 0
+[02:56:31] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.78472, spawnRate: 93, num_undead: 0, max_undead: 0
+[02:56:36] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.83333, spawnRate: 92, num_undead: 0, max_undead: 0
+[02:56:41] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.88194, spawnRate: 91, num_undead: 0, max_undead: 0
+[02:56:46] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.93056, spawnRate: 91, num_undead: 0, max_undead: 0
+[02:56:51] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 5.97917, spawnRate: 90, num_undead: 0, max_undead: 0
+[02:56:56] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 3, zombdiff: 7.5, difficulty: 6.02778, spawnRate: 89, num_undead: 0, max_undead: 0
+[02:57:01] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.07639, spawnRate: 88, num_undead: 0, max_undead: 0
+[02:57:06] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.125, spawnRate: 88, num_undead: 0, max_undead: 0
+[02:57:10] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.17361, spawnRate: 87, num_undead: 0, max_undead: 0
+[02:57:15] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.22222, spawnRate: 86, num_undead: 0, max_undead: 0
+[02:57:20] Day: 4, Zombies: 21, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.27083, spawnRate: 85, num_undead: 0, max_undead: 0
+[02:57:25] Day: 4, Zombies: 22, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.31944, spawnRate: 85, num_undead: 0, max_undead: 0
+[02:57:30] Day: 4, Zombies: 23, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.36806, spawnRate: 84, num_undead: 0, max_undead: 0
+[02:57:35] Day: 4, Zombies: 25, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.41667, spawnRate: 83, num_undead: 0, max_undead: 0
+[02:57:40] Day: 4, Zombies: 27, Portal Zombies: 1, Migrants: 1, zombdiff: 7.5, difficulty: 6.46528, spawnRate: 83, num_undead: 0, max_undead: 0
+[02:57:45] Day: 4, Zombies: 29, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.51389, spawnRate: 82, num_undead: 0, max_undead: 0
+[02:57:50] Day: 4, Zombies: 30, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.5625, spawnRate: 81, num_undead: 0, max_undead: 0
+[02:57:55] Day: 4, Zombies: 31, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.61111, spawnRate: 80, num_undead: 0, max_undead: 0
+[02:57:57] Player Yeah0 left the game (players left 1)
+[02:58:00] Day: 4, Zombies: 33, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.65972, spawnRate: 80, num_undead: 0, max_undead: 0
+[02:58:05] Day: 4, Zombies: 36, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.70833, spawnRate: 79, num_undead: 0, max_undead: 0
+[02:58:10] Day: 4, Zombies: 38, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.75694, spawnRate: 78, num_undead: 0, max_undead: 0
+[02:58:15] Day: 4, Zombies: 40, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.80556, spawnRate: 77, num_undead: 0, max_undead: 0
+[02:58:20] Day: 4, Zombies: 41, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.85417, spawnRate: 77, num_undead: 0, max_undead: 0
+[02:58:23] player tier: 0
+[02:58:23] * Yeah0 connected (admin: 0 guard 0 gold 1 tester 0)
+[02:58:25] Day: 4, Zombies: 41, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.90278, spawnRate: 76, num_undead: 0, max_undead: 0
+[02:58:27] sync
+[02:58:30] Day: 4, Zombies: 41, Portal Zombies: 2, Migrants: 0, zombdiff: 7.5, difficulty: 6.95139, spawnRate: 75, num_undead: 0, max_undead: 0
+[02:58:35] Day: 5, Zombies: 41, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7, spawnRate: 75, num_undead: 0, max_undead: 0
+[02:58:40] Day: 5, Zombies: 39, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7.04861, spawnRate: 74, num_undead: 0, max_undead: 0
+[02:58:45] Day: 5, Zombies: 39, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7.09722, spawnRate: 73, num_undead: 0, max_undead: 0
+[02:58:49] Day: 5, Zombies: 37, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7.14583, spawnRate: 72, num_undead: 0, max_undead: 0
+[02:58:54] Day: 5, Zombies: 36, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7.19444, spawnRate: 72, num_undead: 0, max_undead: 0
+[02:58:59] Day: 5, Zombies: 36, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7.24306, spawnRate: 71, num_undead: 0, max_undead: 0
+[02:59:04] Day: 5, Zombies: 36, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7.29167, spawnRate: 70, num_undead: 0, max_undead: 0
+[02:59:09] Day: 5, Zombies: 36, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 7.34028, spawnRate: 69, num_undead: 0, max_undead: 0
+[02:59:14] Day: 5, Zombies: 36, Portal Zombies: 2, Migrants: 3, zombdiff: 10, difficulty: 7.38889, spawnRate: 69, num_undead: 0, max_undead: 0
+[02:59:19] Day: 5, Zombies: 35, Portal Zombies: 2, Migrants: 3, zombdiff: 10, difficulty: 7.4375, spawnRate: 68, num_undead: 0, max_undead: 0
+[02:59:24] Day: 5, Zombies: 35, Portal Zombies: 2, Migrants: 3, zombdiff: 10, difficulty: 7.48611, spawnRate: 67, num_undead: 0, max_undead: 0
+[02:59:29] Day: 5, Zombies: 35, Portal Zombies: 2, Migrants: 3, zombdiff: 10, difficulty: 7.53472, spawnRate: 66, num_undead: 0, max_undead: 0
+[02:59:34] Day: 5, Zombies: 35, Portal Zombies: 2, Migrants: 3, zombdiff: 10, difficulty: 7.58333, spawnRate: 66, num_undead: 0, max_undead: 0
+[02:59:39] Day: 5, Zombies: 35, Portal Zombies: 2, Migrants: 3, zombdiff: 10, difficulty: 7.63194, spawnRate: 65, num_undead: 0, max_undead: 0
+[02:59:44] Day: 5, Zombies: 35, Portal Zombies: 2, Migrants: 3, zombdiff: 10, difficulty: 7.68056, spawnRate: 64, num_undead: 0, max_undead: 0
+[02:59:49] Day: 5, Zombies: 34, Portal Zombies: 2, Migrants: 1, zombdiff: 10, difficulty: 7.72917, spawnRate: 64, num_undead: 0, max_undead: 0
+[02:59:54] Day: 5, Zombies: 33, Portal Zombies: 2, Migrants: 1, zombdiff: 10, difficulty: 7.77778, spawnRate: 63, num_undead: 0, max_undead: 0
+[02:59:59] Day: 5, Zombies: 30, Portal Zombies: 2, Migrants: 1, zombdiff: 10, difficulty: 7.82639, spawnRate: 62, num_undead: 0, max_undead: 0
+[03:00:01] Player Yeah0 left the game (players left 1)
+[03:00:04] Day: 5, Zombies: 28, Portal Zombies: 2, Migrants: 1, zombdiff: 10, difficulty: 7.875, spawnRate: 61, num_undead: 0, max_undead: 0
+[03:00:09] Day: 5, Zombies: 28, Portal Zombies: 2, Migrants: 1, zombdiff: 10, difficulty: 7.92361, spawnRate: 61, num_undead: 0, max_undead: 0
+[03:00:14] Day: 5, Zombies: 28, Portal Zombies: 2, Migrants: 1, zombdiff: 10, difficulty: 7.97222, spawnRate: 60, num_undead: 0, max_undead: 0
+[03:00:16] player tier: 0
+[03:00:16] * Yeah0 connected (admin: 0 guard 0 gold 1 tester 0)
+[03:00:19] Day: 5, Zombies: 28, Portal Zombies: 2, Migrants: 1, zombdiff: 10, difficulty: 8.02083, spawnRate: 59, num_undead: 0, max_undead: 0
+[03:00:21] sync
+[03:00:24] Day: 5, Zombies: 28, Portal Zombies: 2, Migrants: 0, zombdiff: 10, difficulty: 8.06944, spawnRate: 58, num_undead: 0, max_undead: 0
+[03:00:28] Day: 5, Zombies: 36, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.11806, spawnRate: 58, num_undead: 0, max_undead: 0
+[03:00:33] Day: 5, Zombies: 39, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.16667, spawnRate: 57, num_undead: 0, max_undead: 0
+[03:00:38] Day: 5, Zombies: 41, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.21528, spawnRate: 56, num_undead: 0, max_undead: 0
+[03:00:43] Day: 5, Zombies: 44, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.26389, spawnRate: 56, num_undead: 0, max_undead: 0
+[03:00:48] Day: 5, Zombies: 46, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.3125, spawnRate: 55, num_undead: 0, max_undead: 0
+[03:00:53] Day: 5, Zombies: 48, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.36111, spawnRate: 54, num_undead: 0, max_undead: 0
+[03:00:58] Day: 5, Zombies: 51, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.40972, spawnRate: 53, num_undead: 0, max_undead: 0
+[03:01:03] Day: 5, Zombies: 53, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.45833, spawnRate: 53, num_undead: 0, max_undead: 0
+[03:01:08] Day: 5, Zombies: 51, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.50694, spawnRate: 52, num_undead: 0, max_undead: 0
+[03:01:13] Day: 5, Zombies: 53, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.55556, spawnRate: 51, num_undead: 0, max_undead: 0
+[03:01:18] Day: 5, Zombies: 51, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.60417, spawnRate: 50, num_undead: 0, max_undead: 0
+[03:01:23] Day: 5, Zombies: 51, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.65278, spawnRate: 50, num_undead: 0, max_undead: 0
+[03:01:28] Day: 5, Zombies: 48, Portal Zombies: 6, Migrants: 0, zombdiff: 10, difficulty: 8.70139, spawnRate: 49, num_undead: 0, max_undead: 0
+[03:01:33] Day: 6, Zombies: 47, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 8.75, spawnRate: 48, num_undead: 0, max_undead: 0
+[03:01:38] Day: 6, Zombies: 47, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 8.79861, spawnRate: 48, num_undead: 0, max_undead: 0
+[03:01:43] Day: 6, Zombies: 44, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 8.84722, spawnRate: 47, num_undead: 0, max_undead: 0
+[03:01:48] Day: 6, Zombies: 44, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 8.89583, spawnRate: 46, num_undead: 0, max_undead: 0
+[03:01:53] Day: 6, Zombies: 43, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 8.94444, spawnRate: 45, num_undead: 0, max_undead: 0
+[03:01:58] Day: 6, Zombies: 42, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 8.99306, spawnRate: 45, num_undead: 0, max_undead: 0
+[03:02:03] Day: 6, Zombies: 42, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 9.04167, spawnRate: 44, num_undead: 0, max_undead: 0
+[03:02:07] Day: 6, Zombies: 42, Portal Zombies: 6, Migrants: 0, zombdiff: 12, difficulty: 9.09028, spawnRate: 43, num_undead: 0, max_undead: 0
+[03:02:12] Day: 6, Zombies: 42, Portal Zombies: 6, Migrants: 3, zombdiff: 12, difficulty: 9.13889, spawnRate: 42, num_undead: 0, max_undead: 0
+[03:02:14] Player Yeah0 left the game (players left 1)
+[03:02:25] *Restarting Map*
+[03:02:25] Adding map to cycle 'Maps/zf_00.png'
+[03:02:25] Adding map to cycle 'Maps/zf_01.png'
+[03:02:25] Adding map to cycle 'Maps/zf_02.png'
+[03:02:25] Adding map to cycle 'Maps/zf_03.png'
+[03:02:25] Adding map to cycle 'Maps/zf_04.png'
+[03:02:25] Adding map to cycle 'Maps/zf_05.png'
+[03:02:25] Adding map to cycle 'Maps/zf_06.png'
+[03:02:25] Adding map to cycle 'Maps/zf_07.png'
+[03:02:25] Adding map to cycle 'Maps/zf_08.png'
+[03:02:25] Adding map to cycle 'Maps/zf_09.png'
+[03:02:25] Adding map to cycle 'Maps/zf_10.png'
+[03:02:25] Adding map to cycle 'Maps/zf_11.png'
+[03:02:25] Adding map to cycle 'Maps/zf_12.png'
+[03:02:25] Adding map to cycle 'Maps/zf_13.png'
+[03:02:25] Adding map to cycle 'Maps/zf_14.png'
+[03:02:25] Adding map to cycle 'Maps/zf_15.png'
+[03:02:25] Adding map to cycle 'Maps/zf_16.png'
+[03:02:25] Adding map to cycle 'Maps/zf_17.png'
+[03:02:25] Adding map to cycle 'Maps/zf_18.png'
+[03:02:25] Adding map to cycle 'Maps/zf_19.png'
+[03:02:25] Adding map to cycle 'Maps/zf_20.png'
+[03:02:25] Adding map to cycle 'Maps/zf_21.png'
+[03:02:25] Adding map to cycle 'Maps/zf_22.png'
+[03:02:25] Adding map to cycle 'Maps/zf_23.png'
+[03:02:25] Adding map to cycle 'Maps/zf_24.png'
+[03:02:25] Adding map to cycle 'Maps/zf_25.png'
+[03:02:25] Adding map to cycle 'Maps/zf_26.png'
+[03:02:25] Adding map to cycle 'Maps/zf_27.png'
+[03:02:25] Adding map to cycle 'Maps/zf_28.png'
+[03:02:25] Adding map to cycle 'Maps/zf_29.png'
+[03:02:25] Adding map to cycle 'Maps/zf_30.png'
+[03:02:25] Adding map to cycle 'Maps/zf_31.png'
+[03:02:25] Adding map to cycle 'Maps/zf_32.png'
+[03:02:25] Adding map to cycle 'Maps/zf_33.png'
+[03:02:25] Adding map to cycle 'Maps/zf_34.png'
+[03:02:25] Adding map to cycle 'Maps/zf_35.png'
+[03:02:25] Adding map to cycle 'Maps/zf_36.png'
+[03:02:25] Adding map to cycle 'Maps/zf_37.png'
+[03:02:25] Adding map to cycle 'Maps/zf_38.png'
+[03:02:25] Adding map to cycle 'Maps/zf_39.png'
+[03:02:25] Adding map to cycle 'Maps/zf_40.png'
+[03:02:25] Adding map to cycle 'Maps/zf_41.png'
+[03:02:25] File not found Maps/zf_39.png, searching matches...
+[03:02:25] Best match ../Mods/ZFM+1.6.7f/Maps/zf_39.png
+[03:02:25] LOADING PNG MAP ../Mods/ZFM+1.6.7f/Maps/zf_39.png
+[03:02:26] Checking if update available
+[03:02:26] Restarting rules script: ../Mods/ZFM+1.6.7f/Rules/zombies_Rules.as
+[03:02:26] sync
+[03:02:26] Checking any holidays...
+[03:02:31] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0486111, spawnRate: 179, num_undead: 0, max_undead: 0
+[03:02:36] player tier: 0
+[03:02:36] * Yeah0 connected (admin: 0 guard 0 gold 1 tester 0)
+[03:02:36] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0972222, spawnRate: 178, num_undead: 0, max_undead: 0
+[03:02:40] sync
+[03:02:41] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.145833, spawnRate: 177, num_undead: 0, max_undead: 0
+[03:02:46] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.194444, spawnRate: 177, num_undead: 0, max_undead: 0
+[03:02:51] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.243056, spawnRate: 176, num_undead: 0, max_undead: 0
+[03:02:56] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.291667, spawnRate: 175, num_undead: 0, max_undead: 0
+[03:02:59] sync
+[03:03:01] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.340278, spawnRate: 174, num_undead: 0, max_undead: 1
+[03:03:06] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.388889, spawnRate: 174, num_undead: 0, max_undead: 1
+[03:03:11] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.4375, spawnRate: 173, num_undead: 0, max_undead: 1
+[03:03:16] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.486111, spawnRate: 172, num_undead: 0, max_undead: 1
+[03:03:21] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.534722, spawnRate: 171, num_undead: 0, max_undead: 1
+[03:03:25] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.583333, spawnRate: 171, num_undead: 0, max_undead: 1
+[03:03:30] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.631944, spawnRate: 170, num_undead: 0, max_undead: 1
+[03:03:35] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.680556, spawnRate: 169, num_undead: 0, max_undead: 1
+[03:03:40] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.729167, spawnRate: 169, num_undead: 0, max_undead: 1
+[03:03:45] Day: 1, Zombies: 3, Portal Zombies: 1, Migrants: 3, zombdiff: 0, difficulty: 0.777778, spawnRate: 168, num_undead: 0, max_undead: 1
+[03:03:50] Day: 1, Zombies: 3, Portal Zombies: 1, Migrants: 3, zombdiff: 0, difficulty: 0.826389, spawnRate: 167, num_undead: 0, max_undead: 1
+[03:03:55] Day: 1, Zombies: 3, Portal Zombies: 1, Migrants: 3, zombdiff: 0, difficulty: 0.875, spawnRate: 166, num_undead: 0, max_undead: 1
+[03:04:00] Day: 1, Zombies: 3, Portal Zombies: 1, Migrants: 3, zombdiff: 0, difficulty: 0.923611, spawnRate: 166, num_undead: 0, max_undead: 1
+[03:04:05] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 0.972222, spawnRate: 165, num_undead: 0, max_undead: 1
+[03:04:10] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.02083, spawnRate: 164, num_undead: 0, max_undead: 1
+[03:04:15] Day: 1, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.06944, spawnRate: 163, num_undead: 0, max_undead: 1
+[03:04:20] Day: 1, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.11806, spawnRate: 163, num_undead: 0, max_undead: 1
+[03:04:25] Day: 1, Zombies: 4, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.16667, spawnRate: 162, num_undead: 0, max_undead: 1
+[03:04:30] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.21528, spawnRate: 161, num_undead: 0, max_undead: 1
+[03:04:35] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.26389, spawnRate: 161, num_undead: 0, max_undead: 1
+[03:04:40] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.3125, spawnRate: 160, num_undead: 0, max_undead: 1
+[03:04:45] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.36111, spawnRate: 159, num_undead: 0, max_undead: 1
+[03:04:50] Day: 1, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.40972, spawnRate: 158, num_undead: 0, max_undead: 1
+[03:04:55] Day: 1, Zombies: 8, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.45833, spawnRate: 158, num_undead: 0, max_undead: 1
+[03:05:00] Day: 1, Zombies: 8, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.50694, spawnRate: 157, num_undead: 0, max_undead: 1
+[03:05:05] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.55556, spawnRate: 156, num_undead: 0, max_undead: 1
+[03:05:09] Day: 1, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.60417, spawnRate: 155, num_undead: 0, max_undead: 1
+[03:05:14] Day: 1, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.65278, spawnRate: 155, num_undead: 0, max_undead: 1
+[03:05:19] Day: 1, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 0, difficulty: 1.70139, spawnRate: 154, num_undead: 0, max_undead: 1
+[03:05:24] Day: 2, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.75, spawnRate: 153, num_undead: 0, max_undead: 1
+[03:05:29] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.79861, spawnRate: 153, num_undead: 0, max_undead: 1
+[03:05:34] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.84722, spawnRate: 152, num_undead: 0, max_undead: 1
+[03:05:39] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.89583, spawnRate: 151, num_undead: 0, max_undead: 1
+[03:05:44] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.94444, spawnRate: 150, num_undead: 0, max_undead: 1
+[03:05:49] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 1.99306, spawnRate: 150, num_undead: 0, max_undead: 1
+[03:05:54] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.04167, spawnRate: 149, num_undead: 0, max_undead: 1
+[03:05:59] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.09028, spawnRate: 148, num_undead: 0, max_undead: 1
+[03:06:04] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.13889, spawnRate: 147, num_undead: 0, max_undead: 1
+[03:06:09] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.1875, spawnRate: 147, num_undead: 0, max_undead: 1
+[03:06:14] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.23611, spawnRate: 146, num_undead: 0, max_undead: 1
+[03:06:19] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.28472, spawnRate: 145, num_undead: 0, max_undead: 1
+[03:06:24] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.33333, spawnRate: 145, num_undead: 0, max_undead: 1
+[03:06:29] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.38194, spawnRate: 144, num_undead: 0, max_undead: 1
+[03:06:34] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.43056, spawnRate: 143, num_undead: 0, max_undead: 1
+[03:06:39] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.47917, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:06:44] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:06:48] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:06:53] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:06:58] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:03] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:08] Day: 2, Zombies: 2, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:13] Day: 2, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:18] Day: 2, Zombies: 4, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:23] Day: 2, Zombies: 5, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:28] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:33] Day: 2, Zombies: 7, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:38] Day: 2, Zombies: 8, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:43] Day: 2, Zombies: 9, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:48] Day: 2, Zombies: 10, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:53] Day: 2, Zombies: 11, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:07:58] Day: 2, Zombies: 12, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:08:02] player tier: 0
+[03:08:02] * Panzerkampfwagen connected (admin: 0 guard 0 gold 1 tester 0)
+[03:08:03] Day: 2, Zombies: 13, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:08:05] SENDING 2 FILES
+[03:08:08] Day: 2, Zombies: 14, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:08:13] Day: 2, Zombies: 14, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:08:18] Day: 2, Zombies: 14, Portal Zombies: 0, Migrants: 3, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:08:22] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.5, spawnRate: 127, num_undead: 0, max_undead: 1
+[03:08:27] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.54861, spawnRate: 126, num_undead: 0, max_undead: 1
+[03:08:32] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.59722, spawnRate: 126, num_undead: 0, max_undead: 1
+[03:08:37] Day: 3, Zombies: 15, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 3.64583, spawnRate: 125, num_undead: 0, max_undead: 1
+[03:08:40] player tier: 0
+[03:08:40] * Panzerkampfwagen connected (admin: 0 guard 0 gold 1 tester 0)
+[03:08:42] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 3.69444, spawnRate: 124, num_undead: 0, max_undead: 1
+[03:08:46] sync
+[03:08:47] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 3.74306, spawnRate: 123, num_undead: 0, max_undead: 1
+[03:08:52] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 3.79167, spawnRate: 123, num_undead: 0, max_undead: 1
+[03:08:57] Day: 3, Zombies: 14, Portal Zombies: 0, Migrants: 2, zombdiff: 5, difficulty: 3.84028, spawnRate: 122, num_undead: 0, max_undead: 1
+[03:09:02] Day: 3, Zombies: 12, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.88889, spawnRate: 121, num_undead: 0, max_undead: 1
+[03:09:07] Day: 3, Zombies: 12, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.9375, spawnRate: 120, num_undead: 0, max_undead: 1
+[03:09:12] Day: 3, Zombies: 12, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 3.98611, spawnRate: 120, num_undead: 0, max_undead: 1
+[03:09:17] Day: 3, Zombies: 12, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.03472, spawnRate: 119, num_undead: 0, max_undead: 1
+[03:09:22] Day: 3, Zombies: 11, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.08333, spawnRate: 118, num_undead: 0, max_undead: 1
+[03:09:27] Day: 3, Zombies: 10, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.13194, spawnRate: 118, num_undead: 0, max_undead: 1
+[03:09:32] Day: 3, Zombies: 10, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.18056, spawnRate: 117, num_undead: 0, max_undead: 1
+[03:09:37] Day: 3, Zombies: 10, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.22917, spawnRate: 116, num_undead: 0, max_undead: 1
+[03:09:42] Day: 3, Zombies: 10, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.27778, spawnRate: 115, num_undead: 0, max_undead: 1
+[03:09:47] Day: 3, Zombies: 8, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.32639, spawnRate: 115, num_undead: 0, max_undead: 1
+[03:09:52] Day: 3, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.375, spawnRate: 114, num_undead: 0, max_undead: 1
+[03:09:57] Day: 3, Zombies: 6, Portal Zombies: 0, Migrants: 3, zombdiff: 5, difficulty: 4.42361, spawnRate: 113, num_undead: 0, max_undead: 1
+[03:10:02] Day: 3, Zombies: 7, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.47222, spawnRate: 112, num_undead: 0, max_undead: 1
+[03:10:06] Day: 3, Zombies: 7, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.52083, spawnRate: 112, num_undead: 0, max_undead: 1
+[03:10:11] Day: 3, Zombies: 8, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.56944, spawnRate: 111, num_undead: 0, max_undead: 1
+[03:10:16] Day: 3, Zombies: 8, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.61806, spawnRate: 110, num_undead: 0, max_undead: 1
+[03:10:21] Day: 3, Zombies: 9, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.66667, spawnRate: 110, num_undead: 0, max_undead: 1
+[03:10:26] Day: 3, Zombies: 8, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.71528, spawnRate: 109, num_undead: 0, max_undead: 1
+[03:10:31] Day: 3, Zombies: 9, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.76389, spawnRate: 108, num_undead: 0, max_undead: 1
+[03:10:36] Day: 3, Zombies: 9, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.8125, spawnRate: 107, num_undead: 0, max_undead: 1
+[03:10:41] Day: 3, Zombies: 10, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.86111, spawnRate: 107, num_undead: 0, max_undead: 1
+[03:10:46] Day: 3, Zombies: 10, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.90972, spawnRate: 106, num_undead: 0, max_undead: 1
+[03:10:51] Day: 3, Zombies: 11, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 4.95833, spawnRate: 105, num_undead: 0, max_undead: 1
+[03:10:51] player tier: 0
+[03:10:51] * K1Jackson connected (admin: 0 guard 0 gold 1 tester 0)
+[03:10:53] SENDING 1102 FILES
+[03:10:56] Day: 3, Zombies: 13, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 1
+[03:11:01] Day: 3, Zombies: 11, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 1
+[03:11:06] Day: 3, Zombies: 12, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 1
+[03:11:11] Day: 3, Zombies: 11, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 1
+[03:11:16] Day: 3, Zombies: 11, Portal Zombies: 1, Migrants: 2, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 1
+[03:11:21] Day: 4, Zombies: 12, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.25, spawnRate: 101, num_undead: 0, max_undead: 1
+[03:11:26] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.29861, spawnRate: 100, num_undead: 0, max_undead: 1
+[03:11:30] player tier: 0
+[03:11:30] * K1Jackson connected (admin: 0 guard 0 gold 1 tester 0)
+[03:11:31] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.34722, spawnRate: 99, num_undead: 0, max_undead: 1
+[03:11:36] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.39583, spawnRate: 99, num_undead: 0, max_undead: 1
+[03:11:39] sync
+[03:11:40] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.44444, spawnRate: 98, num_undead: 0, max_undead: 1
+[03:11:45] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.49306, spawnRate: 97, num_undead: 0, max_undead: 1
+[03:11:46] User KiAn tried to place a tile without having correct resoruces
+[03:11:46] User KiAn tried to place a tile without having correct resoruces
+[03:11:50] Day: 4, Zombies: 10, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.54167, spawnRate: 96, num_undead: 0, max_undead: 1
+[03:11:55] Day: 4, Zombies: 9, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 5.59028, spawnRate: 96, num_undead: 0, max_undead: 1
+[03:12:00] Day: 4, Zombies: 9, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.63889, spawnRate: 95, num_undead: 0, max_undead: 1
+[03:12:05] Day: 4, Zombies: 9, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.6875, spawnRate: 94, num_undead: 0, max_undead: 1
+[03:12:10] Day: 4, Zombies: 9, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.73611, spawnRate: 93, num_undead: 0, max_undead: 1
+[03:12:15] Day: 4, Zombies: 9, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.78472, spawnRate: 93, num_undead: 0, max_undead: 1
+[03:12:20] Day: 4, Zombies: 9, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.83333, spawnRate: 92, num_undead: 0, max_undead: 1
+[03:12:25] Day: 4, Zombies: 8, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.88194, spawnRate: 91, num_undead: 0, max_undead: 1
+[03:12:30] Day: 4, Zombies: 7, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.93056, spawnRate: 91, num_undead: 0, max_undead: 1
+[03:12:35] Day: 4, Zombies: 7, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 5.97917, spawnRate: 90, num_undead: 0, max_undead: 1
+[03:12:40] Day: 4, Zombies: 7, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.02778, spawnRate: 89, num_undead: 0, max_undead: 1
+[03:12:45] Day: 4, Zombies: 6, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.07639, spawnRate: 88, num_undead: 0, max_undead: 1
+[03:12:50] Day: 4, Zombies: 6, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.125, spawnRate: 88, num_undead: 0, max_undead: 1
+[03:12:55] Day: 4, Zombies: 6, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.17361, spawnRate: 87, num_undead: 0, max_undead: 1
+[03:13:00] Day: 4, Zombies: 6, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.22222, spawnRate: 86, num_undead: 0, max_undead: 1
+[03:13:05] Day: 4, Zombies: 6, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.27083, spawnRate: 85, num_undead: 0, max_undead: 1
+[03:13:10] Day: 4, Zombies: 6, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.31944, spawnRate: 85, num_undead: 0, max_undead: 1
+[03:13:15] Day: 4, Zombies: 6, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.36806, spawnRate: 84, num_undead: 0, max_undead: 1
+[03:13:20] Day: 4, Zombies: 8, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.41667, spawnRate: 83, num_undead: 0, max_undead: 1
+[03:13:24] Day: 4, Zombies: 10, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.46528, spawnRate: 83, num_undead: 0, max_undead: 1
+[03:13:29] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.51389, spawnRate: 82, num_undead: 0, max_undead: 1
+[03:13:34] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.5625, spawnRate: 81, num_undead: 0, max_undead: 1
+[03:13:39] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.61111, spawnRate: 80, num_undead: 0, max_undead: 1
+[03:13:44] Day: 4, Zombies: 12, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.65972, spawnRate: 80, num_undead: 0, max_undead: 1
+[03:13:49] Day: 4, Zombies: 11, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.70833, spawnRate: 79, num_undead: 0, max_undead: 1
+[03:13:54] Day: 4, Zombies: 12, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.75694, spawnRate: 78, num_undead: 0, max_undead: 1
+[03:13:59] Day: 4, Zombies: 13, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.80556, spawnRate: 77, num_undead: 0, max_undead: 1
+[03:14:04] Day: 4, Zombies: 14, Portal Zombies: 2, Migrants: 3, zombdiff: 7.5, difficulty: 6.85417, spawnRate: 77, num_undead: 0, max_undead: 1
+[03:14:09] Day: 4, Zombies: 13, Portal Zombies: 2, Migrants: 2, zombdiff: 7.5, difficulty: 6.90278, spawnRate: 76, num_undead: 0, max_undead: 1
+[03:14:14] Day: 4, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 7.5, difficulty: 6.95139, spawnRate: 75, num_undead: 0, max_undead: 1
+[03:14:19] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7, spawnRate: 75, num_undead: 0, max_undead: 1
+[03:14:24] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7.04861, spawnRate: 74, num_undead: 0, max_undead: 1
+[03:14:29] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7.09722, spawnRate: 73, num_undead: 0, max_undead: 1
+[03:14:34] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7.14583, spawnRate: 72, num_undead: 0, max_undead: 1
+[03:14:39] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7.19444, spawnRate: 72, num_undead: 0, max_undead: 1
+[03:14:44] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7.24306, spawnRate: 71, num_undead: 0, max_undead: 1
+[03:14:49] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7.29167, spawnRate: 70, num_undead: 0, max_undead: 1
+[03:14:54] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 2, zombdiff: 10, difficulty: 7.34028, spawnRate: 69, num_undead: 0, max_undead: 1
+[03:14:59] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.38889, spawnRate: 69, num_undead: 0, max_undead: 1
+[03:15:03] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.4375, spawnRate: 68, num_undead: 0, max_undead: 1
+[03:15:08] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.48611, spawnRate: 67, num_undead: 0, max_undead: 1
+[03:15:13] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.53472, spawnRate: 66, num_undead: 0, max_undead: 1
+[03:15:18] Day: 5, Zombies: 3, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.58333, spawnRate: 66, num_undead: 0, max_undead: 1
+[03:15:23] Day: 5, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.63194, spawnRate: 65, num_undead: 0, max_undead: 1
+[03:15:28] Day: 5, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.68056, spawnRate: 64, num_undead: 0, max_undead: 1
+[03:15:33] Day: 5, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.72917, spawnRate: 64, num_undead: 0, max_undead: 1
+[03:15:38] Day: 5, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.77778, spawnRate: 63, num_undead: 0, max_undead: 1
+[03:15:43] Day: 5, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.82639, spawnRate: 62, num_undead: 0, max_undead: 1
+[03:15:48] Day: 5, Zombies: 1, Portal Zombies: 0, Migrants: 3, zombdiff: 10, difficulty: 7.875, spawnRate: 61, num_undead: 0, max_undead: 1
+[03:15:53] Day: 5, Zombies: 2, Portal Zombies: 1, Migrants: 3, zombdiff: 10, difficulty: 7.92361, spawnRate: 61, num_undead: 0, max_undead: 1
+[03:15:53] Player Panzerkampfwagen left the game (players left 4)
+[03:15:58] Day: 5, Zombies: 2, Portal Zombies: 1, Migrants: 3, zombdiff: 10, difficulty: 7.97222, spawnRate: 60, num_undead: 0, max_undead: 1
+[03:16:03] Day: 5, Zombies: 2, Portal Zombies: 1, Migrants: 3, zombdiff: 10, difficulty: 8.02083, spawnRate: 59, num_undead: 0, max_undead: 1
+[03:16:08] Day: 5, Zombies: 2, Portal Zombies: 1, Migrants: 3, zombdiff: 10, difficulty: 8.06944, spawnRate: 58, num_undead: 0, max_undead: 1
+[03:16:13] Day: 5, Zombies: 10, Portal Zombies: 5, Migrants: 3, zombdiff: 10, difficulty: 8.11806, spawnRate: 58, num_undead: 0, max_undead: 1
+[03:16:18] Day: 5, Zombies: 11, Portal Zombies: 3, Migrants: 3, zombdiff: 10, difficulty: 8.16667, spawnRate: 57, num_undead: 0, max_undead: 1
+[03:16:23] Day: 5, Zombies: 12, Portal Zombies: 3, Migrants: 3, zombdiff: 10, difficulty: 8.21528, spawnRate: 56, num_undead: 0, max_undead: 1
+[03:16:28] Day: 5, Zombies: 14, Portal Zombies: 2, Migrants: 2, zombdiff: 10, difficulty: 8.26389, spawnRate: 56, num_undead: 0, max_undead: 1
+[03:16:33] Day: 5, Zombies: 17, Portal Zombies: 2, Migrants: 2, zombdiff: 10, difficulty: 8.3125, spawnRate: 55, num_undead: 0, max_undead: 1
+[03:16:38] Day: 5, Zombies: 17, Portal Zombies: 2, Migrants: 2, zombdiff: 10, difficulty: 8.36111, spawnRate: 54, num_undead: 0, max_undead: 1
+[03:16:42] Day: 5, Zombies: 19, Portal Zombies: 2, Migrants: 2, zombdiff: 10, difficulty: 8.40972, spawnRate: 53, num_undead: 0, max_undead: 1
+[03:16:47] Day: 5, Zombies: 19, Portal Zombies: 2, Migrants: 2, zombdiff: 10, difficulty: 8.45833, spawnRate: 53, num_undead: 0, max_undead: 1
+[03:16:52] Day: 5, Zombies: 20, Portal Zombies: 1, Migrants: 2, zombdiff: 10, difficulty: 8.50694, spawnRate: 52, num_undead: 0, max_undead: 1
+[03:16:57] Day: 5, Zombies: 20, Portal Zombies: 1, Migrants: 2, zombdiff: 10, difficulty: 8.55556, spawnRate: 51, num_undead: 0, max_undead: 1
+[03:17:02] Player K1Jackson left the game (players left 3)
+[03:17:02] Day: 5, Zombies: 20, Portal Zombies: 2, Migrants: 2, zombdiff: 10, difficulty: 8.60417, spawnRate: 50, num_undead: 0, max_undead: 1
+[03:17:07] Day: 5, Zombies: 20, Portal Zombies: 2, Migrants: 2, zombdiff: 10, difficulty: 8.65278, spawnRate: 50, num_undead: 0, max_undead: 1
+[03:17:12] Day: 5, Zombies: 21, Portal Zombies: 3, Migrants: 2, zombdiff: 10, difficulty: 8.70139, spawnRate: 49, num_undead: 0, max_undead: 1
+[03:17:17] Day: 6, Zombies: 22, Portal Zombies: 4, Migrants: 2, zombdiff: 12, difficulty: 8.75, spawnRate: 48, num_undead: 0, max_undead: 1
+[03:17:22] Day: 6, Zombies: 23, Portal Zombies: 5, Migrants: 2, zombdiff: 12, difficulty: 8.79861, spawnRate: 48, num_undead: 0, max_undead: 1
+[03:17:27] Day: 6, Zombies: 24, Portal Zombies: 6, Migrants: 2, zombdiff: 12, difficulty: 8.84722, spawnRate: 47, num_undead: 0, max_undead: 1
+[03:17:32] Day: 6, Zombies: 24, Portal Zombies: 7, Migrants: 2, zombdiff: 12, difficulty: 8.89583, spawnRate: 46, num_undead: 0, max_undead: 1
+[03:17:37] Day: 6, Zombies: 26, Portal Zombies: 9, Migrants: 2, zombdiff: 12, difficulty: 8.94444, spawnRate: 45, num_undead: 0, max_undead: 1
+[03:17:42] Day: 6, Zombies: 27, Portal Zombies: 10, Migrants: 2, zombdiff: 12, difficulty: 8.99306, spawnRate: 45, num_undead: 0, max_undead: 1
+[03:17:47] Day: 6, Zombies: 27, Portal Zombies: 11, Migrants: 1, zombdiff: 12, difficulty: 9.04167, spawnRate: 44, num_undead: 0, max_undead: 1
+[03:17:52] Day: 6, Zombies: 26, Portal Zombies: 11, Migrants: 1, zombdiff: 12, difficulty: 9.09028, spawnRate: 43, num_undead: 0, max_undead: 1
+[03:17:57] Day: 6, Zombies: 26, Portal Zombies: 11, Migrants: 3, zombdiff: 12, difficulty: 9.13889, spawnRate: 42, num_undead: 0, max_undead: 1
+[03:18:02] Day: 6, Zombies: 24, Portal Zombies: 9, Migrants: 3, zombdiff: 12, difficulty: 9.1875, spawnRate: 42, num_undead: 0, max_undead: 1
+[03:18:07] Day: 6, Zombies: 25, Portal Zombies: 10, Migrants: 3, zombdiff: 12, difficulty: 9.23611, spawnRate: 41, num_undead: 0, max_undead: 1
+[03:18:12] Day: 6, Zombies: 27, Portal Zombies: 12, Migrants: 3, zombdiff: 12, difficulty: 9.28472, spawnRate: 40, num_undead: 0, max_undead: 1
+[03:18:17] Day: 6, Zombies: 28, Portal Zombies: 13, Migrants: 3, zombdiff: 12, difficulty: 9.33333, spawnRate: 40, num_undead: 0, max_undead: 1
+[03:18:21] Day: 6, Zombies: 29, Portal Zombies: 14, Migrants: 3, zombdiff: 12, difficulty: 9.38194, spawnRate: 39, num_undead: 0, max_undead: 1
+[03:18:26] Day: 6, Zombies: 31, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.43056, spawnRate: 38, num_undead: 0, max_undead: 1
+[03:18:31] Day: 6, Zombies: 31, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.47917, spawnRate: 37, num_undead: 0, max_undead: 1
+[03:18:36] Day: 6, Zombies: 31, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.52778, spawnRate: 37, num_undead: 0, max_undead: 1
+[03:18:41] Day: 6, Zombies: 31, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.57639, spawnRate: 36, num_undead: 0, max_undead: 1
+[03:18:46] Day: 6, Zombies: 30, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.625, spawnRate: 35, num_undead: 0, max_undead: 1
+[03:18:51] Day: 6, Zombies: 30, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.67361, spawnRate: 34, num_undead: 0, max_undead: 1
+[03:18:56] Day: 6, Zombies: 30, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.72222, spawnRate: 34, num_undead: 0, max_undead: 1
+[03:19:01] Day: 6, Zombies: 29, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.77083, spawnRate: 33, num_undead: 0, max_undead: 1
+[03:19:06] Day: 6, Zombies: 31, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.81944, spawnRate: 32, num_undead: 0, max_undead: 1
+[03:19:11] Day: 6, Zombies: 35, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.86806, spawnRate: 31, num_undead: 0, max_undead: 1
+[03:19:16] Day: 6, Zombies: 37, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.91667, spawnRate: 31, num_undead: 0, max_undead: 1
+[03:19:21] Day: 6, Zombies: 40, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 9.96528, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:19:26] Day: 6, Zombies: 44, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.0139, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:19:31] Day: 6, Zombies: 46, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.0625, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:19:36] Day: 6, Zombies: 49, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.1111, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:19:41] Day: 6, Zombies: 51, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.1597, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:19:46] Day: 6, Zombies: 51, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.2083, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:19:51] Day: 6, Zombies: 53, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.2569, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:19:55] Day: 6, Zombies: 54, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.3056, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:00] Day: 6, Zombies: 54, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.3542, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:05] Day: 6, Zombies: 53, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.4028, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:10] Day: 6, Zombies: 51, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.4514, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:15] Day: 7, Zombies: 50, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.5, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:20] Day: 7, Zombies: 50, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.5486, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:25] Day: 7, Zombies: 50, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.5972, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:30] Day: 7, Zombies: 49, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.6458, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:35] Day: 7, Zombies: 48, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.6944, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:40] Day: 7, Zombies: 48, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.7431, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:45] Day: 7, Zombies: 48, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.7917, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:50] Day: 7, Zombies: 48, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 10.8403, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:20:55] Day: 7, Zombies: 48, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.8889, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:00] Day: 7, Zombies: 46, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.9375, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:05] Day: 7, Zombies: 45, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 10.9861, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:10] Day: 7, Zombies: 45, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.0347, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:15] Day: 7, Zombies: 45, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.0833, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:20] Day: 7, Zombies: 45, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.1319, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:25] Day: 7, Zombies: 45, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.1806, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:30] Day: 7, Zombies: 41, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.2292, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:35] Day: 7, Zombies: 40, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.2778, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:39] Day: 7, Zombies: 40, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.3264, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:44] Day: 7, Zombies: 39, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.375, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:49] Day: 7, Zombies: 39, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.4236, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:54] Day: 7, Zombies: 39, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.4722, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:21:59] Day: 7, Zombies: 39, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.5208, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:04] Day: 7, Zombies: 41, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.5694, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:09] Day: 7, Zombies: 45, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.6181, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:14] Day: 7, Zombies: 44, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 11.6667, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:19] Day: 7, Zombies: 48, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 11.7153, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:24] Day: 7, Zombies: 53, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 11.7639, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:29] Day: 7, Zombies: 58, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 11.8125, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:34] Day: 7, Zombies: 63, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 11.8611, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:39] Day: 7, Zombies: 67, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 11.9097, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:44] Day: 7, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 11.9583, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:49] Day: 7, Zombies: 69, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:54] Day: 7, Zombies: 73, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:22:59] Day: 7, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:04] Day: 7, Zombies: 70, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:09] Day: 7, Zombies: 70, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:13] Day: 8, Zombies: 70, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:18] Day: 8, Zombies: 70, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:23] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:28] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:33] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:38] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:43] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:48] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:53] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:23:58] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:03] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:08] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:13] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:18] Day: 8, Zombies: 59, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:23] Day: 8, Zombies: 55, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:28] Day: 8, Zombies: 54, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:33] Day: 8, Zombies: 54, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:38] Day: 8, Zombies: 54, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:43] Day: 8, Zombies: 54, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:48] Day: 8, Zombies: 54, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:53] Day: 8, Zombies: 53, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:24:57] Day: 8, Zombies: 53, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:02] Day: 8, Zombies: 55, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:07] Day: 8, Zombies: 56, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:12] Day: 8, Zombies: 61, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:17] Day: 8, Zombies: 66, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:22] Day: 8, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:27] Day: 8, Zombies: 70, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:32] Day: 8, Zombies: 69, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:37] Day: 8, Zombies: 74, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:42] Day: 8, Zombies: 72, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:47] Day: 8, Zombies: 72, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:52] Day: 8, Zombies: 72, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:25:57] Day: 8, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:02] Day: 8, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:07] Day: 8, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:12] Day: 9, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:17] Day: 9, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:22] Day: 9, Zombies: 71, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:27] Day: 9, Zombies: 67, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:31] Day: 9, Zombies: 67, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:36] Day: 9, Zombies: 67, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:41] Day: 9, Zombies: 67, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:46] Day: 9, Zombies: 67, Portal Zombies: 16, Migrants: 2, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:51] Day: 9, Zombies: 67, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:26:56] Day: 9, Zombies: 67, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:01] Day: 9, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:06] Day: 9, Zombies: 64, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:11] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:16] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:21] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:26] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:31] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:36] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:41] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:46] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:51] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:27:56] Day: 9, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:01] Day: 9, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:06] Day: 9, Zombies: 69, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:11] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:15] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:20] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:25] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:30] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:35] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:40] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:45] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:50] Day: 9, Zombies: 72, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:28:55] Day: 9, Zombies: 71, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:00] Day: 9, Zombies: 71, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:05] Day: 9, Zombies: 70, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:10] Day: 10, Zombies: 70, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:15] Day: 10, Zombies: 70, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:20] Day: 10, Zombies: 68, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:25] Day: 10, Zombies: 67, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:30] Day: 10, Zombies: 66, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:35] Day: 10, Zombies: 66, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:40] Day: 10, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:45] Day: 10, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:50] Day: 10, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:54] Day: 10, Zombies: 65, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:29:59] Day: 10, Zombies: 64, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:04] Day: 10, Zombies: 63, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:09] Day: 10, Zombies: 61, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:14] Day: 10, Zombies: 61, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:19] Day: 10, Zombies: 57, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:24] Day: 10, Zombies: 57, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:29] Day: 10, Zombies: 57, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:34] Day: 10, Zombies: 57, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:39] Day: 10, Zombies: 57, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:44] Day: 10, Zombies: 57, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:49] Day: 10, Zombies: 57, Portal Zombies: 16, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:54] Day: 10, Zombies: 58, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:30:59] Day: 10, Zombies: 65, Portal Zombies: 21, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:31:04] Day: 10, Zombies: 67, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:31:09] Day: 10, Zombies: 69, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:31:14] Day: 10, Zombies: 72, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:31:19] Day: 10, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:31:24] Day: 10, Zombies: 69, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:31:24] :::ZOMBIFYING: SirEarendil
+[03:31:28] Day: 10, Zombies: 74, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:31:33] Day: 10, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:31:38] Day: 10, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:31:43] Day: 10, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:31:48] Day: 10, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:31:53] Day: 10, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:31:58] Day: 10, Zombies: 69, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:03] Day: 10, Zombies: 68, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:08] Day: 11, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:13] Day: 11, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:18] Day: 11, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:23] User KiAn tried to place a tile without having correct resoruces
+[03:32:23] Day: 11, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:23] User KiAn tried to place a tile without having correct resoruces
+[03:32:23] User KiAn tried to place a tile without having correct resoruces
+[03:32:24] User KiAn tried to place a tile without having correct resoruces
+[03:32:24] User KiAn tried to place a tile without having correct resoruces
+[03:32:28] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:33] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:32:34] Player SirEarendil left the game (players left 2)
+[03:32:38] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:32:43] Day: 11, Zombies: 66, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:32:48] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:32:53] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:32:58] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:03] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:08] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:12] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:17] Day: 11, Zombies: 65, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:22] Day: 11, Zombies: 64, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:27] Day: 11, Zombies: 64, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:32] Day: 11, Zombies: 64, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:37] Day: 11, Zombies: 64, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:42] Day: 11, Zombies: 64, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:47] Day: 11, Zombies: 64, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:52] Day: 11, Zombies: 64, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:57] Day: 11, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:33:59] * Nikbi connected (admin: 0 guard 0 gold 1 tester 0)
+[03:33:59] player tier: 0
+[03:34:02] Day: 11, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:07] Day: 11, Zombies: 68, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:12] Day: 11, Zombies: 72, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:17] Day: 11, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:22] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:27] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:32] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:33] player tier: 0
+[03:34:33] * Nikbi connected (admin: 0 guard 0 gold 1 tester 0)
+[03:34:36] SENDING 2 FILES
+[03:34:37] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:42] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:47] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:51] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:34:56] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:35:01] Day: 11, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:35:06] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:35:11] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:35:15] player tier: 0
+[03:35:15] * Nikbi connected (admin: 0 guard 0 gold 1 tester 0)
+[03:35:16] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:35:21] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:35:23] sync
+[03:35:26] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:35:31] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:35:36] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:35:41] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:35:46] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:35:51] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:35:56] Day: 12, Zombies: 71, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:01] Day: 12, Zombies: 72, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:06] Day: 12, Zombies: 72, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:11] Day: 12, Zombies: 72, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:16] Day: 12, Zombies: 70, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:21] Day: 12, Zombies: 68, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:26] Day: 12, Zombies: 68, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:30] Day: 12, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:35] Day: 12, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:40] Day: 12, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:45] Day: 12, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:50] Day: 12, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:36:55] Day: 12, Zombies: 68, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:37:00] Day: 12, Zombies: 72, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:37:05] Day: 12, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:37:10] Day: 12, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:37:15] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:37:20] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 1
+[03:37:20] :::ZOMBIFYING: Nikbi
+[03:37:25] Day: 12, Zombies: 70, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:37:30] Day: 12, Zombies: 68, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:37:35] Day: 12, Zombies: 73, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:37:40] Day: 12, Zombies: 72, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:37:45] Day: 12, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:37:50] Day: 12, Zombies: 71, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:37:55] Day: 12, Zombies: 71, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:00] Day: 12, Zombies: 71, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:05] Day: 13, Zombies: 70, Portal Zombies: 18, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:09] Day: 13, Zombies: 68, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:14] Day: 13, Zombies: 68, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:19] Day: 13, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:22] player tier: 0
+[03:38:22] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:38:24] Day: 13, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:25] SENDING 1102 FILES
+[03:38:29] Day: 13, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:34] Day: 13, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:39] Day: 13, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:44] Day: 13, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:49] Day: 13, Zombies: 67, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:54] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:38:59] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:04] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:09] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:14] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:19] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:19] player tier: 0
+[03:39:20] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:39:24] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:25] SENDING 1 FILES
+[03:39:28] player tier: 0
+[03:39:28] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:39:29] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:33] SENDING 1 FILES
+[03:39:34] Day: 13, Zombies: 66, Portal Zombies: 17, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:36] player tier: 0
+[03:39:36] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:39:39] Day: 13, Zombies: 69, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:40] SENDING 1 FILES
+[03:39:43] Day: 13, Zombies: 70, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:44] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:39:44] player tier: 0
+[03:39:48] SENDING 1 FILES
+[03:39:48] Day: 13, Zombies: 71, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:52] player tier: 0
+[03:39:52] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:39:53] Day: 13, Zombies: 72, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:39:56] SENDING 1 FILES
+[03:39:58] Day: 13, Zombies: 72, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:00] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:40:00] player tier: 0
+[03:40:03] Day: 13, Zombies: 71, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:04] SENDING 1 FILES
+[03:40:08] player tier: 0
+[03:40:08] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:40:08] Day: 13, Zombies: 71, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:12] SENDING 1 FILES
+[03:40:13] Day: 13, Zombies: 69, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:16] player tier: 0
+[03:40:16] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:40:18] Day: 13, Zombies: 74, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:21] SENDING 1 FILES
+[03:40:23] Day: 13, Zombies: 73, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:24] player tier: 0
+[03:40:24] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:40:28] Day: 13, Zombies: 74, Portal Zombies: 20, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:29] SENDING 1 FILES
+[03:40:33] Day: 13, Zombies: 70, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:38] Day: 13, Zombies: 70, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:43] Day: 13, Zombies: 70, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:48] Day: 13, Zombies: 70, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:40:53] Day: 13, Zombies: 69, Portal Zombies: 19, Migrants: 3, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 1, max_undead: 0
+[03:41:03] *Restarting Map*
+[03:41:03] Adding map to cycle 'Maps/zf_00.png'
+[03:41:03] Adding map to cycle 'Maps/zf_01.png'
+[03:41:03] Adding map to cycle 'Maps/zf_02.png'
+[03:41:03] Adding map to cycle 'Maps/zf_03.png'
+[03:41:03] Adding map to cycle 'Maps/zf_04.png'
+[03:41:03] Adding map to cycle 'Maps/zf_05.png'
+[03:41:03] Adding map to cycle 'Maps/zf_06.png'
+[03:41:03] Adding map to cycle 'Maps/zf_07.png'
+[03:41:03] Adding map to cycle 'Maps/zf_08.png'
+[03:41:03] Adding map to cycle 'Maps/zf_09.png'
+[03:41:03] Adding map to cycle 'Maps/zf_10.png'
+[03:41:03] Adding map to cycle 'Maps/zf_11.png'
+[03:41:03] Adding map to cycle 'Maps/zf_12.png'
+[03:41:03] Adding map to cycle 'Maps/zf_13.png'
+[03:41:03] Adding map to cycle 'Maps/zf_14.png'
+[03:41:03] Adding map to cycle 'Maps/zf_15.png'
+[03:41:03] Adding map to cycle 'Maps/zf_16.png'
+[03:41:03] Adding map to cycle 'Maps/zf_17.png'
+[03:41:03] Adding map to cycle 'Maps/zf_18.png'
+[03:41:03] Adding map to cycle 'Maps/zf_19.png'
+[03:41:03] Adding map to cycle 'Maps/zf_20.png'
+[03:41:03] Adding map to cycle 'Maps/zf_21.png'
+[03:41:03] Adding map to cycle 'Maps/zf_22.png'
+[03:41:03] Adding map to cycle 'Maps/zf_23.png'
+[03:41:03] Adding map to cycle 'Maps/zf_24.png'
+[03:41:03] Adding map to cycle 'Maps/zf_25.png'
+[03:41:03] Adding map to cycle 'Maps/zf_26.png'
+[03:41:03] Adding map to cycle 'Maps/zf_27.png'
+[03:41:03] Adding map to cycle 'Maps/zf_28.png'
+[03:41:03] Adding map to cycle 'Maps/zf_29.png'
+[03:41:03] Adding map to cycle 'Maps/zf_30.png'
+[03:41:03] Adding map to cycle 'Maps/zf_31.png'
+[03:41:03] Adding map to cycle 'Maps/zf_32.png'
+[03:41:03] Adding map to cycle 'Maps/zf_33.png'
+[03:41:03] Adding map to cycle 'Maps/zf_34.png'
+[03:41:03] Adding map to cycle 'Maps/zf_35.png'
+[03:41:03] Adding map to cycle 'Maps/zf_36.png'
+[03:41:03] Adding map to cycle 'Maps/zf_37.png'
+[03:41:03] Adding map to cycle 'Maps/zf_38.png'
+[03:41:03] Adding map to cycle 'Maps/zf_39.png'
+[03:41:03] Adding map to cycle 'Maps/zf_40.png'
+[03:41:03] Adding map to cycle 'Maps/zf_41.png'
+[03:41:03] File not found Maps/zf_03.png, searching matches...
+[03:41:03] Best match ../Mods/ZFM+1.6.7f/Maps/zf_03.png
+[03:41:03] LOADING PNG MAP ../Mods/ZFM+1.6.7f/Maps/zf_03.png
+[03:41:03] Checking if update available
+[03:41:04] Restarting rules script: ../Mods/ZFM+1.6.7f/Rules/zombies_Rules.as
+[03:41:04] sync
+[03:41:04] sync
+[03:41:04] sync
+[03:41:04] Checking any holidays...
+[03:41:04] Team 0
+[03:41:05] Team 0
+[03:41:08] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0486111, spawnRate: 179, num_undead: 0, max_undead: 1
+[03:41:13] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 0, zombdiff: 0, difficulty: 0.0972222, spawnRate: 178, num_undead: 0, max_undead: 1
+[03:41:18] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 0, zombdiff: 0, difficulty: 0.145833, spawnRate: 177, num_undead: 0, max_undead: 1
+[03:41:23] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 0, zombdiff: 0, difficulty: 0.194444, spawnRate: 177, num_undead: 0, max_undead: 1
+[03:41:28] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 0, zombdiff: 0, difficulty: 0.243056, spawnRate: 176, num_undead: 0, max_undead: 1
+[03:41:33] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 0, zombdiff: 0, difficulty: 0.291667, spawnRate: 175, num_undead: 0, max_undead: 1
+[03:41:38] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 0, zombdiff: 0, difficulty: 0.340278, spawnRate: 174, num_undead: 0, max_undead: 1
+[03:41:43] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 4, zombdiff: 0, difficulty: 0.388889, spawnRate: 174, num_undead: 0, max_undead: 1
+[03:41:48] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 6, zombdiff: 0, difficulty: 0.4375, spawnRate: 173, num_undead: 0, max_undead: 1
+[03:41:53] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 6, zombdiff: 0, difficulty: 0.486111, spawnRate: 172, num_undead: 0, max_undead: 1
+[03:41:58] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 6, zombdiff: 0, difficulty: 0.534722, spawnRate: 171, num_undead: 0, max_undead: 1
+[03:42:03] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 6, zombdiff: 0, difficulty: 0.583333, spawnRate: 171, num_undead: 0, max_undead: 1
+[03:42:08] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 6, zombdiff: 0, difficulty: 0.631944, spawnRate: 170, num_undead: 0, max_undead: 1
+[03:42:13] Day: 1, Zombies: 2, Portal Zombies: 1, Migrants: 6, zombdiff: 0, difficulty: 0.680556, spawnRate: 169, num_undead: 0, max_undead: 1
+[03:42:18] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 0.729167, spawnRate: 169, num_undead: 0, max_undead: 1
+[03:42:23] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 0.777778, spawnRate: 168, num_undead: 0, max_undead: 1
+[03:42:28] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 0.826389, spawnRate: 167, num_undead: 0, max_undead: 1
+[03:42:33] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 0.875, spawnRate: 166, num_undead: 0, max_undead: 1
+[03:42:38] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 0.923611, spawnRate: 166, num_undead: 0, max_undead: 1
+[03:42:42] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 0.972222, spawnRate: 165, num_undead: 0, max_undead: 1
+[03:42:47] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 1.02083, spawnRate: 164, num_undead: 0, max_undead: 1
+[03:42:52] Day: 1, Zombies: 1, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 1.06944, spawnRate: 163, num_undead: 0, max_undead: 1
+[03:42:57] Day: 1, Zombies: 2, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 1.11806, spawnRate: 163, num_undead: 0, max_undead: 1
+[03:43:02] Day: 1, Zombies: 3, Portal Zombies: 0, Migrants: 6, zombdiff: 0, difficulty: 1.16667, spawnRate: 162, num_undead: 0, max_undead: 1
+[03:43:07] Day: 1, Zombies: 4, Portal Zombies: 1, Migrants: 6, zombdiff: 0, difficulty: 1.21528, spawnRate: 161, num_undead: 0, max_undead: 1
+[03:43:12] Day: 1, Zombies: 6, Portal Zombies: 2, Migrants: 6, zombdiff: 0, difficulty: 1.26389, spawnRate: 161, num_undead: 0, max_undead: 1
+[03:43:17] Day: 1, Zombies: 7, Portal Zombies: 2, Migrants: 6, zombdiff: 0, difficulty: 1.3125, spawnRate: 160, num_undead: 0, max_undead: 1
+[03:43:22] Day: 1, Zombies: 9, Portal Zombies: 3, Migrants: 6, zombdiff: 0, difficulty: 1.36111, spawnRate: 159, num_undead: 0, max_undead: 1
+[03:43:27] Day: 1, Zombies: 11, Portal Zombies: 4, Migrants: 6, zombdiff: 0, difficulty: 1.40972, spawnRate: 158, num_undead: 0, max_undead: 1
+[03:43:32] Day: 1, Zombies: 11, Portal Zombies: 3, Migrants: 6, zombdiff: 0, difficulty: 1.45833, spawnRate: 158, num_undead: 0, max_undead: 1
+[03:43:37] Day: 1, Zombies: 13, Portal Zombies: 4, Migrants: 6, zombdiff: 0, difficulty: 1.50694, spawnRate: 157, num_undead: 0, max_undead: 1
+[03:43:42] Day: 1, Zombies: 15, Portal Zombies: 5, Migrants: 6, zombdiff: 0, difficulty: 1.55556, spawnRate: 156, num_undead: 0, max_undead: 1
+[03:43:47] Day: 1, Zombies: 18, Portal Zombies: 7, Migrants: 6, zombdiff: 0, difficulty: 1.60417, spawnRate: 155, num_undead: 0, max_undead: 1
+[03:43:52] Day: 1, Zombies: 19, Portal Zombies: 8, Migrants: 6, zombdiff: 0, difficulty: 1.65278, spawnRate: 155, num_undead: 0, max_undead: 1
+[03:43:57] Day: 1, Zombies: 17, Portal Zombies: 7, Migrants: 6, zombdiff: 0, difficulty: 1.70139, spawnRate: 154, num_undead: 0, max_undead: 1
+[03:44:02] Day: 2, Zombies: 17, Portal Zombies: 7, Migrants: 6, zombdiff: 2.5, difficulty: 1.75, spawnRate: 153, num_undead: 0, max_undead: 1
+[03:44:07] Day: 2, Zombies: 18, Portal Zombies: 9, Migrants: 5, zombdiff: 2.5, difficulty: 1.79861, spawnRate: 153, num_undead: 0, max_undead: 1
+[03:44:12] Day: 2, Zombies: 16, Portal Zombies: 7, Migrants: 5, zombdiff: 2.5, difficulty: 1.84722, spawnRate: 152, num_undead: 0, max_undead: 1
+[03:44:14] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:44:14] player tier: 0
+[03:44:17] Day: 2, Zombies: 16, Portal Zombies: 7, Migrants: 5, zombdiff: 2.5, difficulty: 1.89583, spawnRate: 151, num_undead: 0, max_undead: 1
+[03:44:17] SENDING 1 FILES
+[03:44:20] * ajosezanchimedeirosd connected (admin: 0 guard 0 gold 1 tester 0)
+[03:44:20] player tier: 0
+[03:44:21] Day: 2, Zombies: 16, Portal Zombies: 7, Migrants: 5, zombdiff: 2.5, difficulty: 1.94444, spawnRate: 150, num_undead: 0, max_undead: 1
+[03:44:26] Day: 2, Zombies: 16, Portal Zombies: 7, Migrants: 4, zombdiff: 2.5, difficulty: 1.99306, spawnRate: 150, num_undead: 0, max_undead: 1
+[03:44:31] Day: 2, Zombies: 16, Portal Zombies: 7, Migrants: 4, zombdiff: 2.5, difficulty: 2.04167, spawnRate: 149, num_undead: 0, max_undead: 1
+[03:44:36] Day: 2, Zombies: 15, Portal Zombies: 6, Migrants: 3, zombdiff: 2.5, difficulty: 2.09028, spawnRate: 148, num_undead: 0, max_undead: 1
+[03:44:41] Day: 2, Zombies: 13, Portal Zombies: 4, Migrants: 6, zombdiff: 2.5, difficulty: 2.13889, spawnRate: 147, num_undead: 0, max_undead: 1
+[03:44:46] Day: 2, Zombies: 13, Portal Zombies: 4, Migrants: 6, zombdiff: 2.5, difficulty: 2.1875, spawnRate: 147, num_undead: 0, max_undead: 1
+[03:44:51] Day: 2, Zombies: 13, Portal Zombies: 4, Migrants: 6, zombdiff: 2.5, difficulty: 2.23611, spawnRate: 146, num_undead: 0, max_undead: 1
+[03:44:56] Day: 2, Zombies: 12, Portal Zombies: 3, Migrants: 6, zombdiff: 2.5, difficulty: 2.28472, spawnRate: 145, num_undead: 0, max_undead: 1
+[03:45:01] Day: 2, Zombies: 12, Portal Zombies: 3, Migrants: 6, zombdiff: 2.5, difficulty: 2.33333, spawnRate: 145, num_undead: 0, max_undead: 1
+[03:45:06] Day: 2, Zombies: 12, Portal Zombies: 3, Migrants: 6, zombdiff: 2.5, difficulty: 2.38194, spawnRate: 144, num_undead: 0, max_undead: 1
+[03:45:11] Day: 2, Zombies: 12, Portal Zombies: 3, Migrants: 6, zombdiff: 2.5, difficulty: 2.43056, spawnRate: 143, num_undead: 0, max_undead: 1
+[03:45:16] Day: 2, Zombies: 11, Portal Zombies: 2, Migrants: 6, zombdiff: 2.5, difficulty: 2.47917, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:21] Day: 2, Zombies: 11, Portal Zombies: 2, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:26] Day: 2, Zombies: 10, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:31] Day: 2, Zombies: 10, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:36] Day: 2, Zombies: 10, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:41] Day: 2, Zombies: 11, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:46] Day: 2, Zombies: 11, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:51] Day: 2, Zombies: 12, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:45:56] Day: 2, Zombies: 12, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:00] Day: 2, Zombies: 12, Portal Zombies: 1, Migrants: 6, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:05] Day: 2, Zombies: 14, Portal Zombies: 1, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:10] Day: 2, Zombies: 15, Portal Zombies: 1, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:15] Day: 2, Zombies: 16, Portal Zombies: 1, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:20] Day: 2, Zombies: 4, Portal Zombies: 0, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:25] Day: 2, Zombies: 5, Portal Zombies: 0, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:30] Day: 2, Zombies: 6, Portal Zombies: 0, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 1
+[03:46:33] Player KiAn left the game (players left 2)
+[03:46:35] Day: 2, Zombies: 7, Portal Zombies: 0, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[03:46:40] Day: 2, Zombies: 7, Portal Zombies: 0, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[03:46:45] Day: 2, Zombies: 8, Portal Zombies: 0, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[03:46:50] Day: 2, Zombies: 9, Portal Zombies: 1, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[03:46:55] Day: 2, Zombies: 10, Portal Zombies: 2, Migrants: 5, zombdiff: 2.5, difficulty: 2.5, spawnRate: 142, num_undead: 0, max_undead: 0
+[03:47:00] Day: 3, Zombies: 10, Portal Zombies: 2, Migrants: 5, zombdiff: 5, difficulty: 3.5, spawnRate: 127, num_undead: 0, max_undead: 0
+[03:47:05] Day: 3, Zombies: 10, Portal Zombies: 2, Migrants: 5, zombdiff: 5, difficulty: 3.54861, spawnRate: 126, num_undead: 0, max_undead: 0
+[03:47:10] Day: 3, Zombies: 11, Portal Zombies: 3, Migrants: 5, zombdiff: 5, difficulty: 3.59722, spawnRate: 126, num_undead: 0, max_undead: 0
+[03:47:15] Day: 3, Zombies: 11, Portal Zombies: 3, Migrants: 5, zombdiff: 5, difficulty: 3.64583, spawnRate: 125, num_undead: 0, max_undead: 0
+[03:47:20] Day: 3, Zombies: 12, Portal Zombies: 4, Migrants: 5, zombdiff: 5, difficulty: 3.69444, spawnRate: 124, num_undead: 0, max_undead: 0
+[03:47:25] Day: 3, Zombies: 11, Portal Zombies: 5, Migrants: 5, zombdiff: 5, difficulty: 3.74306, spawnRate: 123, num_undead: 0, max_undead: 0
+[03:47:30] Day: 3, Zombies: 11, Portal Zombies: 6, Migrants: 5, zombdiff: 5, difficulty: 3.79167, spawnRate: 123, num_undead: 0, max_undead: 0
+[03:47:35] Day: 3, Zombies: 12, Portal Zombies: 7, Migrants: 5, zombdiff: 5, difficulty: 3.84028, spawnRate: 122, num_undead: 0, max_undead: 0
+[03:47:40] Day: 3, Zombies: 13, Portal Zombies: 8, Migrants: 6, zombdiff: 5, difficulty: 3.88889, spawnRate: 121, num_undead: 0, max_undead: 0
+[03:47:45] Day: 3, Zombies: 13, Portal Zombies: 8, Migrants: 6, zombdiff: 5, difficulty: 3.9375, spawnRate: 120, num_undead: 0, max_undead: 0
+[03:47:49] Day: 3, Zombies: 14, Portal Zombies: 9, Migrants: 6, zombdiff: 5, difficulty: 3.98611, spawnRate: 120, num_undead: 0, max_undead: 0
+[03:47:54] Day: 3, Zombies: 14, Portal Zombies: 9, Migrants: 6, zombdiff: 5, difficulty: 4.03472, spawnRate: 119, num_undead: 0, max_undead: 0
+[03:47:59] Day: 3, Zombies: 15, Portal Zombies: 10, Migrants: 6, zombdiff: 5, difficulty: 4.08333, spawnRate: 118, num_undead: 0, max_undead: 0
+[03:48:04] Day: 3, Zombies: 16, Portal Zombies: 11, Migrants: 6, zombdiff: 5, difficulty: 4.13194, spawnRate: 118, num_undead: 0, max_undead: 0
+[03:48:09] Day: 3, Zombies: 17, Portal Zombies: 12, Migrants: 6, zombdiff: 5, difficulty: 4.18056, spawnRate: 117, num_undead: 0, max_undead: 0
+[03:48:14] Day: 3, Zombies: 17, Portal Zombies: 12, Migrants: 6, zombdiff: 5, difficulty: 4.22917, spawnRate: 116, num_undead: 0, max_undead: 0
+[03:48:19] Day: 3, Zombies: 17, Portal Zombies: 12, Migrants: 6, zombdiff: 5, difficulty: 4.27778, spawnRate: 115, num_undead: 0, max_undead: 0
+[03:48:24] Day: 3, Zombies: 15, Portal Zombies: 10, Migrants: 6, zombdiff: 5, difficulty: 4.32639, spawnRate: 115, num_undead: 0, max_undead: 0
+[03:48:29] Day: 3, Zombies: 16, Portal Zombies: 11, Migrants: 6, zombdiff: 5, difficulty: 4.375, spawnRate: 114, num_undead: 0, max_undead: 0
+[03:48:34] Day: 3, Zombies: 15, Portal Zombies: 10, Migrants: 6, zombdiff: 5, difficulty: 4.42361, spawnRate: 113, num_undead: 0, max_undead: 0
+[03:48:39] Day: 3, Zombies: 16, Portal Zombies: 11, Migrants: 6, zombdiff: 5, difficulty: 4.47222, spawnRate: 112, num_undead: 0, max_undead: 0
+[03:48:44] Day: 3, Zombies: 17, Portal Zombies: 12, Migrants: 6, zombdiff: 5, difficulty: 4.52083, spawnRate: 112, num_undead: 0, max_undead: 0
+[03:48:49] Day: 3, Zombies: 19, Portal Zombies: 13, Migrants: 6, zombdiff: 5, difficulty: 4.56944, spawnRate: 111, num_undead: 0, max_undead: 0
+[03:48:54] Day: 3, Zombies: 20, Portal Zombies: 14, Migrants: 6, zombdiff: 5, difficulty: 4.61806, spawnRate: 110, num_undead: 0, max_undead: 0
+[03:48:59] Day: 3, Zombies: 22, Portal Zombies: 15, Migrants: 6, zombdiff: 5, difficulty: 4.66667, spawnRate: 110, num_undead: 0, max_undead: 0
+[03:49:04] Day: 3, Zombies: 23, Portal Zombies: 15, Migrants: 6, zombdiff: 5, difficulty: 4.71528, spawnRate: 109, num_undead: 0, max_undead: 0
+[03:49:09] Day: 3, Zombies: 24, Portal Zombies: 15, Migrants: 6, zombdiff: 5, difficulty: 4.76389, spawnRate: 108, num_undead: 0, max_undead: 0
+[03:49:14] Day: 3, Zombies: 24, Portal Zombies: 14, Migrants: 6, zombdiff: 5, difficulty: 4.8125, spawnRate: 107, num_undead: 0, max_undead: 0
+[03:49:19] Day: 3, Zombies: 27, Portal Zombies: 15, Migrants: 6, zombdiff: 5, difficulty: 4.86111, spawnRate: 107, num_undead: 0, max_undead: 0
+[03:49:24] Day: 3, Zombies: 26, Portal Zombies: 13, Migrants: 6, zombdiff: 5, difficulty: 4.90972, spawnRate: 106, num_undead: 0, max_undead: 0
+[03:49:28] Day: 3, Zombies: 29, Portal Zombies: 14, Migrants: 6, zombdiff: 5, difficulty: 4.95833, spawnRate: 105, num_undead: 0, max_undead: 0
+[03:49:33] Day: 3, Zombies: 32, Portal Zombies: 15, Migrants: 6, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[03:49:38] Day: 3, Zombies: 33, Portal Zombies: 15, Migrants: 6, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[03:49:43] Day: 3, Zombies: 34, Portal Zombies: 16, Migrants: 5, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[03:49:48] Day: 3, Zombies: 34, Portal Zombies: 17, Migrants: 4, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[03:49:53] Day: 3, Zombies: 34, Portal Zombies: 17, Migrants: 4, zombdiff: 5, difficulty: 5, spawnRate: 105, num_undead: 0, max_undead: 0
+[03:49:58] Day: 4, Zombies: 32, Portal Zombies: 15, Migrants: 3, zombdiff: 7.5, difficulty: 5.25, spawnRate: 101, num_undead: 0, max_undead: 0
+[03:50:03] Day: 4, Zombies: 32, Portal Zombies: 15, Migrants: 3, zombdiff: 7.5, difficulty: 5.29861, spawnRate: 100, num_undead: 0, max_undead: 0
+[03:50:08] Day: 4, Zombies: 31, Portal Zombies: 14, Migrants: 3, zombdiff: 7.5, difficulty: 5.34722, spawnRate: 99, num_undead: 0, max_undead: 0
+[03:50:13] Day: 4, Zombies: 31, Portal Zombies: 14, Migrants: 3, zombdiff: 7.5, difficulty: 5.39583, spawnRate: 99, num_undead: 0, max_undead: 0
+[03:50:18] Day: 4, Zombies: 31, Portal Zombies: 14, Migrants: 3, zombdiff: 7.5, difficulty: 5.44444, spawnRate: 98, num_undead: 0, max_undead: 0
+[03:50:23] Day: 4, Zombies: 32, Portal Zombies: 15, Migrants: 3, zombdiff: 7.5, difficulty: 5.49306, spawnRate: 97, num_undead: 0, max_undead: 0
+[03:50:28] Day: 4, Zombies: 33, Portal Zombies: 16, Migrants: 3, zombdiff: 7.5, difficulty: 5.54167, spawnRate: 96, num_undead: 0, max_undead: 0
+[03:50:33] Day: 4, Zombies: 33, Portal Zombies: 16, Migrants: 3, zombdiff: 7.5, difficulty: 5.59028, spawnRate: 96, num_undead: 0, max_undead: 0
+[03:50:38] Day: 4, Zombies: 34, Portal Zombies: 17, Migrants: 6, zombdiff: 7.5, difficulty: 5.63889, spawnRate: 95, num_undead: 0, max_undead: 0
+[03:50:43] Day: 4, Zombies: 35, Portal Zombies: 18, Migrants: 6, zombdiff: 7.5, difficulty: 5.6875, spawnRate: 94, num_undead: 0, max_undead: 0
+[03:50:48] Day: 4, Zombies: 35, Portal Zombies: 20, Migrants: 6, zombdiff: 7.5, difficulty: 5.73611, spawnRate: 93, num_undead: 0, max_undead: 0
+[03:50:53] Day: 4, Zombies: 36, Portal Zombies: 21, Migrants: 6, zombdiff: 7.5, difficulty: 5.78472, spawnRate: 93, num_undead: 0, max_undead: 0
+[03:50:58] Day: 4, Zombies: 37, Portal Zombies: 22, Migrants: 6, zombdiff: 7.5, difficulty: 5.83333, spawnRate: 92, num_undead: 0, max_undead: 0
+[03:51:03] Day: 4, Zombies: 37, Portal Zombies: 22, Migrants: 6, zombdiff: 7.5, difficulty: 5.88194, spawnRate: 91, num_undead: 0, max_undead: 0
+[03:51:07] Day: 4, Zombies: 38, Portal Zombies: 23, Migrants: 6, zombdiff: 7.5, difficulty: 5.93056, spawnRate: 91, num_undead: 0, max_undead: 0
+[03:51:12] Day: 4, Zombies: 38, Portal Zombies: 23, Migrants: 6, zombdiff: 7.5, difficulty: 5.97917, spawnRate: 90, num_undead: 0, max_undead: 0
+[03:51:17] Day: 4, Zombies: 37, Portal Zombies: 22, Migrants: 6, zombdiff: 7.5, difficulty: 6.02778, spawnRate: 89, num_undead: 0, max_undead: 0
+[03:51:22] Day: 4, Zombies: 38, Portal Zombies: 23, Migrants: 6, zombdiff: 7.5, difficulty: 6.07639, spawnRate: 88, num_undead: 0, max_undead: 0
+[03:51:27] Day: 4, Zombies: 38, Portal Zombies: 23, Migrants: 6, zombdiff: 7.5, difficulty: 6.125, spawnRate: 88, num_undead: 0, max_undead: 0
+[03:51:32] Day: 4, Zombies: 37, Portal Zombies: 22, Migrants: 6, zombdiff: 7.5, difficulty: 6.17361, spawnRate: 87, num_undead: 0, max_undead: 0
+[03:51:37] Day: 4, Zombies: 38, Portal Zombies: 23, Migrants: 6, zombdiff: 7.5, difficulty: 6.22222, spawnRate: 86, num_undead: 0, max_undead: 0
+[03:51:42] Day: 4, Zombies: 39, Portal Zombies: 24, Migrants: 6, zombdiff: 7.5, difficulty: 6.27083, spawnRate: 85, num_undead: 0, max_undead: 0
+[03:51:47] Day: 4, Zombies: 42, Portal Zombies: 26, Migrants: 5, zombdiff: 7.5, difficulty: 6.31944, spawnRate: 85, num_undead: 0, max_undead: 0
+[03:51:52] Day: 4, Zombies: 44, Portal Zombies: 27, Migrants: 5, zombdiff: 7.5, difficulty: 6.36806, spawnRate: 84, num_undead: 0, max_undead: 0
+[03:51:57] Day: 4, Zombies: 47, Portal Zombies: 27, Migrants: 5, zombdiff: 7.5, difficulty: 6.41667, spawnRate: 83, num_undead: 0, max_undead: 0
+[03:52:02] Day: 4, Zombies: 50, Portal Zombies: 28, Migrants: 5, zombdiff: 7.5, difficulty: 6.46528, spawnRate: 83, num_undead: 0, max_undead: 0
+[03:52:07] Day: 4, Zombies: 53, Portal Zombies: 29, Migrants: 5, zombdiff: 7.5, difficulty: 6.51389, spawnRate: 82, num_undead: 0, max_undead: 0
+[03:52:12] Day: 4, Zombies: 55, Portal Zombies: 30, Migrants: 5, zombdiff: 7.5, difficulty: 6.5625, spawnRate: 81, num_undead: 0, max_undead: 0
+[03:52:17] Day: 4, Zombies: 58, Portal Zombies: 31, Migrants: 5, zombdiff: 7.5, difficulty: 6.61111, spawnRate: 80, num_undead: 0, max_undead: 0
+[03:52:22] Day: 4, Zombies: 61, Portal Zombies: 32, Migrants: 5, zombdiff: 7.5, difficulty: 6.65972, spawnRate: 80, num_undead: 0, max_undead: 0
+[03:52:27] Day: 4, Zombies: 65, Portal Zombies: 33, Migrants: 5, zombdiff: 7.5, difficulty: 6.70833, spawnRate: 79, num_undead: 0, max_undead: 0
+[03:52:32] Day: 4, Zombies: 67, Portal Zombies: 33, Migrants: 5, zombdiff: 7.5, difficulty: 6.75694, spawnRate: 78, num_undead: 0, max_undead: 0
+[03:52:37] Day: 4, Zombies: 68, Portal Zombies: 32, Migrants: 5, zombdiff: 7.5, difficulty: 6.80556, spawnRate: 77, num_undead: 0, max_undead: 0
+[03:52:42] Day: 4, Zombies: 69, Portal Zombies: 32, Migrants: 4, zombdiff: 7.5, difficulty: 6.85417, spawnRate: 77, num_undead: 0, max_undead: 0
+[03:52:46] Day: 4, Zombies: 69, Portal Zombies: 32, Migrants: 4, zombdiff: 7.5, difficulty: 6.90278, spawnRate: 76, num_undead: 0, max_undead: 0
+[03:52:51] Day: 4, Zombies: 66, Portal Zombies: 29, Migrants: 3, zombdiff: 7.5, difficulty: 6.95139, spawnRate: 75, num_undead: 0, max_undead: 0
+[03:52:56] Day: 5, Zombies: 67, Portal Zombies: 30, Migrants: 3, zombdiff: 10, difficulty: 7, spawnRate: 75, num_undead: 0, max_undead: 0
+[03:53:01] Day: 5, Zombies: 67, Portal Zombies: 30, Migrants: 3, zombdiff: 10, difficulty: 7.04861, spawnRate: 74, num_undead: 0, max_undead: 0
+[03:53:06] Day: 5, Zombies: 68, Portal Zombies: 31, Migrants: 3, zombdiff: 10, difficulty: 7.09722, spawnRate: 73, num_undead: 0, max_undead: 0
+[03:53:11] Day: 5, Zombies: 68, Portal Zombies: 31, Migrants: 3, zombdiff: 10, difficulty: 7.14583, spawnRate: 72, num_undead: 0, max_undead: 0
+[03:53:16] Day: 5, Zombies: 68, Portal Zombies: 31, Migrants: 3, zombdiff: 10, difficulty: 7.19444, spawnRate: 72, num_undead: 0, max_undead: 0
+[03:53:21] Day: 5, Zombies: 69, Portal Zombies: 32, Migrants: 3, zombdiff: 10, difficulty: 7.24306, spawnRate: 71, num_undead: 0, max_undead: 0
+[03:53:26] Day: 5, Zombies: 70, Portal Zombies: 33, Migrants: 3, zombdiff: 10, difficulty: 7.29167, spawnRate: 70, num_undead: 0, max_undead: 0
+[03:53:31] Day: 5, Zombies: 70, Portal Zombies: 34, Migrants: 3, zombdiff: 10, difficulty: 7.34028, spawnRate: 69, num_undead: 0, max_undead: 0
+[03:53:36] Day: 5, Zombies: 71, Portal Zombies: 35, Migrants: 6, zombdiff: 10, difficulty: 7.38889, spawnRate: 69, num_undead: 0, max_undead: 0
+[03:53:41] Day: 5, Zombies: 72, Portal Zombies: 36, Migrants: 6, zombdiff: 10, difficulty: 7.4375, spawnRate: 68, num_undead: 0, max_undead: 0
+[03:53:46] Day: 5, Zombies: 72, Portal Zombies: 36, Migrants: 6, zombdiff: 10, difficulty: 7.48611, spawnRate: 67, num_undead: 0, max_undead: 0
+[03:53:51] Day: 5, Zombies: 71, Portal Zombies: 35, Migrants: 6, zombdiff: 10, difficulty: 7.53472, spawnRate: 66, num_undead: 0, max_undead: 0
+[03:53:56] Day: 5, Zombies: 72, Portal Zombies: 36, Migrants: 6, zombdiff: 10, difficulty: 7.58333, spawnRate: 66, num_undead: 0, max_undead: 0
+[03:54:01] Day: 5, Zombies: 72, Portal Zombies: 37, Migrants: 6, zombdiff: 10, difficulty: 7.63194, spawnRate: 65, num_undead: 0, max_undead: 0
+[03:54:06] Day: 5, Zombies: 72, Portal Zombies: 37, Migrants: 6, zombdiff: 10, difficulty: 7.68056, spawnRate: 64, num_undead: 0, max_undead: 0
+[03:54:11] Day: 5, Zombies: 72, Portal Zombies: 37, Migrants: 6, zombdiff: 10, difficulty: 7.72917, spawnRate: 64, num_undead: 0, max_undead: 0
+[03:54:16] Day: 5, Zombies: 73, Portal Zombies: 38, Migrants: 6, zombdiff: 10, difficulty: 7.77778, spawnRate: 63, num_undead: 0, max_undead: 0
+[03:54:21] Day: 5, Zombies: 70, Portal Zombies: 35, Migrants: 6, zombdiff: 10, difficulty: 7.82639, spawnRate: 62, num_undead: 0, max_undead: 0
+[03:54:25] Day: 5, Zombies: 70, Portal Zombies: 35, Migrants: 6, zombdiff: 10, difficulty: 7.875, spawnRate: 61, num_undead: 0, max_undead: 0
+[03:54:30] Day: 5, Zombies: 71, Portal Zombies: 36, Migrants: 6, zombdiff: 10, difficulty: 7.92361, spawnRate: 61, num_undead: 0, max_undead: 0
+[03:54:35] Day: 5, Zombies: 72, Portal Zombies: 37, Migrants: 5, zombdiff: 10, difficulty: 7.97222, spawnRate: 60, num_undead: 0, max_undead: 0
+[03:54:40] Day: 5, Zombies: 71, Portal Zombies: 36, Migrants: 4, zombdiff: 10, difficulty: 8.02083, spawnRate: 59, num_undead: 0, max_undead: 0
+[03:54:45] Day: 5, Zombies: 70, Portal Zombies: 36, Migrants: 4, zombdiff: 10, difficulty: 8.06944, spawnRate: 58, num_undead: 0, max_undead: 0
+[03:54:50] Day: 5, Zombies: 70, Portal Zombies: 36, Migrants: 4, zombdiff: 10, difficulty: 8.11806, spawnRate: 58, num_undead: 0, max_undead: 0
+[03:54:55] Day: 5, Zombies: 73, Portal Zombies: 36, Migrants: 4, zombdiff: 10, difficulty: 8.16667, spawnRate: 57, num_undead: 0, max_undead: 0
+[03:55:00] Day: 5, Zombies: 74, Portal Zombies: 35, Migrants: 4, zombdiff: 10, difficulty: 8.21528, spawnRate: 56, num_undead: 0, max_undead: 0
+[03:55:05] Day: 5, Zombies: 78, Portal Zombies: 36, Migrants: 4, zombdiff: 10, difficulty: 8.26389, spawnRate: 56, num_undead: 0, max_undead: 0
+[03:55:10] Day: 5, Zombies: 81, Portal Zombies: 37, Migrants: 4, zombdiff: 10, difficulty: 8.3125, spawnRate: 55, num_undead: 0, max_undead: 0
+[03:55:15] Day: 5, Zombies: 77, Portal Zombies: 35, Migrants: 4, zombdiff: 10, difficulty: 8.36111, spawnRate: 54, num_undead: 0, max_undead: 0
+[03:55:20] Day: 5, Zombies: 80, Portal Zombies: 35, Migrants: 4, zombdiff: 10, difficulty: 8.40972, spawnRate: 53, num_undead: 0, max_undead: 0
+[03:55:25] Day: 5, Zombies: 82, Portal Zombies: 34, Migrants: 4, zombdiff: 10, difficulty: 8.45833, spawnRate: 53, num_undead: 0, max_undead: 0
+[03:55:30] Day: 5, Zombies: 85, Portal Zombies: 35, Migrants: 4, zombdiff: 10, difficulty: 8.50694, spawnRate: 52, num_undead: 0, max_undead: 0
+[03:55:35] Day: 5, Zombies: 86, Portal Zombies: 33, Migrants: 4, zombdiff: 10, difficulty: 8.55556, spawnRate: 51, num_undead: 0, max_undead: 0
+[03:55:40] Day: 5, Zombies: 83, Portal Zombies: 32, Migrants: 4, zombdiff: 10, difficulty: 8.60417, spawnRate: 50, num_undead: 0, max_undead: 0
+[03:55:45] Day: 5, Zombies: 84, Portal Zombies: 33, Migrants: 4, zombdiff: 10, difficulty: 8.65278, spawnRate: 50, num_undead: 0, max_undead: 0
+[03:55:50] Day: 5, Zombies: 83, Portal Zombies: 32, Migrants: 3, zombdiff: 10, difficulty: 8.70139, spawnRate: 49, num_undead: 0, max_undead: 0
+[03:55:55] Day: 6, Zombies: 84, Portal Zombies: 33, Migrants: 3, zombdiff: 12, difficulty: 8.75, spawnRate: 48, num_undead: 0, max_undead: 0
+[03:56:00] Day: 6, Zombies: 83, Portal Zombies: 33, Migrants: 3, zombdiff: 12, difficulty: 8.79861, spawnRate: 48, num_undead: 0, max_undead: 0
+[03:56:05] Day: 6, Zombies: 83, Portal Zombies: 33, Migrants: 3, zombdiff: 12, difficulty: 8.84722, spawnRate: 47, num_undead: 0, max_undead: 0
+[03:56:09] Day: 6, Zombies: 84, Portal Zombies: 34, Migrants: 3, zombdiff: 12, difficulty: 8.89583, spawnRate: 46, num_undead: 0, max_undead: 0
+[03:56:11] Config file not found 'randomBook'
+[03:56:11] Loading blob config from randomBook...
+[03:56:11] ERROR: Blob config not found... randomBook
+[03:56:14] Day: 6, Zombies: 84, Portal Zombies: 34, Migrants: 3, zombdiff: 12, difficulty: 8.94444, spawnRate: 45, num_undead: 0, max_undead: 0
+[03:56:19] Day: 6, Zombies: 83, Portal Zombies: 34, Migrants: 3, zombdiff: 12, difficulty: 8.99306, spawnRate: 45, num_undead: 0, max_undead: 0
+[03:56:24] Day: 6, Zombies: 83, Portal Zombies: 34, Migrants: 3, zombdiff: 12, difficulty: 9.04167, spawnRate: 44, num_undead: 0, max_undead: 0
+[03:56:29] Day: 6, Zombies: 81, Portal Zombies: 32, Migrants: 3, zombdiff: 12, difficulty: 9.09028, spawnRate: 43, num_undead: 0, max_undead: 0
+[03:56:34] Day: 6, Zombies: 81, Portal Zombies: 32, Migrants: 6, zombdiff: 12, difficulty: 9.13889, spawnRate: 42, num_undead: 0, max_undead: 0
+[03:56:39] Day: 6, Zombies: 80, Portal Zombies: 33, Migrants: 6, zombdiff: 12, difficulty: 9.1875, spawnRate: 42, num_undead: 0, max_undead: 0
+[03:56:44] Day: 6, Zombies: 80, Portal Zombies: 33, Migrants: 6, zombdiff: 12, difficulty: 9.23611, spawnRate: 41, num_undead: 0, max_undead: 0
+[03:56:49] Day: 6, Zombies: 80, Portal Zombies: 33, Migrants: 6, zombdiff: 12, difficulty: 9.28472, spawnRate: 40, num_undead: 0, max_undead: 0
+[03:56:54] Day: 6, Zombies: 81, Portal Zombies: 34, Migrants: 6, zombdiff: 12, difficulty: 9.33333, spawnRate: 40, num_undead: 0, max_undead: 0
+[03:56:59] Day: 6, Zombies: 81, Portal Zombies: 35, Migrants: 6, zombdiff: 12, difficulty: 9.38194, spawnRate: 39, num_undead: 0, max_undead: 0
+[03:57:04] Day: 6, Zombies: 82, Portal Zombies: 36, Migrants: 6, zombdiff: 12, difficulty: 9.43056, spawnRate: 38, num_undead: 0, max_undead: 0
+[03:57:09] Day: 6, Zombies: 83, Portal Zombies: 37, Migrants: 6, zombdiff: 12, difficulty: 9.47917, spawnRate: 37, num_undead: 0, max_undead: 0
+[03:57:12] Config file not found 'summontreebushy'
+[03:57:12] Loading blob config from summontreebushy...
+[03:57:12] ERROR: Blob config not found... summontreebushy
+[03:57:14] Day: 6, Zombies: 84, Portal Zombies: 38, Migrants: 6, zombdiff: 12, difficulty: 9.52778, spawnRate: 37, num_undead: 0, max_undead: 0
+[03:57:19] Day: 6, Zombies: 84, Portal Zombies: 39, Migrants: 6, zombdiff: 12, difficulty: 9.57639, spawnRate: 36, num_undead: 0, max_undead: 0
+[03:57:24] Day: 6, Zombies: 84, Portal Zombies: 39, Migrants: 6, zombdiff: 12, difficulty: 9.625, spawnRate: 35, num_undead: 0, max_undead: 0
+[03:57:29] Day: 6, Zombies: 85, Portal Zombies: 40, Migrants: 6, zombdiff: 12, difficulty: 9.67361, spawnRate: 34, num_undead: 0, max_undead: 0
+[03:57:34] Day: 6, Zombies: 84, Portal Zombies: 39, Migrants: 6, zombdiff: 12, difficulty: 9.72222, spawnRate: 34, num_undead: 0, max_undead: 0
+[03:57:39] Day: 6, Zombies: 84, Portal Zombies: 39, Migrants: 6, zombdiff: 12, difficulty: 9.77083, spawnRate: 33, num_undead: 0, max_undead: 0
+[03:57:43] Day: 6, Zombies: 86, Portal Zombies: 40, Migrants: 6, zombdiff: 12, difficulty: 9.81944, spawnRate: 32, num_undead: 0, max_undead: 0
+[03:57:48] Day: 6, Zombies: 92, Portal Zombies: 41, Migrants: 6, zombdiff: 12, difficulty: 9.86806, spawnRate: 31, num_undead: 0, max_undead: 0
+[03:57:53] Day: 6, Zombies: 96, Portal Zombies: 40, Migrants: 6, zombdiff: 12, difficulty: 9.91667, spawnRate: 31, num_undead: 0, max_undead: 0
+[03:57:58] Day: 6, Zombies: 98, Portal Zombies: 40, Migrants: 5, zombdiff: 12, difficulty: 9.96528, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:03] Day: 6, Zombies: 103, Portal Zombies: 40, Migrants: 5, zombdiff: 12, difficulty: 10.0139, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:09] Day: 6, Zombies: 105, Portal Zombies: 41, Migrants: 4, zombdiff: 12, difficulty: 10.0625, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:14] Day: 6, Zombies: 108, Portal Zombies: 39, Migrants: 4, zombdiff: 12, difficulty: 10.1111, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:20] Day: 6, Zombies: 111, Portal Zombies: 38, Migrants: 4, zombdiff: 12, difficulty: 10.1597, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:26] Day: 6, Zombies: 117, Portal Zombies: 39, Migrants: 4, zombdiff: 12, difficulty: 10.2083, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:32] Day: 6, Zombies: 122, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 10.2569, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:39] Day: 6, Zombies: 122, Portal Zombies: 38, Migrants: 4, zombdiff: 12, difficulty: 10.3056, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:46] Day: 6, Zombies: 124, Portal Zombies: 39, Migrants: 4, zombdiff: 12, difficulty: 10.3542, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:58:53] Day: 6, Zombies: 125, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 10.4028, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:00] Day: 6, Zombies: 124, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 10.4514, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:07] Day: 7, Zombies: 124, Portal Zombies: 41, Migrants: 4, zombdiff: 12, difficulty: 10.5, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:14] Day: 7, Zombies: 123, Portal Zombies: 41, Migrants: 4, zombdiff: 12, difficulty: 10.5486, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:20] Day: 7, Zombies: 122, Portal Zombies: 41, Migrants: 4, zombdiff: 12, difficulty: 10.5972, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:27] Day: 7, Zombies: 122, Portal Zombies: 41, Migrants: 4, zombdiff: 12, difficulty: 10.6458, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:34] Day: 7, Zombies: 120, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 10.6944, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:41] Day: 7, Zombies: 120, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 10.7431, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:47] Day: 7, Zombies: 118, Portal Zombies: 39, Migrants: 4, zombdiff: 12, difficulty: 10.7917, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:53] Day: 7, Zombies: 118, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 10.8403, spawnRate: 30, num_undead: 0, max_undead: 0
+[03:59:59] Day: 7, Zombies: 118, Portal Zombies: 40, Migrants: 6, zombdiff: 12, difficulty: 10.8889, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:05] Day: 7, Zombies: 116, Portal Zombies: 41, Migrants: 6, zombdiff: 12, difficulty: 10.9375, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:11] Day: 7, Zombies: 116, Portal Zombies: 41, Migrants: 6, zombdiff: 12, difficulty: 10.9861, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:17] Day: 7, Zombies: 115, Portal Zombies: 41, Migrants: 6, zombdiff: 12, difficulty: 11.0347, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:22] Day: 7, Zombies: 108, Portal Zombies: 38, Migrants: 6, zombdiff: 12, difficulty: 11.0833, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:27] Day: 7, Zombies: 108, Portal Zombies: 38, Migrants: 6, zombdiff: 12, difficulty: 11.1319, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:32] Day: 7, Zombies: 105, Portal Zombies: 38, Migrants: 6, zombdiff: 12, difficulty: 11.1806, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:37] Day: 7, Zombies: 103, Portal Zombies: 36, Migrants: 5, zombdiff: 12, difficulty: 11.2292, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:42] Day: 7, Zombies: 103, Portal Zombies: 36, Migrants: 5, zombdiff: 12, difficulty: 11.2778, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:47] Day: 7, Zombies: 102, Portal Zombies: 36, Migrants: 4, zombdiff: 12, difficulty: 11.3264, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:52] Day: 7, Zombies: 103, Portal Zombies: 37, Migrants: 4, zombdiff: 12, difficulty: 11.375, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:00:57] Day: 7, Zombies: 104, Portal Zombies: 38, Migrants: 4, zombdiff: 12, difficulty: 11.4236, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:02] Day: 7, Zombies: 104, Portal Zombies: 38, Migrants: 4, zombdiff: 12, difficulty: 11.4722, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:07] Day: 7, Zombies: 105, Portal Zombies: 39, Migrants: 4, zombdiff: 12, difficulty: 11.5208, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:13] Day: 7, Zombies: 108, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 11.5694, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:18] Day: 7, Zombies: 112, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 11.6181, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:24] Day: 7, Zombies: 116, Portal Zombies: 40, Migrants: 4, zombdiff: 12, difficulty: 11.6667, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:30] Day: 7, Zombies: 121, Portal Zombies: 41, Migrants: 3, zombdiff: 12, difficulty: 11.7153, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:37] Day: 7, Zombies: 122, Portal Zombies: 41, Migrants: 2, zombdiff: 12, difficulty: 11.7639, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:43] Day: 7, Zombies: 127, Portal Zombies: 41, Migrants: 1, zombdiff: 12, difficulty: 11.8125, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:50] Day: 7, Zombies: 130, Portal Zombies: 41, Migrants: 1, zombdiff: 12, difficulty: 11.8611, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:01:57] Day: 7, Zombies: 127, Portal Zombies: 38, Migrants: 1, zombdiff: 12, difficulty: 11.9097, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:02:01] User Nikbi tried to place a tile without having correct resoruces
+[04:02:04] Day: 7, Zombies: 133, Portal Zombies: 39, Migrants: 1, zombdiff: 12, difficulty: 11.9583, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:02:11] Day: 7, Zombies: 139, Portal Zombies: 40, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:02:19] Day: 7, Zombies: 142, Portal Zombies: 41, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:02:26] Day: 7, Zombies: 143, Portal Zombies: 42, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:02:34] Day: 7, Zombies: 144, Portal Zombies: 43, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:02:42] Day: 7, Zombies: 144, Portal Zombies: 44, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:02:51] Day: 8, Zombies: 142, Portal Zombies: 43, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:00] Day: 8, Zombies: 141, Portal Zombies: 42, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:08] Day: 8, Zombies: 139, Portal Zombies: 40, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:18] Day: 8, Zombies: 139, Portal Zombies: 40, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:27] Day: 8, Zombies: 139, Portal Zombies: 40, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:35] Day: 8, Zombies: 140, Portal Zombies: 41, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:38] Config file not found 'summontreebushy'
+[04:03:38] Loading blob config from summontreebushy...
+[04:03:38] ERROR: Blob config not found... summontreebushy
+[04:03:42] Day: 8, Zombies: 141, Portal Zombies: 42, Migrants: 1, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:50] Day: 8, Zombies: 140, Portal Zombies: 41, Migrants: 0, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:03:58] Day: 8, Zombies: 140, Portal Zombies: 41, Migrants: 4, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:04:05] Day: 8, Zombies: 140, Portal Zombies: 42, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:04:12] Day: 8, Zombies: 141, Portal Zombies: 43, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:04:20] Day: 8, Zombies: 142, Portal Zombies: 44, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:04:28] Day: 8, Zombies: 141, Portal Zombies: 43, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:04:36] Day: 8, Zombies: 141, Portal Zombies: 44, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:04:44] Day: 8, Zombies: 142, Portal Zombies: 45, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:04:52] Day: 8, Zombies: 141, Portal Zombies: 44, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:00] Day: 8, Zombies: 141, Portal Zombies: 44, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:09] Day: 8, Zombies: 142, Portal Zombies: 45, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:17] Day: 8, Zombies: 141, Portal Zombies: 45, Migrants: 6, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:25] Day: 8, Zombies: 143, Portal Zombies: 47, Migrants: 5, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:33] Day: 8, Zombies: 142, Portal Zombies: 46, Migrants: 5, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:41] Day: 8, Zombies: 142, Portal Zombies: 46, Migrants: 5, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:50] Day: 8, Zombies: 144, Portal Zombies: 46, Migrants: 5, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0
+[04:05:58] Day: 8, Zombies: 149, Portal Zombies: 46, Migrants: 5, zombdiff: 12, difficulty: 12, spawnRate: 30, num_undead: 0, max_undead: 0

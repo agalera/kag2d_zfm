@@ -1,0 +1,7 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'ShapePlatformDirection' --
+
+Vec2f direction
+float angleLimit
+bool ignore_rotations
+

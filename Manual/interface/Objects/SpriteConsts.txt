@@ -1,0 +1,9 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'SpriteConsts' --
+
+string filename
+int frameWidth
+int frameHeight
+string sound_emit
+bool accurateLighting
+

@@ -1,0 +1,19 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CNet' --
+
+string joined_servername
+string joined_ip
+string lastErrorMsg
+
+bool CreateServer()
+void DisconnectClient()
+void DisconnectServer()
+void Connect(const string&in address, uint16 port)
+void Connect(const string&in address)
+bool isServer()
+bool isClient()
+void server_KeepConnectionsAlive()
+void server_SendMsg(const string&in text)
+void DisconnectPlayer(CPlayer@ player)
+bool SafeConnect(const string&in address, const string&in rules)
+bool SafeConnect(const string&in address)

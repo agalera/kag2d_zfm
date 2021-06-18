@@ -1,0 +1,11 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'Sector' --
+
+Vec2f center
+Vec2f upperleft
+Vec2f lowerright
+float radius
+string name
+string scriptFile
+uint16 ownerID
+

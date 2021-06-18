@@ -1,0 +1,45 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'string' --
+
+<constructor>()
+<constructor>(const string&in)
+string& opAssign(const string&in)
+string& opAddAssign(const string&in)
+bool opEquals(const string&in) const
+int opCmp(const string&in) const
+string opAdd(const string&in) const
+uint length() const
+void resize(uint)
+uint get_length() const
+void set_length(uint)
+bool isEmpty() const
+uint8& opIndex(uint)
+const uint8& opIndex(uint) const
+string& opAssign(double)
+string& opAddAssign(double)
+string opAdd(double) const
+string opAdd_r(double) const
+string& opAssign(int)
+string& opAddAssign(int)
+string opAdd(int) const
+string opAdd_r(int) const
+string& opAssign(uint)
+string& opAddAssign(uint)
+string opAdd(uint) const
+string opAdd_r(uint) const
+string& opAssign(bool)
+string& opAddAssign(bool)
+string opAdd(bool) const
+string opAdd_r(bool) const
+string substr(uint start = 0, int count = - 1) const
+int findFirst(const string&in, uint start = 0) const
+int findLast(const string&in, int start = - 1) const
+string replace(const string&in, const string&in) const
+uint size() const
+bool empty() const
+int find(const string&in, uint start = 0) const
+int rfind(const string&in, int start = - 1) const
+int getHash() const
+string[]@ split(const string&in) const
+string toLower() const
+string toUpper() const

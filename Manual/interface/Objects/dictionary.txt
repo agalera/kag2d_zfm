@@ -1,0 +1,18 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'dictionary' --
+
+<constructor>()
+dictionary& opAssign(const dictionary&in)
+void set(const string&in, ?&in)
+bool get(const string&in, ?&out) const
+void set(const string&in, int64&in)
+bool get(const string&in, int64&out) const
+void set(const string&in, double&in)
+bool get(const string&in, double&out) const
+bool exists(const string&in) const
+bool isEmpty() const
+uint getSize() const
+void delete(const string&in)
+void deleteAll()
+string[]@ getKeys() const
+void saveFile(const string&in)

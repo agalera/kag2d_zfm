@@ -1,0 +1,10 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'ScriptData' --
+
+uint tickFrequency
+uint runFlags
+string runProximityTag
+float runProximityRadius
+string removeIfTag
+string tickIfTag
+

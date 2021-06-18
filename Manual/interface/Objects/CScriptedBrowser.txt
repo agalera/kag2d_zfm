@@ -1,0 +1,10 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'CScriptedBrowser' --
+
+bool ping
+string filter
+
+void RequestList()
+bool getServersList(APIServer@[]@ servers)
+void Close()
+bool getServerPlayers(APIServer@ server, APIPlayer@[]@ players)

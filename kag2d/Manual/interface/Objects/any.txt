@@ -1,0 +1,12 @@
+--- SCRIPT INTERFACE FOR BUILD 3570 ---
+-- CLASS 'any' --
+
+<constructor>()
+<constructor>(?&in)
+any& opAssign(any&in)
+void store(?&in)
+void store(int64&in)
+void store(double&in)
+bool retrieve(?&out)
+bool retrieve(int64&out)
+bool retrieve(double&out)
